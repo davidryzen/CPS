@@ -1,2 +1,1 @@
-# CPS
-cps version 1.0
+觅集问题管理系统
