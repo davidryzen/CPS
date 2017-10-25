@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> 问题提交</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script charset="utf-8" src="js/kindeditor-min.js"></script>
+    <script charset="utf-8" src="js/lang/zh_CN.js"></script>
+    <style>
+        .selectbox{margin-top:10px}
+    </style>
+    <script>
+        //加入在线编辑器，将表单元素<textarea>替换成Kindeditor在线编辑器。
+        var editor;
+        KindEditor.ready(function(K) {
+            editor = K.create('textarea[name="content"]',{
+                allowFileManager : true
+            });
+        });
+    </script>
+
+</head>
+
+<body class="gray-bg">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>问题提交</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" action="/CPS/index.php?p=home&c=Problem&a=submitProblem">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题题目</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control"  name="subject" value="" maxlength="60">
+                                    (必填)
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题类别</label>
+
+                                <div class="col-sm-10">
+                                    <select name="type" class="selectbox" id="selbox">
+                                        <option value="售后问题">售后问题</option>
+                                        <option value="系统问题">系统问题</option>
+                                        <option value="想添加某个新功能">想添加某个新功能</option>
+                                        <option value="修改某个功能">修改某个功能</option>
+                                        <option value="成品网站相关">成品网站相关</option>
+                                        <option value="邮箱问题">邮箱问题</option>
+                                        <option value="数据库问题">数据库问题</option>
+                                        <option value="财务问题">财务问题</option>
+                                        <option value="续费问题">续费问题</option>
+                                        <option value="投诉建议">投诉建议</option>
+                                        <option value="其他">其他</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题简述</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control"  name="keyword" value="" maxlength="60">
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题描述</label>
+
+                                <div class="col-sm-10">
+                                    <textarea name="content" id="" cols="160" rows="20"></textarea>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">提交问题</button>&nbsp;&nbsp;
+                                    <input type="reset" value="重置">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 全局js -->
+    <script src="js/jquery.min.js?v=2.1.4"></script>
+    <script src="js/bootstrap.min.js?v=3.3.6"></script>
+
+    <!-- 自定义js -->
+    <script src="js/content.js?v=1.0.0"></script>
+
+    <!-- iCheck -->
+    <script src="js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+
+        //获取问题类型
+        $(document).ready(
+             function(){
+                $.ajax({
+                    url:"/CPS/index.php?p=home&c=problem&a=getProblemType",
+                    data: "get",
+                    datetype:"json",
+                    success:function(msg){
+                       var str="";
+                       eval("var problemTypeObj="+msg);
+                       for(var i=0;i<problemTypeObj.length;++i){
+                             str+="<option value='"+problemTypeObj[i].typeName+"'>"+problemTypeObj[i].typeName+"</option>" ;
+                       }
+
+                       document.getElementById("selbox").innerHTML=str;
+                    }
+                })
+             }
+            );
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

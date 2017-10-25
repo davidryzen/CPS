@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> 已经解决问题</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="/CPS/application/views/home/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+
+    <link href="/CPS/application/views/home/css/animate.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/style.css?v=4.1.0" rel="stylesheet">
+
+
+
+
+</head>
+
+<body class="gray-bg">
+
+    <div class="wrapper wrapper-content animated fadeInUp">
+        <div class="row">
+            <div class="col-sm-12">
+
+                <div class="ibox">
+                    <div class="ibox-title">
+                        <h5>已解决问题</h5>
+                        <div class="ibox-tools">
+                             <a href="projects.html" class="btn btn-primary btn-xs" >当前用户: <span id="currentUser"></span> </a><!-- <a href="form_basic.html" class="btn btn-primary btn-xs">发布新问题</a> -->
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <div class="project-list" id="showAllProble">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- 全局js -->
+    <script src="/CPS/application/views/home/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/CPS/application/views/home/js/bootstrap.min.js?v=3.3.6"></script>
+
+
+    <!-- 自定义js -->
+    <script src="/CPS/application/views/home/js/content.js?v=1.0.0"></script>
+
+    <script>//从服务器获取数据
+    $(function(){
+        $.ajax({
+            url:"/CPS/index.php?p=home&c=login&a=getUserSession",
+            date:"",
+            type:"get",
+            dateType:"text",
+            success:function(msg){
+                //给页面显示
+                document.getElementById("currentUser").innerHTML=msg;
+
+            }
+
+        });
+    });
+
+  //从数据库获取数据显示在页面
+        $(function(){
+
+
+           //从数据库获取json数据
+            $.ajax({
+                url:"/CPS/index.php?p=admin&c=problem&a=showSolvedPro",
+                date:"",
+                type:"get",
+                dateType:"json",
+                success:function(msg){
+                  // console.log(msg)
+                    //给页面显示
+//                    document.getElementById("currentUser").innerHTML=msg;
+                    eval("var problemDateObj="+msg);
+                   // console.log(problemDateObj);
+                   //使用循环来得到拼接字符串
+
+                    var str="<table class='table table-hover'><tr><td class='project-status'><strong>问题编号</strong></td><td class='project-title'><strong>问题标题和时间</strong><br/></td><td class='project-completion'><strong>问题状态</strong></td><td class='project-people'><span ><strong>提问者</strong></span></td><td class='project-people'><span ><strong>要求解决问题者</strong></span></td><td class='project-people'><span ><strong>问题类型</strong></span></td><td class='project-actions'><a href='projects.html#' class='btn btn-white btn-sm'><i class='fa fa-folder'></i> <strong>答复情况 </strong></a></td></tr>";
+                    for(var i=0;i<problemDateObj.length;++i){
+                      str+="<tr>";
+                      str+="<td class='project-status'><span class='label label-default'>"+problemDateObj[i].id+"</span></td>";
+
+                      var time=format(problemDateObj[i].subTime);
+                      str+="<td class='project-title'><a href='project_detail.html'>"+problemDateObj[i].proTitle+"</a><br/><small>"+time+"</small></td>";
+
+                     var state= (problemDateObj[i].state==1)?"已处理":"正在处理";
+                     if(problemDateObj[i].state==1){
+                        str+="<td class='project-completion'><small>"+state+"</small><div class='progress progress-mini'><div style='width: 100%;' class='progress-bar'></div></div></td>";
+                     }else{
+                        str+="<td class='project-completion'><small>"+state+"</small><div class='progress progress-mini'><div style='width: 30%;' class='progress-bar'></div></div></td>";
+                     }
+
+                      str+="<td class='project-people'><span class='label label-default'>"+problemDateObj[i].subUser+"</span></td>";
+                      str+="<td class='project-people'><span class='label label-default'>"+problemDateObj[i].solver+"</span></td>";
+                      str+="<td class='project-people'><span class='label label-default'>"+problemDateObj[i].proType+"</span></td>";
+                      str+="<td class='project-actions'><a href='/CPS/index.php?p=home&c=problem&a=showAnswerForPage&problemId="+problemDateObj[i].id+"' class='btn btn-white btn-sm'><i class='fa fa-folder'></i> 答复详情 </a></td>";
+                      str+="</tr>";
+                    }
+                     str+="</table>"
+                  //处理好数据之后显示在页面
+                  document.getElementById("showAllProble").innerHTML=str;
+
+
+                }
+
+            });
+
+        });
+
+       function add0(m){return m<10?'0'+m:m }
+        function format(shijianchuo)
+                {
+                     // console.log(shijianchuo);
+                     // console.log(new Date().getTime());
+                //shijianchuo是整数，否则要parseInt转换
+
+                var time = new Date(parseInt(shijianchuo)*1000); // 创建 Date 对象。
+
+                var y = time.getFullYear();
+                // console.log(time);
+                var m = time.getMonth()+1;
+                var d = time.getDate();
+                var h = time.getHours();
+                var mm = time.getMinutes();
+                var s = time.getSeconds();
+                return y+'-'+add0(m)+'-'+add0(d)+' '+add0(h)+':'+add0(mm)+':'+add0(s);
+      }
+
+    </script>
+
+    <script>
+
+
+        function simpleLoad(btn, state) {
+            if (state) {
+                btn.children().addClass('fa-spin');
+                btn.contents().last().replaceWith(" Loading");
+            } else {
+                setTimeout(function () {
+                    btn.children().removeClass('fa-spin');
+                    btn.contents().last().replaceWith(" Refresh");
+                }, 2000);
+            }
+        }
+    </script>
+
+
+
+    </body>
+</html>

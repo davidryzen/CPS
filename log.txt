@@ -1,0 +1,3504 @@
+[2017-10-17 16:11:33] set names utf8
+[2017-10-17 16:11:33] DESC miji_user
+[2017-10-17 16:11:33] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('zhangsan','11')
+[2017-10-17 16:13:56] set names utf8
+[2017-10-17 16:13:56] DESC miji_user
+[2017-10-17 16:13:56] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('lise','22')
+[2017-10-17 16:49:41] set names utf8
+[2017-10-17 16:49:41] DESC miji_user
+[2017-10-17 16:49:41] SELECT * FROM miji_user WHERE
+		       admin_name = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 16:49:57] set names utf8
+[2017-10-17 16:49:57] DESC miji_user
+[2017-10-17 16:49:57] SELECT * FROM miji_user WHERE
+		       admin_name = '' AND password = ''
+		       LIMIT 1
+[2017-10-17 16:50:22] set names utf8
+[2017-10-17 16:50:22] DESC miji_user
+[2017-10-17 16:50:22] SELECT * FROM miji_user WHERE
+		       admin_name = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 16:51:19] set names utf8
+[2017-10-17 16:51:19] DESC miji_user
+[2017-10-17 16:51:19] SELECT * FROM miji_user WHERE
+		       userName = '' AND password = ''
+		       LIMIT 1
+[2017-10-17 16:52:23] set names utf8
+[2017-10-17 16:52:23] DESC miji_user
+[2017-10-17 16:52:23] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 16:55:02] set names utf8
+[2017-10-17 16:55:02] DESC miji_user
+[2017-10-17 16:55:02] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 16:56:23] set names utf8
+[2017-10-17 16:56:23] DESC miji_user
+[2017-10-17 16:56:23] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 16:58:05] set names utf8
+[2017-10-17 16:58:05] DESC miji_user
+[2017-10-17 16:58:05] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 17:15:14] set names utf8
+[2017-10-17 17:15:14] DESC miji_user
+[2017-10-17 17:15:14] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 17:40:39] set names utf8
+[2017-10-17 17:40:39] DESC miji_user
+[2017-10-17 17:40:39] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-17 17:57:14] set names utf8
+[2017-10-17 17:57:14] DESC miji_user
+[2017-10-17 17:57:14] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 09:30:29] set names utf8
+[2017-10-18 09:30:29] DESC miji_user
+[2017-10-18 09:30:30] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:39:33] set names utf8
+[2017-10-18 10:39:33] DESC miji_user
+[2017-10-18 10:39:34] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:44:55] set names utf8
+[2017-10-18 10:44:55] DESC miji_user
+[2017-10-18 10:44:55] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:46:32] set names utf8
+[2017-10-18 10:46:32] DESC miji_user
+[2017-10-18 10:46:32] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:47:37] set names utf8
+[2017-10-18 10:47:37] DESC miji_user
+[2017-10-18 10:47:37] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:48:19] set names utf8
+[2017-10-18 10:48:19] DESC miji_user
+[2017-10-18 10:48:19] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:49:16] set names utf8
+[2017-10-18 10:49:16] DESC miji_user
+[2017-10-18 10:49:16] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 10:55:42] set names utf8
+[2017-10-18 10:55:42] DESC miji_user
+[2017-10-18 10:55:43] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-18 13:04:17] set names utf8
+[2017-10-18 13:04:17] DESC miji_
+[2017-10-18 13:06:53] set names utf8
+[2017-10-18 13:06:53] DESC miji_userproblem
+[2017-10-18 13:06:53] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','112','售后问题','22','3333<img src="/CPS/application/views/home/js/attached/image/20171018/20171018130330_14062.png" alt="" />','1508303212')
+[2017-10-18 13:39:33] set names utf8
+[2017-10-18 13:39:33] DESC miji_userproblem
+[2017-10-18 13:39:33] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','33','系统问题','','333444','1508305172')
+[2017-10-18 13:40:31] set names utf8
+[2017-10-18 13:40:31] DESC miji_userproblem
+[2017-10-18 13:40:32] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','','','','','1508305230')
+[2017-10-18 13:40:36] set names utf8
+[2017-10-18 13:40:36] DESC miji_userproblem
+[2017-10-18 13:40:37] set names utf8
+[2017-10-18 13:40:37] DESC miji_userproblem
+[2017-10-18 13:40:37] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','','','','','1508305236')
+[2017-10-18 13:40:42] set names utf8
+[2017-10-18 13:40:42] DESC miji_userproblem
+[2017-10-18 13:40:42] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','33','系统问题','','333444','1508305241')
+[2017-10-18 13:40:46] set names utf8
+[2017-10-18 13:40:46] DESC miji_userproblem
+[2017-10-18 13:42:40] set names utf8
+[2017-10-18 13:42:40] DESC miji_userproblem
+[2017-10-18 13:42:40] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','33','系统问题','','333444','1508305359')
+[2017-10-18 13:42:45] set names utf8
+[2017-10-18 13:42:45] DESC miji_userproblem
+[2017-10-18 13:42:45] select * from miji_userproblem where state=0
+[2017-10-18 13:50:29] set names utf8
+[2017-10-18 13:50:29] DESC miji_userproblem
+[2017-10-18 13:50:29] select * from miji_userproblem where state=0
+[2017-10-18 13:51:34] set names utf8
+[2017-10-18 13:51:34] DESC miji_userproblem
+[2017-10-18 13:51:34] select * from miji_userproblem where state=0
+[2017-10-18 13:52:13] set names utf8
+[2017-10-18 13:52:13] DESC miji_userproblem
+[2017-10-18 13:52:13] select * from miji_userproblem where state=0
+[2017-10-18 13:52:41] set names utf8
+[2017-10-18 13:52:41] DESC miji_userproblem
+[2017-10-18 13:52:41] select * from miji_userproblem where state=0
+[2017-10-18 13:53:52] set names utf8
+[2017-10-18 13:53:52] DESC miji_userproblem
+[2017-10-18 13:53:52] select * from miji_userproblem where state=0
+[2017-10-18 13:54:20] set names utf8
+[2017-10-18 13:54:20] DESC miji_userproblem
+[2017-10-18 13:54:20] select * from miji_userproblem where state=0
+[2017-10-18 13:54:24] set names utf8
+[2017-10-18 13:54:24] DESC miji_userproblem
+[2017-10-18 13:54:24] select * from miji_userproblem where state=0
+[2017-10-18 13:56:04] set names utf8
+[2017-10-18 13:56:04] DESC miji_userproblem
+[2017-10-18 13:56:04] select * from miji_userproblem where state=0
+[2017-10-18 13:56:11] set names utf8
+[2017-10-18 13:56:11] DESC miji_userproblem
+[2017-10-18 13:56:11] select * from miji_userproblem where state=0
+[2017-10-18 13:56:22] set names utf8
+[2017-10-18 13:56:22] DESC miji_userproblem
+[2017-10-18 13:56:22] select * from miji_userproblem where state=0
+[2017-10-18 14:01:15] set names utf8
+[2017-10-18 14:01:15] DESC miji_userproblem
+[2017-10-18 14:01:16] select * from miji_userproblem where state=0 and subUser=lise
+[2017-10-18 14:02:27] set names utf8
+[2017-10-18 14:02:27] DESC miji_userproblem
+[2017-10-18 14:02:27] select * from miji_userproblem where state=0 and subUser={'lise'}
+[2017-10-18 14:02:51] set names utf8
+[2017-10-18 14:02:51] DESC miji_userproblem
+[2017-10-18 14:02:51] select * from miji_userproblem where state=0 and subUser='lise'
+[2017-10-18 14:03:18] set names utf8
+[2017-10-18 14:03:18] DESC miji_userproblem
+[2017-10-18 14:03:18] select * from miji_userproblem where state=0 and subUser='lise'
+[2017-10-18 14:07:56] set names utf8
+[2017-10-18 14:07:56] DESC miji_userproblem
+[2017-10-18 14:07:57] select * from miji_userproblem where state=0 and subUser='lise'
+[2017-10-18 14:08:01] set names utf8
+[2017-10-18 14:08:01] DESC miji_userproblem
+[2017-10-18 14:08:01] select * from miji_userproblem where and subUser='lise'
+[2017-10-18 14:08:22] set names utf8
+[2017-10-18 14:08:22] DESC miji_userproblem
+[2017-10-18 14:08:22] select * from miji_userproblem where subUser='lise'
+[2017-10-18 14:08:25] set names utf8
+[2017-10-18 14:08:25] DESC miji_userproblem
+[2017-10-18 14:08:25] select * from miji_userproblem where subUser='lise'
+[2017-10-18 14:08:41] set names utf8
+[2017-10-18 14:08:41] DESC miji_userproblem
+[2017-10-18 14:08:41] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','555','邮箱问题','66','gagaga','1508306920')
+[2017-10-18 14:08:45] set names utf8
+[2017-10-18 14:08:45] DESC miji_userproblem
+[2017-10-18 14:08:45] select * from miji_userproblem where state=0 and subUser='lise'
+[2017-10-18 14:08:58] set names utf8
+[2017-10-18 14:08:58] DESC miji_userproblem
+[2017-10-18 14:08:58] select * from miji_userproblem where subUser='lise'
+[2017-10-18 14:09:09] set names utf8
+[2017-10-18 14:09:09] DESC miji_userproblem
+[2017-10-18 14:09:09] select * from miji_userproblem where subUser='lise'
+[2017-10-18 14:10:08] set names utf8
+[2017-10-18 14:10:08] DESC miji_userproblem
+[2017-10-18 14:10:08] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-18 14:10:15] set names utf8
+[2017-10-18 14:10:15] DESC miji_userproblem
+[2017-10-18 14:10:15] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-18 14:10:20] set names utf8
+[2017-10-18 14:10:20] DESC miji_userproblem
+[2017-10-18 14:10:21] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-18 14:42:48] set names utf8
+[2017-10-18 14:42:48] DESC miji_admin
+[2017-10-18 14:42:48] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 14:46:21] set names utf8
+[2017-10-18 14:46:21] DESC miji_admin
+[2017-10-18 14:46:21] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 14:48:04] set names utf8
+[2017-10-18 14:48:04] DESC miji_admin
+[2017-10-18 14:48:04] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 14:48:42] set names utf8
+[2017-10-18 14:48:42] DESC miji_admin
+[2017-10-18 14:48:42] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 14:53:41] set names utf8
+[2017-10-18 14:53:41] DESC miji_admin
+[2017-10-18 14:53:42] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 14:57:43] set names utf8
+[2017-10-18 14:57:43] DESC miji_admin
+[2017-10-18 14:57:43] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 15:06:24] set names utf8
+[2017-10-18 15:06:24] DESC miji_admin
+[2017-10-18 15:06:25] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 15:06:41] set names utf8
+[2017-10-18 15:06:41] DESC miji_admin
+[2017-10-18 15:06:41] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 15:11:35] set names utf8
+[2017-10-18 15:11:35] DESC miji_userproblem
+[2017-10-18 15:11:37] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:13:25] set names utf8
+[2017-10-18 15:13:25] DESC miji_userproblem
+[2017-10-18 15:13:25] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:13:58] set names utf8
+[2017-10-18 15:13:58] DESC miji_userproblem
+[2017-10-18 15:13:58] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:16:52] set names utf8
+[2017-10-18 15:16:52] DESC miji_userproblem
+[2017-10-18 15:16:52] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:20:35] set names utf8
+[2017-10-18 15:20:35] DESC miji_userproblem
+[2017-10-18 15:20:35] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:20:55] set names utf8
+[2017-10-18 15:20:55] DESC miji_userproblem
+[2017-10-18 15:20:55] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:21:17] set names utf8
+[2017-10-18 15:21:17] DESC miji_userproblem
+[2017-10-18 15:21:17] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:21:45] set names utf8
+[2017-10-18 15:21:45] DESC miji_userproblem
+[2017-10-18 15:21:45] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:50:12] set names utf8
+[2017-10-18 15:50:12] DESC miji_userproblem
+[2017-10-18 15:50:13] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:50:32] set names utf8
+[2017-10-18 15:50:32] DESC miji_userproblem
+[2017-10-18 15:50:33] select * from miji_userproblem where state=0  order by id
+[2017-10-18 15:50:39] set names utf8
+[2017-10-18 15:50:39] DESC miji_userproblem
+[2017-10-18 15:50:39] select * from miji_userproblem where  id= ''
+[2017-10-18 15:51:12] set names utf8
+[2017-10-18 15:51:12] DESC miji_userproblem
+[2017-10-18 15:51:13] select * from miji_userproblem where  id= '1'
+[2017-10-18 15:53:01] set names utf8
+[2017-10-18 15:53:01] DESC miji_userproblem
+[2017-10-18 15:53:01] select * from miji_userproblem where  id= '1'
+[2017-10-18 15:53:20] set names utf8
+[2017-10-18 15:53:20] DESC miji_userproblem
+[2017-10-18 15:53:20] select * from miji_userproblem where  id= '1'
+[2017-10-18 15:58:21] set names utf8
+[2017-10-18 15:58:21] DESC miji_userproblem
+[2017-10-18 15:58:21] select * from miji_userproblem where  id= '1'
+[2017-10-18 15:59:43] set names utf8
+[2017-10-18 15:59:43] DESC miji_userproblem
+[2017-10-18 15:59:43] select * from miji_userproblem where  id= '1'
+[2017-10-18 15:59:57] set names utf8
+[2017-10-18 15:59:57] DESC miji_userproblem
+[2017-10-18 15:59:57] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:00:46] set names utf8
+[2017-10-18 16:00:46] DESC miji_userproblem
+[2017-10-18 16:00:46] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:06:02] set names utf8
+[2017-10-18 16:06:02] DESC miji_userproblem
+[2017-10-18 16:06:02] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:06:31] set names utf8
+[2017-10-18 16:06:31] DESC miji_userproblem
+[2017-10-18 16:06:32] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:06:47] set names utf8
+[2017-10-18 16:06:47] DESC miji_userproblem
+[2017-10-18 16:06:47] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:07:24] set names utf8
+[2017-10-18 16:07:24] DESC miji_userproblem
+[2017-10-18 16:07:24] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:07:44] set names utf8
+[2017-10-18 16:07:44] DESC miji_userproblem
+[2017-10-18 16:07:44] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:07:57] set names utf8
+[2017-10-18 16:07:57] DESC miji_userproblem
+[2017-10-18 16:07:57] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:08:47] set names utf8
+[2017-10-18 16:08:47] DESC miji_userproblem
+[2017-10-18 16:08:47] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:09:26] set names utf8
+[2017-10-18 16:09:26] DESC miji_userproblem
+[2017-10-18 16:09:27] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:18:45] set names utf8
+[2017-10-18 16:18:45] DESC miji_userproblem
+[2017-10-18 16:18:45] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:18:53] set names utf8
+[2017-10-18 16:18:53] DESC miji_userproblem
+[2017-10-18 16:18:53] select * from miji_userproblem  order by id
+[2017-10-18 16:18:59] set names utf8
+[2017-10-18 16:18:59] DESC miji_userproblem
+[2017-10-18 16:18:59] select * from miji_userproblem where  id= '2'
+[2017-10-18 16:19:04] set names utf8
+[2017-10-18 16:19:04] DESC miji_userproblem
+[2017-10-18 16:19:04] select * from miji_userproblem  order by id
+[2017-10-18 16:19:10] set names utf8
+[2017-10-18 16:19:10] DESC miji_userproblem
+[2017-10-18 16:19:10] select * from miji_userproblem where  id= '5'
+[2017-10-18 16:23:49] set names utf8
+[2017-10-18 16:23:49] DESC miji_userproblem
+[2017-10-18 16:23:49] select * from miji_userproblem where  id= '5'
+[2017-10-18 16:43:34] set names utf8
+[2017-10-18 16:43:34] DESC miji_userproblem
+[2017-10-18 16:43:35] UPDATE `miji_userproblem` SET `answer`='jjjjjejue',`state`='1',`updateTime`='1508316215' WHERE id = '5'
+[2017-10-18 16:45:51] set names utf8
+[2017-10-18 16:45:51] DESC miji_userproblem
+[2017-10-18 16:45:51] UPDATE `miji_userproblem` SET `answer`='jjjjjejue',`state`='1',`updateTime`='1508316351' WHERE id = '5'
+[2017-10-18 16:45:55] set names utf8
+[2017-10-18 16:45:55] DESC miji_userproblem
+[2017-10-18 16:45:55] select * from miji_userproblem where state=0  order by id
+[2017-10-18 16:46:04] set names utf8
+[2017-10-18 16:46:04] DESC miji_userproblem
+[2017-10-18 16:46:04] select * from miji_userproblem where  id= '7'
+[2017-10-18 16:46:37] set names utf8
+[2017-10-18 16:46:37] DESC miji_userproblem
+[2017-10-18 16:46:37] UPDATE `miji_userproblem` SET `answer`='就这样',`state`='1',`updateTime`='1508316397' WHERE id = '7'
+[2017-10-18 16:46:41] set names utf8
+[2017-10-18 16:46:41] DESC miji_userproblem
+[2017-10-18 16:46:41] select * from miji_userproblem where state=0  order by id
+[2017-10-18 16:49:08] set names utf8
+[2017-10-18 16:49:08] DESC miji_userproblem
+[2017-10-18 16:49:08] select * from miji_userproblem where  id= '1'
+[2017-10-18 16:49:16] set names utf8
+[2017-10-18 16:49:16] DESC miji_userproblem
+[2017-10-18 16:49:16] UPDATE `miji_userproblem` SET `answer`='tgsdgsd',`state`='1',`updateTime`='1508316556' WHERE id = '1'
+[2017-10-18 16:49:20] set names utf8
+[2017-10-18 16:49:20] DESC miji_userproblem
+[2017-10-18 16:49:20] select * from miji_userproblem where state=0  order by id
+[2017-10-18 16:49:29] set names utf8
+[2017-10-18 16:49:29] DESC miji_userproblem
+[2017-10-18 16:49:29] select * from miji_userproblem where  id= '6'
+[2017-10-18 16:49:39] set names utf8
+[2017-10-18 16:49:39] DESC miji_userproblem
+[2017-10-18 16:49:39] UPDATE `miji_userproblem` SET `answer`='gedsrgdfgdfg',`state`='1',`updateTime`='1508316579' WHERE id = '6'
+[2017-10-18 16:49:43] set names utf8
+[2017-10-18 16:49:43] DESC miji_userproblem
+[2017-10-18 16:49:43] select * from miji_userproblem where state=0  order by id
+[2017-10-18 16:50:20] set names utf8
+[2017-10-18 16:50:20] DESC miji_userproblem
+[2017-10-18 16:50:20] select * from miji_userproblem where  id= '2'
+[2017-10-18 16:50:28] set names utf8
+[2017-10-18 16:50:28] DESC miji_userproblem
+[2017-10-18 16:50:28] UPDATE `miji_userproblem` SET `answer`='gdfsgdfsgd',`state`='1',`updateTime`='1508316628' WHERE id = '2'
+[2017-10-18 16:50:32] set names utf8
+[2017-10-18 16:50:32] DESC miji_userproblem
+[2017-10-18 16:50:32] select * from miji_userproblem where state=0  order by id
+[2017-10-18 16:53:44] set names utf8
+[2017-10-18 16:53:44] DESC miji_userproblem
+[2017-10-18 16:53:44] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('david','uy','售后问题','','根深蒂固的方式规范的','1508316823')
+[2017-10-18 16:53:48] set names utf8
+[2017-10-18 16:53:48] DESC miji_userproblem
+[2017-10-18 16:53:48] select * from miji_userproblem where state=0 and subUser='david' order by id
+[2017-10-18 17:01:07] set names utf8
+[2017-10-18 17:01:07] DESC miji_admin
+[2017-10-18 17:01:07] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-18 17:01:08] set names utf8
+[2017-10-18 17:01:08] DESC miji_userproblem
+[2017-10-18 17:01:08] select * from miji_userproblem where state=0  order by id
+[2017-10-18 17:01:13] set names utf8
+[2017-10-18 17:01:13] DESC miji_userproblem
+[2017-10-18 17:01:13] select * from miji_userproblem  order by id
+[2017-10-18 17:01:21] set names utf8
+[2017-10-18 17:01:21] DESC miji_userproblem
+[2017-10-18 17:01:21] select * from miji_userproblem where state=0  order by id
+[2017-10-18 17:01:29] set names utf8
+[2017-10-18 17:01:29] DESC miji_userproblem
+[2017-10-18 17:01:29] select * from miji_userproblem  order by id
+[2017-10-18 17:01:31] set names utf8
+[2017-10-18 17:01:31] DESC miji_userproblem
+[2017-10-18 17:01:32] select * from miji_userproblem where state=0  order by id
+[2017-10-18 17:01:35] set names utf8
+[2017-10-18 17:01:35] DESC miji_userproblem
+[2017-10-18 17:01:35] select * from miji_userproblem  order by id
+[2017-10-18 17:01:57] set names utf8
+[2017-10-18 17:01:57] DESC miji_userproblem
+[2017-10-18 17:01:57] select * from miji_userproblem  order by id
+[2017-10-18 17:02:01] set names utf8
+[2017-10-18 17:02:01] DESC miji_userproblem
+[2017-10-18 17:02:01] select * from miji_userproblem  order by id
+[2017-10-19 09:42:20] set names utf8
+[2017-10-19 09:42:20] DESC miji_user
+[2017-10-19 09:42:20] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('zs','123')
+[2017-10-19 09:42:33] set names utf8
+[2017-10-19 09:42:33] DESC miji_user
+[2017-10-19 09:42:33] SELECT * FROM miji_user WHERE
+		       userName = 'zs' AND password = '123'
+		       LIMIT 1
+[2017-10-19 09:54:04] set names utf8
+[2017-10-19 09:54:04] DESC miji_userproblem
+[2017-10-19 09:54:04] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 09:54:16] set names utf8
+[2017-10-19 09:54:16] DESC miji_userproblem
+[2017-10-19 09:54:16] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 09:54:17] set names utf8
+[2017-10-19 09:54:17] DESC miji_userproblem
+[2017-10-19 09:54:17] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 09:56:02] set names utf8
+[2017-10-19 09:56:02] DESC miji_userproblem
+[2017-10-19 09:56:02] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 09:57:44] set names utf8
+[2017-10-19 09:57:44] DESC miji_userproblem
+[2017-10-19 09:57:45] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 09:57:49] set names utf8
+[2017-10-19 09:57:49] DESC miji_userproblem
+[2017-10-19 09:57:49] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:00:56] set names utf8
+[2017-10-19 10:00:56] DESC miji_userproblem
+[2017-10-19 10:00:56] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:01:46] set names utf8
+[2017-10-19 10:01:46] DESC miji_userproblem
+[2017-10-19 10:01:46] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:03:14] set names utf8
+[2017-10-19 10:03:14] DESC miji_userproblem
+[2017-10-19 10:03:14] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:04:14] set names utf8
+[2017-10-19 10:04:14] DESC miji_userproblem
+[2017-10-19 10:04:14] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:07:22] set names utf8
+[2017-10-19 10:07:22] DESC miji_userproblem
+[2017-10-19 10:07:22] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:07:32] set names utf8
+[2017-10-19 10:07:32] DESC miji_userproblem
+[2017-10-19 10:07:33] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:07:36] set names utf8
+[2017-10-19 10:07:36] DESC miji_userproblem
+[2017-10-19 10:07:36] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:07:54] set names utf8
+[2017-10-19 10:07:54] DESC miji_userproblem
+[2017-10-19 10:07:54] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('zs','1111','系统问题','222','33333','1508378873')
+[2017-10-19 10:07:58] set names utf8
+[2017-10-19 10:07:58] DESC miji_userproblem
+[2017-10-19 10:07:58] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:08:05] set names utf8
+[2017-10-19 10:08:05] DESC miji_userproblem
+[2017-10-19 10:08:06] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:08:09] set names utf8
+[2017-10-19 10:08:09] DESC miji_userproblem
+[2017-10-19 10:08:09] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:08:20] set names utf8
+[2017-10-19 10:08:20] DESC miji_userproblem
+[2017-10-19 10:08:20] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:09:45] set names utf8
+[2017-10-19 10:09:45] DESC miji_userproblem
+[2017-10-19 10:09:46] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:09:49] set names utf8
+[2017-10-19 10:09:49] DESC miji_userproblem
+[2017-10-19 10:09:49] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:10:43] set names utf8
+[2017-10-19 10:10:43] DESC miji_userproblem
+[2017-10-19 10:10:43] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:10:58] set names utf8
+[2017-10-19 10:10:58] DESC miji_userproblem
+[2017-10-19 10:10:58] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:11:25] set names utf8
+[2017-10-19 10:11:25] DESC miji_userproblem
+[2017-10-19 10:11:26] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:11:31] set names utf8
+[2017-10-19 10:11:31] DESC miji_userproblem
+[2017-10-19 10:11:31] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:11:34] set names utf8
+[2017-10-19 10:11:34] DESC miji_userproblem
+[2017-10-19 10:11:34] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:11:48] set names utf8
+[2017-10-19 10:11:48] DESC miji_userproblem
+[2017-10-19 10:11:48] select * from miji_userproblem where state=1 and subUser='zs' order by id
+[2017-10-19 10:11:50] set names utf8
+[2017-10-19 10:11:50] DESC miji_userproblem
+[2017-10-19 10:11:51] select * from miji_userproblem where state=0 and subUser='zs' order by id
+[2017-10-19 10:11:53] set names utf8
+[2017-10-19 10:11:53] DESC miji_userproblem
+[2017-10-19 10:11:53] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:11:56] set names utf8
+[2017-10-19 10:11:56] DESC miji_userproblem
+[2017-10-19 10:11:56] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:13:35] set names utf8
+[2017-10-19 10:13:35] DESC miji_userproblem
+[2017-10-19 10:13:35] select * from miji_userproblem where subUser='zs' order by id
+[2017-10-19 10:14:09] set names utf8
+[2017-10-19 10:14:09] DESC miji_user
+[2017-10-19 10:14:09] SELECT * FROM miji_user WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-19 10:14:22] set names utf8
+[2017-10-19 10:14:22] DESC miji_user
+[2017-10-19 10:14:22] SELECT * FROM miji_user WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-19 10:14:48] set names utf8
+[2017-10-19 10:14:48] DESC miji_admin
+[2017-10-19 10:14:48] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-19 10:14:49] set names utf8
+[2017-10-19 10:14:49] DESC miji_userproblem
+[2017-10-19 10:14:49] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:15:10] set names utf8
+[2017-10-19 10:15:10] DESC miji_userproblem
+[2017-10-19 10:15:10] select * from miji_userproblem where  id= '8'
+[2017-10-19 10:15:11] set names utf8
+[2017-10-19 10:15:11] DESC miji_userproblem
+[2017-10-19 10:15:11] select * from miji_userproblem where  id= '8'
+[2017-10-19 10:15:24] set names utf8
+[2017-10-19 10:15:24] DESC miji_userproblem
+[2017-10-19 10:15:24] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:15:30] set names utf8
+[2017-10-19 10:15:30] DESC miji_userproblem
+[2017-10-19 10:15:30] select * from miji_userproblem  order by id
+[2017-10-19 10:15:35] set names utf8
+[2017-10-19 10:15:35] DESC miji_userproblem
+[2017-10-19 10:15:35] select * from miji_userproblem  order by id
+[2017-10-19 10:15:45] set names utf8
+[2017-10-19 10:15:45] DESC miji_userproblem
+[2017-10-19 10:15:45] select * from miji_userproblem  order by id
+[2017-10-19 10:17:09] set names utf8
+[2017-10-19 10:17:09] DESC miji_userproblem
+[2017-10-19 10:17:09] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:21:00] set names utf8
+[2017-10-19 10:21:00] DESC miji_userproblem
+[2017-10-19 10:21:00] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:26:47] set names utf8
+[2017-10-19 10:26:47] DESC miji_userproblem
+[2017-10-19 10:26:47] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:27:09] set names utf8
+[2017-10-19 10:27:09] DESC miji_userproblem
+[2017-10-19 10:27:09] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:27:14] set names utf8
+[2017-10-19 10:27:14] DESC miji_userproblem
+[2017-10-19 10:27:14] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:27:16] set names utf8
+[2017-10-19 10:27:16] DESC miji_userproblem
+[2017-10-19 10:27:16] select * from miji_userproblem  order by id
+[2017-10-19 10:27:21] set names utf8
+[2017-10-19 10:27:21] DESC miji_userproblem
+[2017-10-19 10:27:21] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:27:24] set names utf8
+[2017-10-19 10:27:24] DESC miji_userproblem
+[2017-10-19 10:27:24] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:27:28] set names utf8
+[2017-10-19 10:27:28] DESC miji_userproblem
+[2017-10-19 10:27:28] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:27:33] set names utf8
+[2017-10-19 10:27:33] DESC miji_userproblem
+[2017-10-19 10:27:33] select * from miji_userproblem where  id= '1'
+[2017-10-19 10:27:42] set names utf8
+[2017-10-19 10:27:42] DESC miji_userproblem
+[2017-10-19 10:27:42] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:27:45] set names utf8
+[2017-10-19 10:27:45] DESC miji_userproblem
+[2017-10-19 10:27:45] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:33:32] set names utf8
+[2017-10-19 10:33:32] DESC miji_userproblem
+[2017-10-19 10:33:32] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:37:27] set names utf8
+[2017-10-19 10:37:27] DESC miji_userproblem
+[2017-10-19 10:37:27] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:39:04] set names utf8
+[2017-10-19 10:39:04] DESC miji_userproblem
+[2017-10-19 10:39:04] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:39:22] set names utf8
+[2017-10-19 10:39:22] DESC miji_userproblem
+[2017-10-19 10:39:22] select * from miji_userproblem where  id= '1'
+[2017-10-19 10:39:29] set names utf8
+[2017-10-19 10:39:29] DESC miji_userproblem
+[2017-10-19 10:39:30] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:41:08] set names utf8
+[2017-10-19 10:41:08] DESC miji_userproblem
+[2017-10-19 10:41:08] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:41:11] set names utf8
+[2017-10-19 10:41:11] DESC miji_userproblem
+[2017-10-19 10:41:11] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:41:14] set names utf8
+[2017-10-19 10:41:14] DESC miji_userproblem
+[2017-10-19 10:41:14] select * from miji_userproblem  order by id
+[2017-10-19 10:42:59] set names utf8
+[2017-10-19 10:42:59] DESC miji_userproblem
+[2017-10-19 10:43:00] select * from miji_userproblem  order by id
+[2017-10-19 10:43:04] set names utf8
+[2017-10-19 10:43:04] DESC miji_userproblem
+[2017-10-19 10:43:04] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:43:12] set names utf8
+[2017-10-19 10:43:12] DESC miji_userproblem
+[2017-10-19 10:43:12] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:43:15] set names utf8
+[2017-10-19 10:43:15] DESC miji_userproblem
+[2017-10-19 10:43:15] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:43:17] set names utf8
+[2017-10-19 10:43:17] DESC miji_userproblem
+[2017-10-19 10:43:17] select * from miji_userproblem  order by id
+[2017-10-19 10:43:22] set names utf8
+[2017-10-19 10:43:22] DESC miji_userproblem
+[2017-10-19 10:43:22] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:43:24] set names utf8
+[2017-10-19 10:43:24] DESC miji_userproblem
+[2017-10-19 10:43:24] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:43:27] set names utf8
+[2017-10-19 10:43:27] DESC miji_userproblem
+[2017-10-19 10:43:27] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:43:35] set names utf8
+[2017-10-19 10:43:35] DESC miji_userproblem
+[2017-10-19 10:43:35] select * from miji_userproblem  order by id
+[2017-10-19 10:48:16] set names utf8
+[2017-10-19 10:48:16] DESC miji_userproblem
+[2017-10-19 10:48:16] select * from miji_userproblem  order by id
+[2017-10-19 10:49:04] set names utf8
+[2017-10-19 10:49:04] DESC miji_userproblem
+[2017-10-19 10:49:05] select * from miji_userproblem  order by id
+[2017-10-19 10:49:14] set names utf8
+[2017-10-19 10:49:14] DESC miji_userproblem
+[2017-10-19 10:49:14] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:49:18] set names utf8
+[2017-10-19 10:49:18] DESC miji_userproblem
+[2017-10-19 10:49:18] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:49:21] set names utf8
+[2017-10-19 10:49:21] DESC miji_userproblem
+[2017-10-19 10:49:22] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:49:24] set names utf8
+[2017-10-19 10:49:24] DESC miji_userproblem
+[2017-10-19 10:49:24] select * from miji_userproblem  order by id
+[2017-10-19 10:50:05] set names utf8
+[2017-10-19 10:50:05] DESC miji_userproblem
+[2017-10-19 10:50:05] select * from miji_userproblem  order by id
+[2017-10-19 10:50:12] set names utf8
+[2017-10-19 10:50:12] DESC miji_userproblem
+[2017-10-19 10:50:12] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:50:16] set names utf8
+[2017-10-19 10:50:16] DESC miji_userproblem
+[2017-10-19 10:50:17] select * from miji_userproblem  order by id
+[2017-10-19 10:50:21] set names utf8
+[2017-10-19 10:50:21] DESC miji_userproblem
+[2017-10-19 10:50:21] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:50:26] set names utf8
+[2017-10-19 10:50:26] DESC miji_userproblem
+[2017-10-19 10:50:27] select * from miji_userproblem where state=0  order by id
+[2017-10-19 10:50:32] set names utf8
+[2017-10-19 10:50:32] DESC miji_userproblem
+[2017-10-19 10:50:32] select * from miji_userproblem  order by id
+[2017-10-19 10:50:43] set names utf8
+[2017-10-19 10:50:43] DESC miji_userproblem
+[2017-10-19 10:50:43] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:50:48] set names utf8
+[2017-10-19 10:50:48] DESC miji_userproblem
+[2017-10-19 10:50:48] select * from miji_userproblem  order by id
+[2017-10-19 10:50:54] set names utf8
+[2017-10-19 10:50:54] DESC miji_userproblem
+[2017-10-19 10:50:54] select * from miji_userproblem where state=1  order by id
+[2017-10-19 10:50:57] set names utf8
+[2017-10-19 10:50:57] DESC miji_userproblem
+[2017-10-19 10:50:57] select * from miji_userproblem where state=0  order by id
+[2017-10-19 13:10:03] set names utf8
+[2017-10-19 13:10:03] DESC miji_user
+[2017-10-19 13:10:03] select id from miji_user where userName='lise'
+[2017-10-19 13:10:17] set names utf8
+[2017-10-19 13:10:17] DESC miji_user
+[2017-10-19 13:10:17] select id from miji_user where userName='lili'
+[2017-10-19 13:10:27] set names utf8
+[2017-10-19 13:10:27] DESC miji_user
+[2017-10-19 13:10:27] select id from miji_user where userName='lili'
+[2017-10-19 13:11:03] set names utf8
+[2017-10-19 13:11:03] DESC miji_user
+[2017-10-19 13:11:03] select id from miji_user where userName='lili'
+[2017-10-19 13:12:02] set names utf8
+[2017-10-19 13:12:02] DESC miji_user
+[2017-10-19 13:12:02] select id from miji_user where userName='lili'
+[2017-10-19 13:12:08] set names utf8
+[2017-10-19 13:12:08] DESC miji_user
+[2017-10-19 13:12:08] select id from miji_user where userName='lise'
+[2017-10-19 13:16:01] set names utf8
+[2017-10-19 13:16:01] DESC miji_user
+[2017-10-19 13:16:01] select id from miji_user where userName=''
+[2017-10-19 13:16:32] set names utf8
+[2017-10-19 13:16:32] DESC miji_user
+[2017-10-19 13:16:32] select id from miji_user where userName='lili'
+[2017-10-19 13:32:16] set names utf8
+[2017-10-19 13:32:16] DESC miji_user
+[2017-10-19 13:32:16] select id from miji_user where userName='lili'
+[2017-10-19 13:33:54] set names utf8
+[2017-10-19 13:33:54] DESC miji_user
+[2017-10-19 13:33:54] select id from miji_user where userName=''
+[2017-10-19 13:34:21] set names utf8
+[2017-10-19 13:34:21] DESC miji_user
+[2017-10-19 13:34:21] select id from miji_user where userName=''
+[2017-10-19 13:37:54] set names utf8
+[2017-10-19 13:37:54] DESC miji_user
+[2017-10-19 13:37:54] select id from miji_user where userName='lili'
+[2017-10-19 13:40:20] set names utf8
+[2017-10-19 13:40:20] DESC miji_user
+[2017-10-19 13:40:20] select id from miji_user where userName='lili'
+[2017-10-19 13:41:09] set names utf8
+[2017-10-19 13:41:09] DESC miji_user
+[2017-10-19 13:41:09] select id from miji_user where userName='lili'
+[2017-10-19 13:41:56] set names utf8
+[2017-10-19 13:41:56] DESC miji_user
+[2017-10-19 13:41:56] select id from miji_user where userName='lili'
+[2017-10-19 13:42:12] set names utf8
+[2017-10-19 13:42:12] DESC miji_user
+[2017-10-19 13:42:13] select id from miji_user where userName='lili'
+[2017-10-19 13:42:37] set names utf8
+[2017-10-19 13:42:37] DESC miji_user
+[2017-10-19 13:42:37] select id from miji_user where userName='lili'
+[2017-10-19 13:42:57] set names utf8
+[2017-10-19 13:42:57] DESC miji_user
+[2017-10-19 13:42:57] select id from miji_user where userName='lili'
+[2017-10-19 13:43:16] set names utf8
+[2017-10-19 13:43:16] DESC miji_user
+[2017-10-19 13:43:16] select id from miji_user where userName='lili'
+[2017-10-19 13:45:06] set names utf8
+[2017-10-19 13:45:06] DESC miji_user
+[2017-10-19 13:45:07] select id from miji_user where userName='lili'
+[2017-10-19 13:46:57] set names utf8
+[2017-10-19 13:46:57] DESC miji_user
+[2017-10-19 13:46:57] select id from miji_user where userName='lili'
+[2017-10-19 13:47:44] set names utf8
+[2017-10-19 13:47:44] DESC miji_user
+[2017-10-19 13:47:45] select id from miji_user where userName='lili'
+[2017-10-19 13:48:43] set names utf8
+[2017-10-19 13:48:43] DESC miji_user
+[2017-10-19 13:48:43] select id from miji_user where userName='lili'
+[2017-10-19 13:50:20] set names utf8
+[2017-10-19 13:50:20] DESC miji_user
+[2017-10-19 13:50:20] select id from miji_user where userName='lili'
+[2017-10-19 13:50:37] set names utf8
+[2017-10-19 13:50:37] DESC miji_user
+[2017-10-19 13:50:37] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('lili','1234567')
+[2017-10-19 13:50:57] set names utf8
+[2017-10-19 13:50:57] DESC miji_user
+[2017-10-19 13:50:57] select id from miji_user where userName='lima'
+[2017-10-19 14:04:48] set names utf8
+[2017-10-19 14:04:48] DESC miji_user
+[2017-10-19 14:04:48] select id from miji_user where userName='ryzen'
+[2017-10-19 14:04:51] set names utf8
+[2017-10-19 14:04:51] DESC miji_user
+[2017-10-19 14:04:51] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('ryzen','123456')
+[2017-10-19 14:05:12] set names utf8
+[2017-10-19 14:05:12] DESC miji_user
+[2017-10-19 14:05:12] SELECT * FROM miji_user WHERE
+		       userName = 'ryzen' AND password = '123456'
+		       LIMIT 1
+[2017-10-19 14:05:37] set names utf8
+[2017-10-19 14:05:37] DESC miji_userproblem
+[2017-10-19 14:05:37] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('ryzen','rrr','售后问题','rr','rrr','1508393136')
+[2017-10-19 14:05:41] set names utf8
+[2017-10-19 14:05:41] DESC miji_userproblem
+[2017-10-19 14:05:42] select * from miji_userproblem where state=0 and subUser='ryzen' order by id
+[2017-10-19 14:05:47] set names utf8
+[2017-10-19 14:05:47] DESC miji_userproblem
+[2017-10-19 14:05:47] select * from miji_userproblem where state=0 and subUser='ryzen' order by id
+[2017-10-19 14:05:51] set names utf8
+[2017-10-19 14:05:51] DESC miji_userproblem
+[2017-10-19 14:05:51] select * from miji_userproblem where state=1 and subUser='ryzen' order by id
+[2017-10-19 14:05:56] set names utf8
+[2017-10-19 14:05:56] DESC miji_userproblem
+[2017-10-19 14:05:56] select * from miji_userproblem where subUser='ryzen' order by id
+[2017-10-19 14:06:05] set names utf8
+[2017-10-19 14:06:05] DESC miji_userproblem
+[2017-10-19 14:06:05] select * from miji_userproblem where state=0  order by id
+[2017-10-19 14:08:26] set names utf8
+[2017-10-19 14:08:26] DESC miji_user
+[2017-10-19 14:08:26] select id from miji_user where userName='dai'
+[2017-10-19 14:08:35] set names utf8
+[2017-10-19 14:08:35] DESC miji_user
+[2017-10-19 14:08:35] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('dai','123456')
+[2017-10-19 14:08:50] set names utf8
+[2017-10-19 14:08:50] DESC miji_user
+[2017-10-19 14:08:50] SELECT * FROM miji_user WHERE
+		       userName = 'dai' AND password = '123456'
+		       LIMIT 1
+[2017-10-19 14:09:58] set names utf8
+[2017-10-19 14:09:58] DESC miji_userproblem
+[2017-10-19 14:09:58] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('dai','工资太低','财务问题','工资','加工资<img src="/CPS/application/views/home/js/attached/image/20171019/20171019140950_20318.png" alt="" />','1508393397')
+[2017-10-19 14:10:02] set names utf8
+[2017-10-19 14:10:02] DESC miji_userproblem
+[2017-10-19 14:10:02] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:10:09] set names utf8
+[2017-10-19 14:10:09] DESC miji_userproblem
+[2017-10-19 14:10:09] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:10:37] set names utf8
+[2017-10-19 14:10:37] DESC miji_admin
+[2017-10-19 14:10:37] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-19 14:10:38] set names utf8
+[2017-10-19 14:10:38] DESC miji_userproblem
+[2017-10-19 14:10:38] select * from miji_userproblem where state=0  order by id
+[2017-10-19 14:10:45] set names utf8
+[2017-10-19 14:10:45] DESC miji_userproblem
+[2017-10-19 14:10:45] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:11:07] set names utf8
+[2017-10-19 14:11:07] DESC miji_userproblem
+[2017-10-19 14:11:07] UPDATE `miji_userproblem` SET `answer`='加100',`state`='1',`updateTime`='1508393467' WHERE id = '11'
+[2017-10-19 14:11:12] set names utf8
+[2017-10-19 14:11:12] DESC miji_userproblem
+[2017-10-19 14:11:12] select * from miji_userproblem where state=0  order by id
+[2017-10-19 14:11:16] set names utf8
+[2017-10-19 14:11:16] DESC miji_userproblem
+[2017-10-19 14:11:16] select * from miji_userproblem where state=1  order by id
+[2017-10-19 14:11:24] set names utf8
+[2017-10-19 14:11:24] DESC miji_userproblem
+[2017-10-19 14:11:24] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:11:28] set names utf8
+[2017-10-19 14:11:28] DESC miji_userproblem
+[2017-10-19 14:11:28] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:11:32] set names utf8
+[2017-10-19 14:11:32] DESC miji_userproblem
+[2017-10-19 14:11:32] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:12:06] set names utf8
+[2017-10-19 14:12:06] DESC miji_userproblem
+[2017-10-19 14:12:06] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:12:10] set names utf8
+[2017-10-19 14:12:10] DESC miji_userproblem
+[2017-10-19 14:12:10] select * from miji_userproblem where subUser='david' order by id
+[2017-10-19 14:12:19] set names utf8
+[2017-10-19 14:12:19] DESC miji_userproblem
+[2017-10-19 14:12:19] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:13:16] set names utf8
+[2017-10-19 14:13:16] DESC miji_userproblem
+[2017-10-19 14:13:16] select * from miji_userproblem where  id= '1'
+[2017-10-19 14:13:35] set names utf8
+[2017-10-19 14:13:35] DESC miji_userproblem
+[2017-10-19 14:13:35] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:13:58] set names utf8
+[2017-10-19 14:13:58] DESC miji_userproblem
+[2017-10-19 14:13:58] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:14:08] set names utf8
+[2017-10-19 14:14:08] DESC miji_userproblem
+[2017-10-19 14:14:08] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:14:10] set names utf8
+[2017-10-19 14:14:10] DESC miji_userproblem
+[2017-10-19 14:14:10] select * from miji_userproblem where subUser='david' order by id
+[2017-10-19 14:14:13] set names utf8
+[2017-10-19 14:14:13] DESC miji_userproblem
+[2017-10-19 14:14:13] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-19 14:14:15] set names utf8
+[2017-10-19 14:14:15] DESC miji_userproblem
+[2017-10-19 14:14:15] select * from miji_userproblem where state=0 and subUser='david' order by id
+[2017-10-19 14:15:22] set names utf8
+[2017-10-19 14:15:22] DESC miji_user
+[2017-10-19 14:15:22] SELECT * FROM miji_user WHERE
+		       userName = 'dai' AND password = '123456'
+		       LIMIT 1
+[2017-10-19 14:15:26] set names utf8
+[2017-10-19 14:15:26] DESC miji_userproblem
+[2017-10-19 14:15:26] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:20:48] set names utf8
+[2017-10-19 14:20:48] DESC miji_userproblem
+[2017-10-19 14:20:48] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:21:35] set names utf8
+[2017-10-19 14:21:35] DESC miji_userproblem
+[2017-10-19 14:21:35] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:22:02] set names utf8
+[2017-10-19 14:22:02] DESC miji_userproblem
+[2017-10-19 14:22:02] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:28:07] set names utf8
+[2017-10-19 14:28:07] DESC miji_userproblem
+[2017-10-19 14:28:07] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:28:10] set names utf8
+[2017-10-19 14:28:10] DESC miji_userproblem
+[2017-10-19 14:28:10] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:30:04] set names utf8
+[2017-10-19 14:30:04] DESC miji_userproblem
+[2017-10-19 14:30:04] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('dai','jjjjj','财务问题','','<p>
+	fasfdasf
+</p>
+<p>
+	<img src="/CPS/application/views/home/js/attached/image/20171019/20171019142950_36636.jpg" alt="" />
+</p>
+<p>
+	<br />
+</p>','1508394603')
+[2017-10-19 14:30:08] set names utf8
+[2017-10-19 14:30:08] DESC miji_userproblem
+[2017-10-19 14:30:09] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:30:13] set names utf8
+[2017-10-19 14:30:13] DESC miji_userproblem
+[2017-10-19 14:30:13] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 14:31:47] set names utf8
+[2017-10-19 14:31:47] DESC miji_userproblem
+[2017-10-19 14:31:47] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 14:31:50] set names utf8
+[2017-10-19 14:31:50] DESC miji_userproblem
+[2017-10-19 14:31:51] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:31:54] set names utf8
+[2017-10-19 14:31:54] DESC miji_userproblem
+[2017-10-19 14:31:54] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:35:29] set names utf8
+[2017-10-19 14:35:29] DESC miji_userproblem
+[2017-10-19 14:35:29] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:35:33] set names utf8
+[2017-10-19 14:35:33] DESC miji_userproblem
+[2017-10-19 14:35:33] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:38:40] set names utf8
+[2017-10-19 14:38:40] DESC miji_userproblem
+[2017-10-19 14:38:40] select * from miji_userproblem where state=0  order by id
+[2017-10-19 14:39:51] set names utf8
+[2017-10-19 14:39:51] DESC miji_userproblem
+[2017-10-19 14:39:51] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:39:57] set names utf8
+[2017-10-19 14:39:57] DESC miji_userproblem
+[2017-10-19 14:39:57] select * from miji_userproblem where state=1  order by id
+[2017-10-19 14:40:04] set names utf8
+[2017-10-19 14:40:04] DESC miji_userproblem
+[2017-10-19 14:40:04] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:40:14] set names utf8
+[2017-10-19 14:40:14] DESC miji_userproblem
+[2017-10-19 14:40:15] select * from miji_userproblem where state=1  order by id
+[2017-10-19 14:40:18] set names utf8
+[2017-10-19 14:40:18] DESC miji_userproblem
+[2017-10-19 14:40:18] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:42:28] set names utf8
+[2017-10-19 14:42:28] DESC miji_userproblem
+[2017-10-19 14:42:28] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:42:37] set names utf8
+[2017-10-19 14:42:37] DESC miji_userproblem
+[2017-10-19 14:42:37] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:42:45] set names utf8
+[2017-10-19 14:42:45] DESC miji_userproblem
+[2017-10-19 14:42:45] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:42:47] set names utf8
+[2017-10-19 14:42:47] DESC miji_userproblem
+[2017-10-19 14:42:47] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:42:51] set names utf8
+[2017-10-19 14:42:51] DESC miji_userproblem
+[2017-10-19 14:42:51] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 14:42:57] set names utf8
+[2017-10-19 14:42:57] DESC miji_userproblem
+[2017-10-19 14:42:57] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:43:03] set names utf8
+[2017-10-19 14:43:03] DESC miji_userproblem
+[2017-10-19 14:43:03] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:43:19] set names utf8
+[2017-10-19 14:43:20] DESC miji_userproblem
+[2017-10-19 14:43:20] select * from miji_userproblem where state=0  order by id
+[2017-10-19 14:43:36] set names utf8
+[2017-10-19 14:43:36] DESC miji_userproblem
+[2017-10-19 14:43:36] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:43:59] set names utf8
+[2017-10-19 14:43:59] DESC miji_userproblem
+[2017-10-19 14:43:59] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:44:04] set names utf8
+[2017-10-19 14:44:04] DESC miji_userproblem
+[2017-10-19 14:44:05] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:44:40] set names utf8
+[2017-10-19 14:44:40] DESC miji_userproblem
+[2017-10-19 14:44:41] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:45:48] set names utf8
+[2017-10-19 14:45:48] DESC miji_userproblem
+[2017-10-19 14:45:48] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:46:05] set names utf8
+[2017-10-19 14:46:05] DESC miji_userproblem
+[2017-10-19 14:46:05] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:47:17] set names utf8
+[2017-10-19 14:47:17] DESC miji_userproblem
+[2017-10-19 14:47:17] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:47:38] set names utf8
+[2017-10-19 14:47:38] DESC miji_userproblem
+[2017-10-19 14:47:38] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:47:43] set names utf8
+[2017-10-19 14:47:43] DESC miji_userproblem
+[2017-10-19 14:47:43] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:47:46] set names utf8
+[2017-10-19 14:47:46] DESC miji_userproblem
+[2017-10-19 14:47:46] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:47:51] set names utf8
+[2017-10-19 14:47:51] DESC miji_userproblem
+[2017-10-19 14:47:51] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:47:53] set names utf8
+[2017-10-19 14:47:53] DESC miji_userproblem
+[2017-10-19 14:47:53] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 14:48:15] set names utf8
+[2017-10-19 14:48:15] DESC miji_userproblem
+[2017-10-19 14:48:15] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:48:17] set names utf8
+[2017-10-19 14:48:17] DESC miji_userproblem
+[2017-10-19 14:48:18] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:48:21] set names utf8
+[2017-10-19 14:48:21] DESC miji_userproblem
+[2017-10-19 14:48:21] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:48:43] set names utf8
+[2017-10-19 14:48:43] DESC miji_userproblem
+[2017-10-19 14:48:44] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:49:29] set names utf8
+[2017-10-19 14:49:29] DESC miji_userproblem
+[2017-10-19 14:49:29] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:49:32] set names utf8
+[2017-10-19 14:49:32] DESC miji_userproblem
+[2017-10-19 14:49:32] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:49:35] set names utf8
+[2017-10-19 14:49:35] DESC miji_userproblem
+[2017-10-19 14:49:35] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:49:38] set names utf8
+[2017-10-19 14:49:38] DESC miji_userproblem
+[2017-10-19 14:49:38] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:49:42] set names utf8
+[2017-10-19 14:49:42] DESC miji_userproblem
+[2017-10-19 14:49:42] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:49:46] set names utf8
+[2017-10-19 14:49:46] DESC miji_userproblem
+[2017-10-19 14:49:46] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:49:49] set names utf8
+[2017-10-19 14:49:49] DESC miji_userproblem
+[2017-10-19 14:49:50] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:50:11] set names utf8
+[2017-10-19 14:50:11] DESC miji_userproblem
+[2017-10-19 14:50:11] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:51:42] set names utf8
+[2017-10-19 14:51:42] DESC miji_userproblem
+[2017-10-19 14:51:42] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:51:45] set names utf8
+[2017-10-19 14:51:45] DESC miji_userproblem
+[2017-10-19 14:51:45] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:51:53] set names utf8
+[2017-10-19 14:51:53] DESC miji_userproblem
+[2017-10-19 14:51:53] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:55:22] set names utf8
+[2017-10-19 14:55:22] DESC miji_userproblem
+[2017-10-19 14:55:22] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:56:13] set names utf8
+[2017-10-19 14:56:13] DESC miji_userproblem
+[2017-10-19 14:56:13] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:56:17] set names utf8
+[2017-10-19 14:56:17] DESC miji_userproblem
+[2017-10-19 14:56:17] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:56:22] set names utf8
+[2017-10-19 14:56:22] DESC miji_userproblem
+[2017-10-19 14:56:22] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:56:24] set names utf8
+[2017-10-19 14:56:24] DESC miji_userproblem
+[2017-10-19 14:56:25] select * from miji_userproblem where  id= '11'
+[2017-10-19 14:56:27] set names utf8
+[2017-10-19 14:56:27] DESC miji_userproblem
+[2017-10-19 14:56:28] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:56:31] set names utf8
+[2017-10-19 14:56:31] DESC miji_userproblem
+[2017-10-19 14:56:31] select * from miji_userproblem where  id= '12'
+[2017-10-19 14:57:09] set names utf8
+[2017-10-19 14:57:09] DESC miji_userproblem
+[2017-10-19 14:57:09] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:57:12] set names utf8
+[2017-10-19 14:57:12] DESC miji_userproblem
+[2017-10-19 14:57:12] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:57:24] set names utf8
+[2017-10-19 14:57:24] DESC miji_userproblem
+[2017-10-19 14:57:24] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 14:59:30] set names utf8
+[2017-10-19 14:59:30] DESC miji_userproblem
+[2017-10-19 14:59:30] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:59:32] set names utf8
+[2017-10-19 14:59:32] DESC miji_userproblem
+[2017-10-19 14:59:32] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 14:59:33] set names utf8
+[2017-10-19 14:59:33] DESC miji_userproblem
+[2017-10-19 14:59:33] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 14:59:36] set names utf8
+[2017-10-19 14:59:36] DESC miji_userproblem
+[2017-10-19 14:59:36] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 15:00:58] set names utf8
+[2017-10-19 15:00:58] DESC miji_userproblem
+[2017-10-19 15:00:58] select * from miji_userproblem where state=1  order by id
+[2017-10-19 15:01:04] set names utf8
+[2017-10-19 15:01:04] DESC miji_userproblem
+[2017-10-19 15:01:04] select * from miji_userproblem where state=0  order by id
+[2017-10-19 15:01:07] set names utf8
+[2017-10-19 15:01:07] DESC miji_userproblem
+[2017-10-19 15:01:07] select * from miji_userproblem  order by id
+[2017-10-19 15:01:10] set names utf8
+[2017-10-19 15:01:10] DESC miji_userproblem
+[2017-10-19 15:01:11] select * from miji_userproblem where state=1  order by id
+[2017-10-19 15:02:38] set names utf8
+[2017-10-19 15:02:38] DESC miji_userproblem
+[2017-10-19 15:02:38] select * from miji_userproblem  order by id
+[2017-10-19 15:02:39] set names utf8
+[2017-10-19 15:02:39] DESC miji_userproblem
+[2017-10-19 15:02:40] select * from miji_userproblem where state=0  order by id
+[2017-10-19 15:21:35] set names utf8
+[2017-10-19 15:21:35] DESC miji_user
+[2017-10-19 15:21:35] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '123'
+		       LIMIT 1
+[2017-10-19 15:21:54] set names utf8
+[2017-10-19 15:21:54] DESC miji_user
+[2017-10-19 15:21:54] select id from miji_user where userName='kk'
+[2017-10-19 15:21:57] set names utf8
+[2017-10-19 15:21:57] DESC miji_user
+[2017-10-19 15:21:57] select id from miji_user where userName=''
+[2017-10-19 15:22:00] set names utf8
+[2017-10-19 15:22:00] DESC miji_user
+[2017-10-19 15:22:00] select id from miji_user where userName=''
+[2017-10-19 15:22:31] set names utf8
+[2017-10-19 15:22:31] DESC miji_user
+[2017-10-19 15:22:31] select id from miji_user where userName='lise'
+[2017-10-19 15:22:57] set names utf8
+[2017-10-19 15:22:57] DESC miji_user
+[2017-10-19 15:22:57] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-19 15:23:09] set names utf8
+[2017-10-19 15:23:09] DESC miji_userproblem
+[2017-10-19 15:23:09] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-19 15:23:17] set names utf8
+[2017-10-19 15:23:17] DESC miji_userproblem
+[2017-10-19 15:23:17] select * from miji_userproblem where  id= '1'
+[2017-10-19 15:23:23] set names utf8
+[2017-10-19 15:23:23] DESC miji_userproblem
+[2017-10-19 15:23:23] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-19 15:23:27] set names utf8
+[2017-10-19 15:23:27] DESC miji_userproblem
+[2017-10-19 15:23:27] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-19 15:23:36] set names utf8
+[2017-10-19 15:23:36] DESC miji_userproblem
+[2017-10-19 15:23:36] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-19 15:23:40] set names utf8
+[2017-10-19 15:23:40] DESC miji_userproblem
+[2017-10-19 15:23:40] select * from miji_userproblem where  id= '7'
+[2017-10-19 15:24:42] set names utf8
+[2017-10-19 15:24:42] DESC miji_userproblem
+[2017-10-19 15:24:42] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 15:24:43] set names utf8
+[2017-10-19 15:24:43] DESC miji_userproblem
+[2017-10-19 15:24:43] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 15:24:44] set names utf8
+[2017-10-19 15:24:44] DESC miji_userproblem
+[2017-10-19 15:24:45] select * from miji_userproblem where subUser='dai' order by id
+[2017-10-19 15:24:46] set names utf8
+[2017-10-19 15:24:46] DESC miji_userproblem
+[2017-10-19 15:24:46] select * from miji_userproblem where state=0 and subUser='dai' order by id
+[2017-10-19 15:24:47] set names utf8
+[2017-10-19 15:24:47] DESC miji_userproblem
+[2017-10-19 15:24:47] select * from miji_userproblem where state=1 and subUser='dai' order by id
+[2017-10-19 15:56:18] set names utf8
+[2017-10-19 15:56:18] DESC miji_admin
+[2017-10-19 15:56:18] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-19 15:56:19] set names utf8
+[2017-10-19 15:56:19] DESC miji_userproblem
+[2017-10-19 15:56:19] select * from miji_userproblem where state=0  order by id
+[2017-10-19 15:56:47] set names utf8
+[2017-10-19 15:56:47] DESC miji_userproblem
+[2017-10-19 15:56:47] select * from miji_userproblem where state=0  order by id
+[2017-10-19 15:56:52] set names utf8
+[2017-10-19 15:56:52] DESC miji_userproblem
+[2017-10-19 15:56:52] select * from miji_userproblem where state=1  order by id
+[2017-10-19 15:56:55] set names utf8
+[2017-10-19 15:56:55] DESC miji_userproblem
+[2017-10-19 15:56:55] select * from miji_userproblem where state=0  order by id
+[2017-10-19 15:57:03] set names utf8
+[2017-10-19 15:57:03] DESC miji_userproblem
+[2017-10-19 15:57:03] select * from miji_userproblem  order by id
+[2017-10-19 16:00:24] set names utf8
+[2017-10-19 16:00:24] DESC miji_userproblem
+[2017-10-19 16:00:24] select * from miji_userproblem where state=0  order by id
+[2017-10-19 16:00:37] set names utf8
+[2017-10-19 16:00:37] DESC miji_userproblem
+[2017-10-19 16:00:37] select * from miji_userproblem where  id= '9'
+[2017-10-19 16:00:57] set names utf8
+[2017-10-19 16:00:57] DESC miji_userproblem
+[2017-10-19 16:00:57] select * from miji_userproblem  order by id
+[2017-10-19 16:01:09] set names utf8
+[2017-10-19 16:01:09] DESC miji_userproblem
+[2017-10-19 16:01:09] select * from miji_userproblem where state=0  order by id
+[2017-10-19 16:01:11] set names utf8
+[2017-10-19 16:01:11] DESC miji_userproblem
+[2017-10-19 16:01:12] select * from miji_userproblem where state=1  order by id
+[2017-10-19 16:01:14] set names utf8
+[2017-10-19 16:01:14] DESC miji_userproblem
+[2017-10-19 16:01:14] select * from miji_userproblem where state=0  order by id
+[2017-10-19 16:33:12] set names utf8
+[2017-10-19 16:33:12] DESC miji_userproblem
+[2017-10-19 16:33:12] select * from miji_userproblem where state=0  order by id
+[2017-10-19 16:33:15] set names utf8
+[2017-10-19 16:33:15] DESC miji_userproblem
+[2017-10-19 16:33:15] select * from miji_userproblem  order by id
+[2017-10-19 17:45:45] set names utf8
+[2017-10-19 17:45:45] DESC miji_userproblem
+[2017-10-19 17:45:45] select * from miji_userproblem where state=0  order by id
+[2017-10-19 17:45:48] set names utf8
+[2017-10-19 17:45:48] DESC miji_userproblem
+[2017-10-19 17:45:49] select * from miji_userproblem  order by id
+[2017-10-19 17:45:52] set names utf8
+[2017-10-19 17:45:52] DESC miji_userproblem
+[2017-10-19 17:45:52] select * from miji_userproblem where state=1  order by id
+[2017-10-19 17:45:57] set names utf8
+[2017-10-19 17:45:57] DESC miji_userproblem
+[2017-10-19 17:45:57] select * from miji_userproblem  order by id
+[2017-10-19 17:50:52] set names utf8
+[2017-10-19 17:50:52] DESC miji_userproblem
+[2017-10-19 17:50:52] select * from miji_userproblem  order by id
+[2017-10-20 09:29:41] set names utf8
+[2017-10-20 09:29:41] DESC miji_user
+[2017-10-20 09:29:42] select id from miji_user where userName='lizong'
+[2017-10-20 09:29:51] set names utf8
+[2017-10-20 09:29:51] DESC miji_user
+[2017-10-20 09:29:52] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('lizong','111111')
+[2017-10-20 09:30:05] set names utf8
+[2017-10-20 09:30:05] DESC miji_user
+[2017-10-20 09:30:05] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-20 09:30:53] set names utf8
+[2017-10-20 09:30:53] DESC miji_userproblem
+[2017-10-20 09:30:53] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-20 09:31:13] set names utf8
+[2017-10-20 09:31:13] DESC miji_userproblem
+[2017-10-20 09:31:13] select * from miji_userproblem where  id= '1'
+[2017-10-20 09:31:18] set names utf8
+[2017-10-20 09:31:18] DESC miji_userproblem
+[2017-10-20 09:31:18] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-20 09:31:23] set names utf8
+[2017-10-20 09:31:23] DESC miji_userproblem
+[2017-10-20 09:31:23] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-20 09:32:21] set names utf8
+[2017-10-20 09:32:21] DESC miji_admin
+[2017-10-20 09:32:21] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-20 09:32:22] set names utf8
+[2017-10-20 09:32:22] DESC miji_userproblem
+[2017-10-20 09:32:22] select * from miji_userproblem where state=0  order by id
+[2017-10-20 09:32:32] set names utf8
+[2017-10-20 09:32:32] DESC miji_userproblem
+[2017-10-20 09:32:32] select * from miji_userproblem where  id= '8'
+[2017-10-20 09:34:12] set names utf8
+[2017-10-20 09:34:12] DESC miji_userproblem
+[2017-10-20 09:34:12] select * from miji_userproblem where state=1  order by id
+[2017-10-20 10:17:51] set names utf8
+[2017-10-20 10:17:51] DESC miji_user
+[2017-10-20 10:17:51] SELECT * FROM miji_user WHERE
+		       userName = '' AND password = ''
+		       LIMIT 1
+[2017-10-20 10:18:57] set names utf8
+[2017-10-20 10:18:57] DESC miji_user
+[2017-10-20 10:18:57] SELECT * FROM miji_user WHERE
+		       userName = '' AND password = ''
+		       LIMIT 1
+[2017-10-20 10:27:27] set names utf8
+[2017-10-20 10:27:27] DESC miji_user
+[2017-10-20 10:27:27] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-20 10:27:38] set names utf8
+[2017-10-20 10:27:38] DESC miji_user
+[2017-10-20 10:27:38] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = ''
+		       LIMIT 1
+[2017-10-20 10:29:17] set names utf8
+[2017-10-20 10:29:17] DESC miji_user
+[2017-10-20 10:29:17] SELECT * FROM miji_user WHERE
+		       userName = 'admin1' AND password = '123'
+		       LIMIT 1
+[2017-10-20 10:30:32] set names utf8
+[2017-10-20 10:30:32] DESC miji_user
+[2017-10-20 10:30:32] SELECT * FROM miji_user WHERE
+		       userName = 'admin1' AND password = '123'
+		       LIMIT 1
+[2017-10-20 10:36:03] set names utf8
+[2017-10-20 10:36:03] DESC miji_user
+[2017-10-20 10:36:03] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-20 13:03:26] set names utf8
+[2017-10-20 13:03:26] DESC miji_userproblem
+[2017-10-20 13:03:26] select * from miji_userproblem where state=0 and subUser='david' order by id
+[2017-10-20 15:18:03] set names utf8
+[2017-10-20 15:18:03] DESC miji_user
+[2017-10-20 15:18:03] SELECT * FROM miji_user WHERE
+		       userName = 'zs' AND password = '123'
+		       LIMIT 1
+[2017-10-20 15:31:13] set names utf8
+[2017-10-20 15:31:13] DESC miji_user
+[2017-10-20 15:31:13] SELECT * FROM miji_user WHERE
+		       userName = 'zs' AND password = '123'
+		       LIMIT 1
+[2017-10-20 16:29:04] set names utf8
+[2017-10-20 16:29:04] DESC miji_user
+[2017-10-20 16:29:04] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-20 17:32:27] set names utf8
+[2017-10-20 17:32:27] DESC miji_userproblem
+[2017-10-20 17:32:27] select * from miji_userproblem where state=1  order by id
+[2017-10-20 17:32:45] set names utf8
+[2017-10-20 17:32:45] DESC miji_userproblem
+[2017-10-20 17:32:45] select * from miji_userproblem  order by id
+[2017-10-23 09:47:33] set names utf8
+[2017-10-23 09:47:33] DESC miji_user
+[2017-10-23 09:47:33] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 10:23:24] set names utf8
+[2017-10-23 10:23:24] DESC miji_userproblem
+[2017-10-23 10:23:24] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:28:39] set names utf8
+[2017-10-23 10:28:39] DESC miji_userproblem
+[2017-10-23 10:28:39] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:28:47] set names utf8
+[2017-10-23 10:28:47] DESC miji_userproblem
+[2017-10-23 10:28:48] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:29:19] set names utf8
+[2017-10-23 10:29:19] DESC miji_userproblem
+[2017-10-23 10:29:19] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:30:19] set names utf8
+[2017-10-23 10:30:19] DESC miji_userproblem
+[2017-10-23 10:30:19] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:33:41] set names utf8
+[2017-10-23 10:33:41] DESC miji_userproblem
+[2017-10-23 10:33:41] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:33:58] set names utf8
+[2017-10-23 10:33:58] DESC miji_userproblem
+[2017-10-23 10:33:58] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:34:33] set names utf8
+[2017-10-23 10:34:33] DESC miji_userproblem
+[2017-10-23 10:34:33] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:39:51] set names utf8
+[2017-10-23 10:39:51] DESC miji_userproblem
+[2017-10-23 10:39:51] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:40:04] set names utf8
+[2017-10-23 10:40:04] DESC miji_userproblem
+[2017-10-23 10:40:05] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:56:06] set names utf8
+[2017-10-23 10:56:06] DESC miji_userproblem
+[2017-10-23 10:56:06] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 10:56:25] set names utf8
+[2017-10-23 10:56:25] DESC miji_userproblem
+[2017-10-23 10:56:25] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:01:49] set names utf8
+[2017-10-23 11:01:49] DESC miji_userproblem
+[2017-10-23 11:01:49] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:05:05] set names utf8
+[2017-10-23 11:05:05] DESC miji_userproblem
+[2017-10-23 11:05:05] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:06:11] set names utf8
+[2017-10-23 11:06:11] DESC miji_userproblem
+[2017-10-23 11:06:11] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:06:50] set names utf8
+[2017-10-23 11:06:50] DESC miji_userproblem
+[2017-10-23 11:06:50] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:07:37] set names utf8
+[2017-10-23 11:07:37] DESC miji_userproblem
+[2017-10-23 11:07:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:08:12] set names utf8
+[2017-10-23 11:08:13] DESC miji_userproblem
+[2017-10-23 11:08:13] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:14:22] set names utf8
+[2017-10-23 11:14:22] DESC miji_userproblem
+[2017-10-23 11:14:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:16:42] set names utf8
+[2017-10-23 11:16:42] DESC miji_userproblem
+[2017-10-23 11:16:42] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:21:53] set names utf8
+[2017-10-23 11:21:53] DESC miji_userproblem
+[2017-10-23 11:21:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:22:33] set names utf8
+[2017-10-23 11:22:33] DESC miji_userproblem
+[2017-10-23 11:22:33] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:23:19] set names utf8
+[2017-10-23 11:23:19] DESC miji_userproblem
+[2017-10-23 11:23:19] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:23:40] set names utf8
+[2017-10-23 11:23:40] DESC miji_userproblem
+[2017-10-23 11:23:40] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:25:13] set names utf8
+[2017-10-23 11:25:13] DESC miji_userproblem
+[2017-10-23 11:25:13] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:26:32] set names utf8
+[2017-10-23 11:26:32] DESC miji_userproblem
+[2017-10-23 11:26:32] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:34:03] set names utf8
+[2017-10-23 11:34:03] DESC miji_userproblem
+[2017-10-23 11:34:03] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:34:10] set names utf8
+[2017-10-23 11:34:10] DESC miji_userproblem
+[2017-10-23 11:34:10] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:36:32] set names utf8
+[2017-10-23 11:36:32] DESC miji_userproblem
+[2017-10-23 11:36:32] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:39:40] set names utf8
+[2017-10-23 11:39:40] DESC miji_userproblem
+[2017-10-23 11:39:41] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:40:05] set names utf8
+[2017-10-23 11:40:05] DESC miji_userproblem
+[2017-10-23 11:40:05] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:42:41] set names utf8
+[2017-10-23 11:42:41] DESC miji_userproblem
+[2017-10-23 11:42:41] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:43:11] set names utf8
+[2017-10-23 11:43:11] DESC miji_userproblem
+[2017-10-23 11:43:11] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:43:37] set names utf8
+[2017-10-23 11:43:37] DESC miji_userproblem
+[2017-10-23 11:43:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:44:21] set names utf8
+[2017-10-23 11:44:21] DESC miji_userproblem
+[2017-10-23 11:44:21] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:44:53] set names utf8
+[2017-10-23 11:44:53] DESC miji_userproblem
+[2017-10-23 11:44:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:46:28] set names utf8
+[2017-10-23 11:46:28] DESC miji_userproblem
+[2017-10-23 11:46:28] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:46:38] set names utf8
+[2017-10-23 11:46:38] DESC miji_userproblem
+[2017-10-23 11:46:39] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:47:29] set names utf8
+[2017-10-23 11:47:29] DESC miji_userproblem
+[2017-10-23 11:47:30] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:49:15] set names utf8
+[2017-10-23 11:49:15] DESC miji_userproblem
+[2017-10-23 11:49:15] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:50:27] set names utf8
+[2017-10-23 11:50:27] DESC miji_userproblem
+[2017-10-23 11:50:27] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:51:04] set names utf8
+[2017-10-23 11:51:04] DESC miji_userproblem
+[2017-10-23 11:51:04] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:51:53] set names utf8
+[2017-10-23 11:51:53] DESC miji_userproblem
+[2017-10-23 11:51:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:53:31] set names utf8
+[2017-10-23 11:53:31] DESC miji_userproblem
+[2017-10-23 11:53:31] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:55:15] set names utf8
+[2017-10-23 11:55:15] DESC miji_userproblem
+[2017-10-23 11:55:15] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:55:17] set names utf8
+[2017-10-23 11:55:17] DESC miji_userproblem
+[2017-10-23 11:55:17] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:55:37] set names utf8
+[2017-10-23 11:55:37] DESC miji_userproblem
+[2017-10-23 11:55:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:56:07] set names utf8
+[2017-10-23 11:56:07] DESC miji_userproblem
+[2017-10-23 11:56:07] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:56:18] set names utf8
+[2017-10-23 11:56:18] DESC miji_userproblem
+[2017-10-23 11:56:18] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:56:47] set names utf8
+[2017-10-23 11:56:48] DESC miji_userproblem
+[2017-10-23 11:56:48] select * from miji_userproblem where subUser='' order by id
+[2017-10-23 11:57:08] set names utf8
+[2017-10-23 11:57:08] DESC miji_user
+[2017-10-23 11:57:08] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 11:57:10] set names utf8
+[2017-10-23 11:57:10] DESC miji_userproblem
+[2017-10-23 11:57:10] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:57:32] set names utf8
+[2017-10-23 11:57:32] DESC miji_userproblem
+[2017-10-23 11:57:32] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:58:27] set names utf8
+[2017-10-23 11:58:27] DESC miji_user
+[2017-10-23 11:58:27] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 11:58:28] set names utf8
+[2017-10-23 11:58:28] DESC miji_userproblem
+[2017-10-23 11:58:28] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:58:46] set names utf8
+[2017-10-23 11:58:46] DESC miji_userproblem
+[2017-10-23 11:58:46] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 11:59:27] set names utf8
+[2017-10-23 11:59:27] DESC miji_userproblem
+[2017-10-23 11:59:27] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:00:35] set names utf8
+[2017-10-23 12:00:35] DESC miji_userproblem
+[2017-10-23 12:00:36] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:00:37] set names utf8
+[2017-10-23 12:00:37] DESC miji_userproblem
+[2017-10-23 12:00:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:00:51] set names utf8
+[2017-10-23 12:00:51] DESC miji_userproblem
+[2017-10-23 12:00:51] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:08:47] set names utf8
+[2017-10-23 12:08:47] DESC miji_userproblem
+[2017-10-23 12:08:47] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:14:17] set names utf8
+[2017-10-23 12:14:17] DESC miji_userproblem
+[2017-10-23 12:14:17] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:22:27] set names utf8
+[2017-10-23 12:22:27] DESC miji_userproblem
+[2017-10-23 12:22:27] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:24:08] set names utf8
+[2017-10-23 12:24:08] DESC miji_userproblem
+[2017-10-23 12:24:08] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:28:31] set names utf8
+[2017-10-23 12:28:31] DESC miji_userproblem
+[2017-10-23 12:28:31] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:29:57] set names utf8
+[2017-10-23 12:29:57] DESC miji_userproblem
+[2017-10-23 12:29:57] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:32:37] set names utf8
+[2017-10-23 12:32:37] DESC miji_userproblem
+[2017-10-23 12:32:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:35:31] set names utf8
+[2017-10-23 12:35:31] DESC miji_userproblem
+[2017-10-23 12:35:31] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:36:49] set names utf8
+[2017-10-23 12:36:49] DESC miji_userproblem
+[2017-10-23 12:36:49] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:37:03] set names utf8
+[2017-10-23 12:37:03] DESC miji_userproblem
+[2017-10-23 12:37:03] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','','','','','1508733422')
+[2017-10-23 12:37:08] set names utf8
+[2017-10-23 12:37:08] DESC miji_userproblem
+[2017-10-23 12:37:08] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 12:39:41] set names utf8
+[2017-10-23 12:39:41] DESC miji_userproblem
+[2017-10-23 12:39:41] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','fff','售后问题','ffs','fsfs','1508733580')
+[2017-10-23 12:39:45] set names utf8
+[2017-10-23 12:39:45] DESC miji_userproblem
+[2017-10-23 12:39:46] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 12:40:21] set names utf8
+[2017-10-23 12:40:21] DESC miji_userproblem
+[2017-10-23 12:40:21] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:41:09] set names utf8
+[2017-10-23 12:41:09] DESC miji_userproblem
+[2017-10-23 12:41:09] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:42:59] set names utf8
+[2017-10-23 12:42:59] DESC miji_userproblem
+[2017-10-23 12:42:59] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:43:10] set names utf8
+[2017-10-23 12:43:10] DESC miji_userproblem
+[2017-10-23 12:43:10] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:43:54] set names utf8
+[2017-10-23 12:43:54] DESC miji_userproblem
+[2017-10-23 12:43:54] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:44:03] set names utf8
+[2017-10-23 12:44:03] DESC miji_userproblem
+[2017-10-23 12:44:03] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:44:23] set names utf8
+[2017-10-23 12:44:23] DESC miji_userproblem
+[2017-10-23 12:44:23] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:46:06] set names utf8
+[2017-10-23 12:46:06] DESC miji_userproblem
+[2017-10-23 12:46:06] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:46:11] set names utf8
+[2017-10-23 12:46:11] DESC miji_userproblem
+[2017-10-23 12:46:12] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:46:46] set names utf8
+[2017-10-23 12:46:46] DESC miji_userproblem
+[2017-10-23 12:46:46] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:47:10] set names utf8
+[2017-10-23 12:47:10] DESC miji_userproblem
+[2017-10-23 12:47:10] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:48:55] set names utf8
+[2017-10-23 12:48:55] DESC miji_userproblem
+[2017-10-23 12:48:55] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:50:44] set names utf8
+[2017-10-23 12:50:44] DESC miji_userproblem
+[2017-10-23 12:50:44] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:52:35] set names utf8
+[2017-10-23 12:52:35] DESC miji_userproblem
+[2017-10-23 12:52:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:52:40] set names utf8
+[2017-10-23 12:52:40] DESC miji_userproblem
+[2017-10-23 12:52:41] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:57:02] set names utf8
+[2017-10-23 12:57:02] DESC miji_userproblem
+[2017-10-23 12:57:02] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:57:45] set names utf8
+[2017-10-23 12:57:45] DESC miji_userproblem
+[2017-10-23 12:57:45] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:58:53] set names utf8
+[2017-10-23 12:58:53] DESC miji_userproblem
+[2017-10-23 12:58:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 12:59:43] set names utf8
+[2017-10-23 12:59:43] DESC miji_userproblem
+[2017-10-23 12:59:43] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:01:02] set names utf8
+[2017-10-23 13:01:02] DESC miji_userproblem
+[2017-10-23 13:01:02] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:01:35] set names utf8
+[2017-10-23 13:01:35] DESC miji_userproblem
+[2017-10-23 13:01:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:01:50] set names utf8
+[2017-10-23 13:01:50] DESC miji_userproblem
+[2017-10-23 13:01:50] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:01:54] set names utf8
+[2017-10-23 13:01:54] DESC miji_userproblem
+[2017-10-23 13:01:54] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:06:22] set names utf8
+[2017-10-23 13:06:22] DESC miji_userproblem
+[2017-10-23 13:06:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:12:52] set names utf8
+[2017-10-23 13:12:52] DESC miji_userproblem
+[2017-10-23 13:12:52] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:13:21] set names utf8
+[2017-10-23 13:13:21] DESC miji_userproblem
+[2017-10-23 13:13:21] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:13:25] set names utf8
+[2017-10-23 13:13:25] DESC miji_userproblem
+[2017-10-23 13:13:25] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:13:34] set names utf8
+[2017-10-23 13:13:34] DESC miji_userproblem
+[2017-10-23 13:13:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:13:38] set names utf8
+[2017-10-23 13:13:38] DESC miji_userproblem
+[2017-10-23 13:13:38] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:13:41] set names utf8
+[2017-10-23 13:13:41] DESC miji_userproblem
+[2017-10-23 13:13:41] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:14:04] set names utf8
+[2017-10-23 13:14:04] DESC miji_userproblem
+[2017-10-23 13:14:04] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:14:14] set names utf8
+[2017-10-23 13:14:14] DESC miji_userproblem
+[2017-10-23 13:14:14] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:14:21] set names utf8
+[2017-10-23 13:14:21] DESC miji_userproblem
+[2017-10-23 13:14:21] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:14:24] set names utf8
+[2017-10-23 13:14:24] DESC miji_userproblem
+[2017-10-23 13:14:24] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:18:33] set names utf8
+[2017-10-23 13:18:33] DESC miji_userproblem
+[2017-10-23 13:18:34] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:18:45] set names utf8
+[2017-10-23 13:18:45] DESC miji_userproblem
+[2017-10-23 13:18:46] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:19:05] set names utf8
+[2017-10-23 13:19:05] DESC miji_userproblem
+[2017-10-23 13:19:05] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:21:00] set names utf8
+[2017-10-23 13:21:00] DESC miji_userproblem
+[2017-10-23 13:21:00] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:22:02] set names utf8
+[2017-10-23 13:22:02] DESC miji_userproblem
+[2017-10-23 13:22:02] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:24:17] set names utf8
+[2017-10-23 13:24:17] DESC miji_userproblem
+[2017-10-23 13:24:18] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:24:22] set names utf8
+[2017-10-23 13:24:22] DESC miji_userproblem
+[2017-10-23 13:24:22] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:24:24] set names utf8
+[2017-10-23 13:24:24] DESC miji_userproblem
+[2017-10-23 13:24:24] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:24:30] set names utf8
+[2017-10-23 13:24:30] DESC miji_userproblem
+[2017-10-23 13:24:31] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:24:32] set names utf8
+[2017-10-23 13:24:32] DESC miji_userproblem
+[2017-10-23 13:24:33] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:24:34] set names utf8
+[2017-10-23 13:24:34] DESC miji_userproblem
+[2017-10-23 13:24:34] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:25:35] set names utf8
+[2017-10-23 13:25:35] DESC miji_userproblem
+[2017-10-23 13:25:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:25:39] set names utf8
+[2017-10-23 13:25:39] DESC miji_userproblem
+[2017-10-23 13:25:39] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:25:41] set names utf8
+[2017-10-23 13:25:41] DESC miji_userproblem
+[2017-10-23 13:25:42] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:25:46] set names utf8
+[2017-10-23 13:25:46] DESC miji_userproblem
+[2017-10-23 13:25:46] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:26:30] set names utf8
+[2017-10-23 13:26:30] DESC miji_userproblem
+[2017-10-23 13:26:30] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:28:53] set names utf8
+[2017-10-23 13:28:53] DESC miji_userproblem
+[2017-10-23 13:28:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:28:56] set names utf8
+[2017-10-23 13:28:56] DESC miji_userproblem
+[2017-10-23 13:28:57] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:31:45] set names utf8
+[2017-10-23 13:31:45] DESC miji_userproblem
+[2017-10-23 13:31:45] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:31:49] set names utf8
+[2017-10-23 13:31:49] DESC miji_userproblem
+[2017-10-23 13:31:50] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:32:05] set names utf8
+[2017-10-23 13:32:05] DESC miji_userproblem
+[2017-10-23 13:32:05] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:32:09] set names utf8
+[2017-10-23 13:32:09] DESC miji_userproblem
+[2017-10-23 13:32:09] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:33:51] set names utf8
+[2017-10-23 13:33:51] DESC miji_userproblem
+[2017-10-23 13:33:52] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:36:35] set names utf8
+[2017-10-23 13:36:35] DESC miji_userproblem
+[2017-10-23 13:36:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:36:41] set names utf8
+[2017-10-23 13:36:41] DESC miji_userproblem
+[2017-10-23 13:36:41] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:39:06] set names utf8
+[2017-10-23 13:39:06] DESC miji_userproblem
+[2017-10-23 13:39:06] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:39:10] set names utf8
+[2017-10-23 13:39:10] DESC miji_userproblem
+[2017-10-23 13:39:10] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:39:54] set names utf8
+[2017-10-23 13:39:54] DESC miji_userproblem
+[2017-10-23 13:39:55] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:41:37] set names utf8
+[2017-10-23 13:41:37] DESC miji_userproblem
+[2017-10-23 13:41:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:41:41] set names utf8
+[2017-10-23 13:41:41] DESC miji_userproblem
+[2017-10-23 13:41:41] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:41:51] set names utf8
+[2017-10-23 13:41:51] DESC miji_userproblem
+[2017-10-23 13:41:51] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:41:55] set names utf8
+[2017-10-23 13:41:55] DESC miji_userproblem
+[2017-10-23 13:41:56] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:54:47] set names utf8
+[2017-10-23 13:54:47] DESC miji_userproblem
+[2017-10-23 13:54:47] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:55:06] set names utf8
+[2017-10-23 13:55:06] DESC miji_userproblem
+[2017-10-23 13:55:06] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:55:47] set names utf8
+[2017-10-23 13:55:47] DESC miji_userproblem
+[2017-10-23 13:55:47] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:56:09] set names utf8
+[2017-10-23 13:56:09] DESC miji_userproblem
+[2017-10-23 13:56:09] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:56:26] set names utf8
+[2017-10-23 13:56:26] DESC miji_userproblem
+[2017-10-23 13:56:26] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:56:29] set names utf8
+[2017-10-23 13:56:29] DESC miji_userproblem
+[2017-10-23 13:56:29] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:56:34] set names utf8
+[2017-10-23 13:56:34] DESC miji_userproblem
+[2017-10-23 13:56:34] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:56:40] set names utf8
+[2017-10-23 13:56:40] DESC miji_userproblem
+[2017-10-23 13:56:40] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:56:49] set names utf8
+[2017-10-23 13:56:49] DESC miji_userproblem
+[2017-10-23 13:56:49] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:58:11] set names utf8
+[2017-10-23 13:58:11] DESC miji_userproblem
+[2017-10-23 13:58:11] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:58:14] set names utf8
+[2017-10-23 13:58:14] DESC miji_userproblem
+[2017-10-23 13:58:14] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:58:46] set names utf8
+[2017-10-23 13:58:46] DESC miji_userproblem
+[2017-10-23 13:58:46] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 13:59:01] set names utf8
+[2017-10-23 13:59:01] DESC miji_userproblem
+[2017-10-23 13:59:01] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:59:13] set names utf8
+[2017-10-23 13:59:13] DESC miji_userproblem
+[2017-10-23 13:59:13] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:59:34] set names utf8
+[2017-10-23 13:59:34] DESC miji_userproblem
+[2017-10-23 13:59:34] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 13:59:43] set names utf8
+[2017-10-23 13:59:43] DESC miji_userproblem
+[2017-10-23 13:59:43] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 13:59:49] set names utf8
+[2017-10-23 13:59:49] DESC miji_userproblem
+[2017-10-23 13:59:49] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:00:12] set names utf8
+[2017-10-23 14:00:12] DESC miji_userproblem
+[2017-10-23 14:00:12] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:00:19] set names utf8
+[2017-10-23 14:00:19] DESC miji_userproblem
+[2017-10-23 14:00:19] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:00:51] set names utf8
+[2017-10-23 14:00:51] DESC miji_userproblem
+[2017-10-23 14:00:51] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:01:44] set names utf8
+[2017-10-23 14:01:44] DESC miji_userproblem
+[2017-10-23 14:01:44] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:02:03] set names utf8
+[2017-10-23 14:02:03] DESC miji_userproblem
+[2017-10-23 14:02:03] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:07:05] set names utf8
+[2017-10-23 14:07:05] DESC miji_userproblem
+[2017-10-23 14:07:05] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:07:12] set names utf8
+[2017-10-23 14:07:12] DESC miji_userproblem
+[2017-10-23 14:07:12] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:08:03] set names utf8
+[2017-10-23 14:08:03] DESC miji_userproblem
+[2017-10-23 14:08:03] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:08:07] set names utf8
+[2017-10-23 14:08:07] DESC miji_userproblem
+[2017-10-23 14:08:08] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:08:11] set names utf8
+[2017-10-23 14:08:11] DESC miji_userproblem
+[2017-10-23 14:08:12] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:09:16] set names utf8
+[2017-10-23 14:09:16] DESC miji_userproblem
+[2017-10-23 14:09:16] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:09:20] set names utf8
+[2017-10-23 14:09:20] DESC miji_userproblem
+[2017-10-23 14:09:20] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:09:23] set names utf8
+[2017-10-23 14:09:23] DESC miji_userproblem
+[2017-10-23 14:09:23] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:09:46] set names utf8
+[2017-10-23 14:09:46] DESC miji_userproblem
+[2017-10-23 14:09:46] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:10:55] set names utf8
+[2017-10-23 14:10:55] DESC miji_userproblem
+[2017-10-23 14:10:55] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:11:11] set names utf8
+[2017-10-23 14:11:11] DESC miji_userproblem
+[2017-10-23 14:11:11] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:11:15] set names utf8
+[2017-10-23 14:11:15] DESC miji_userproblem
+[2017-10-23 14:11:16] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:12:45] set names utf8
+[2017-10-23 14:12:45] DESC miji_userproblem
+[2017-10-23 14:12:46] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:13:24] set names utf8
+[2017-10-23 14:13:24] DESC miji_userproblem
+[2017-10-23 14:13:24] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:14:17] set names utf8
+[2017-10-23 14:14:17] DESC miji_userproblem
+[2017-10-23 14:14:17] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:14:24] set names utf8
+[2017-10-23 14:14:24] DESC miji_userproblem
+[2017-10-23 14:14:24] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:14:34] set names utf8
+[2017-10-23 14:14:34] DESC miji_userproblem
+[2017-10-23 14:14:35] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:14:37] set names utf8
+[2017-10-23 14:14:37] DESC miji_userproblem
+[2017-10-23 14:14:37] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:20:24] set names utf8
+[2017-10-23 14:20:24] DESC miji_userproblem
+[2017-10-23 14:20:24] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:20:29] set names utf8
+[2017-10-23 14:20:29] DESC miji_userproblem
+[2017-10-23 14:20:29] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:20:33] set names utf8
+[2017-10-23 14:20:33] DESC miji_userproblem
+[2017-10-23 14:20:33] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:21:29] set names utf8
+[2017-10-23 14:21:29] DESC miji_userproblem
+[2017-10-23 14:21:29] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:21:33] set names utf8
+[2017-10-23 14:21:33] DESC miji_userproblem
+[2017-10-23 14:21:33] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:21:36] set names utf8
+[2017-10-23 14:21:36] DESC miji_userproblem
+[2017-10-23 14:21:36] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:22:16] set names utf8
+[2017-10-23 14:22:16] DESC miji_userproblem
+[2017-10-23 14:22:16] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:22:18] set names utf8
+[2017-10-23 14:22:18] DESC miji_userproblem
+[2017-10-23 14:22:18] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:23:21] set names utf8
+[2017-10-23 14:23:21] DESC miji_userproblem
+[2017-10-23 14:23:22] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:23:24] set names utf8
+[2017-10-23 14:23:24] DESC miji_userproblem
+[2017-10-23 14:23:25] select * from miji_userproblem where  id= '1'
+[2017-10-23 14:24:13] set names utf8
+[2017-10-23 14:24:13] DESC miji_userproblem
+[2017-10-23 14:24:13] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:24:17] set names utf8
+[2017-10-23 14:24:17] DESC miji_userproblem
+[2017-10-23 14:24:17] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:24:22] set names utf8
+[2017-10-23 14:24:22] DESC miji_userproblem
+[2017-10-23 14:24:22] select * from miji_userproblem where  id= '2'
+[2017-10-23 14:24:30] set names utf8
+[2017-10-23 14:24:30] DESC miji_userproblem
+[2017-10-23 14:24:30] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:24:44] set names utf8
+[2017-10-23 14:24:44] DESC miji_userproblem
+[2017-10-23 14:24:44] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:25:50] set names utf8
+[2017-10-23 14:25:50] DESC miji_userproblem
+[2017-10-23 14:25:50] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:26:30] set names utf8
+[2017-10-23 14:26:30] DESC miji_userproblem
+[2017-10-23 14:26:30] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:26:34] set names utf8
+[2017-10-23 14:26:34] DESC miji_userproblem
+[2017-10-23 14:26:34] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:26:40] set names utf8
+[2017-10-23 14:26:40] DESC miji_userproblem
+[2017-10-23 14:26:40] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:27:04] set names utf8
+[2017-10-23 14:27:04] DESC miji_userproblem
+[2017-10-23 14:27:04] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:27:09] set names utf8
+[2017-10-23 14:27:09] DESC miji_userproblem
+[2017-10-23 14:27:09] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:27:13] set names utf8
+[2017-10-23 14:27:13] DESC miji_userproblem
+[2017-10-23 14:27:13] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:27:20] set names utf8
+[2017-10-23 14:27:20] DESC miji_userproblem
+[2017-10-23 14:27:20] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:37:35] set names utf8
+[2017-10-23 14:37:35] DESC miji_admin
+[2017-10-23 14:37:35] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 14:37:36] set names utf8
+[2017-10-23 14:37:36] DESC miji_userproblem
+[2017-10-23 14:37:36] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:37:56] set names utf8
+[2017-10-23 14:37:56] DESC miji_userproblem
+[2017-10-23 14:37:56] select * from miji_userproblem where state=1  order by id
+[2017-10-23 14:37:58] set names utf8
+[2017-10-23 14:37:58] DESC miji_userproblem
+[2017-10-23 14:37:59] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:38:01] set names utf8
+[2017-10-23 14:38:01] DESC miji_userproblem
+[2017-10-23 14:38:01] select * from miji_userproblem  order by id
+[2017-10-23 14:40:05] set names utf8
+[2017-10-23 14:40:05] DESC miji_userproblem
+[2017-10-23 14:40:05] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:40:09] set names utf8
+[2017-10-23 14:40:09] DESC miji_userproblem
+[2017-10-23 14:40:09] select * from miji_userproblem where state=1  order by id
+[2017-10-23 14:40:13] set names utf8
+[2017-10-23 14:40:13] DESC miji_userproblem
+[2017-10-23 14:40:13] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:40:30] set names utf8
+[2017-10-23 14:40:30] DESC miji_admin
+[2017-10-23 14:40:30] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 14:40:31] set names utf8
+[2017-10-23 14:40:31] DESC miji_userproblem
+[2017-10-23 14:40:31] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:42:36] set names utf8
+[2017-10-23 14:42:36] DESC miji_user
+[2017-10-23 14:42:36] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 14:42:38] set names utf8
+[2017-10-23 14:42:38] DESC miji_userproblem
+[2017-10-23 14:42:38] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:42:45] set names utf8
+[2017-10-23 14:42:45] DESC miji_userproblem
+[2017-10-23 14:42:45] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 14:42:48] set names utf8
+[2017-10-23 14:42:48] DESC miji_userproblem
+[2017-10-23 14:42:48] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 14:42:50] set names utf8
+[2017-10-23 14:42:50] DESC miji_userproblem
+[2017-10-23 14:42:51] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 14:45:47] set names utf8
+[2017-10-23 14:45:47] DESC miji_admin
+[2017-10-23 14:45:48] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 14:45:49] set names utf8
+[2017-10-23 14:45:49] DESC miji_userproblem
+[2017-10-23 14:45:49] select * from miji_userproblem where state=0  order by id
+[2017-10-23 14:51:34] set names utf8
+[2017-10-23 14:51:34] DESC miji_userproblem
+[2017-10-23 14:51:34] select * from miji_userproblem where state=0  order by id
+[2017-10-23 15:57:35] set names utf8
+[2017-10-23 15:57:35] DESC miji_admin
+[2017-10-23 15:57:35] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 15:57:36] set names utf8
+[2017-10-23 15:57:36] DESC miji_userproblem
+[2017-10-23 15:57:36] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:01:52] set names utf8
+[2017-10-23 16:01:52] DESC miji_userproblem
+[2017-10-23 16:01:52] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:04:06] set names utf8
+[2017-10-23 16:04:06] DESC miji_user
+[2017-10-23 16:04:06] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 16:04:08] set names utf8
+[2017-10-23 16:04:08] DESC miji_userproblem
+[2017-10-23 16:04:08] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 16:05:43] set names utf8
+[2017-10-23 16:05:43] DESC miji_userproblem
+[2017-10-23 16:05:43] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:08:56] set names utf8
+[2017-10-23 16:08:56] DESC miji_userproblem
+[2017-10-23 16:08:56] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:08:58] set names utf8
+[2017-10-23 16:08:58] DESC miji_userproblem
+[2017-10-23 16:08:58] select * from miji_userproblem  order by id
+[2017-10-23 16:09:23] set names utf8
+[2017-10-23 16:09:23] DESC miji_admin
+[2017-10-23 16:09:23] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 16:09:24] set names utf8
+[2017-10-23 16:09:24] DESC miji_userproblem
+[2017-10-23 16:09:24] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:09:26] set names utf8
+[2017-10-23 16:09:26] DESC miji_userproblem
+[2017-10-23 16:09:26] select * from miji_userproblem  order by id
+[2017-10-23 16:10:53] set names utf8
+[2017-10-23 16:10:53] DESC miji_userproblem
+[2017-10-23 16:10:53] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:10:54] set names utf8
+[2017-10-23 16:10:54] DESC miji_userproblem
+[2017-10-23 16:10:54] select * from miji_userproblem  order by id
+[2017-10-23 16:12:42] set names utf8
+[2017-10-23 16:12:42] DESC miji_userproblem
+[2017-10-23 16:12:42] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:12:44] set names utf8
+[2017-10-23 16:12:44] DESC miji_userproblem
+[2017-10-23 16:12:44] select * from miji_userproblem  order by id
+[2017-10-23 16:15:50] set names utf8
+[2017-10-23 16:15:50] DESC miji_userproblem
+[2017-10-23 16:15:50] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:15:51] set names utf8
+[2017-10-23 16:15:51] DESC miji_userproblem
+[2017-10-23 16:15:51] select * from miji_userproblem  order by id
+[2017-10-23 16:20:50] set names utf8
+[2017-10-23 16:20:50] DESC miji_userproblem
+[2017-10-23 16:20:51] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:20:52] set names utf8
+[2017-10-23 16:20:52] DESC miji_userproblem
+[2017-10-23 16:20:52] select * from miji_userproblem  order by id
+[2017-10-23 16:20:54] set names utf8
+[2017-10-23 16:20:54] DESC miji_userproblem
+[2017-10-23 16:20:54] select * from miji_userproblem  order by id
+[2017-10-23 16:20:59] set names utf8
+[2017-10-23 16:20:59] DESC miji_userproblem
+[2017-10-23 16:20:59] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508746859' WHERE id = '8'
+[2017-10-23 16:21:03] set names utf8
+[2017-10-23 16:21:03] DESC miji_userproblem
+[2017-10-23 16:21:03] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:21:04] set names utf8
+[2017-10-23 16:21:04] DESC miji_userproblem
+[2017-10-23 16:21:04] select * from miji_userproblem  order by id
+[2017-10-23 16:21:36] set names utf8
+[2017-10-23 16:21:36] DESC miji_userproblem
+[2017-10-23 16:21:36] select * from miji_userproblem where subUser='david' order by id
+[2017-10-23 16:21:42] set names utf8
+[2017-10-23 16:21:42] DESC miji_userproblem
+[2017-10-23 16:21:42] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-23 16:21:49] set names utf8
+[2017-10-23 16:21:49] DESC miji_userproblem
+[2017-10-23 16:21:49] select * from miji_userproblem where state=0 and subUser='david' order by id
+[2017-10-23 16:21:56] set names utf8
+[2017-10-23 16:21:56] DESC miji_userproblem
+[2017-10-23 16:21:56] select * from miji_userproblem where subUser='david' order by id
+[2017-10-23 16:22:20] set names utf8
+[2017-10-23 16:22:20] DESC miji_user
+[2017-10-23 16:22:20] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 16:22:22] set names utf8
+[2017-10-23 16:22:22] DESC miji_userproblem
+[2017-10-23 16:22:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 16:22:38] set names utf8
+[2017-10-23 16:22:38] DESC miji_userproblem
+[2017-10-23 16:22:38] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 16:22:43] set names utf8
+[2017-10-23 16:22:43] DESC miji_userproblem
+[2017-10-23 16:22:43] select * from miji_userproblem where  id= '1'
+[2017-10-23 16:22:52] set names utf8
+[2017-10-23 16:22:52] DESC miji_userproblem
+[2017-10-23 16:22:52] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 16:23:21] set names utf8
+[2017-10-23 16:23:21] DESC miji_admin
+[2017-10-23 16:23:22] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 16:23:23] set names utf8
+[2017-10-23 16:23:23] DESC miji_userproblem
+[2017-10-23 16:23:23] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:23:24] set names utf8
+[2017-10-23 16:23:24] DESC miji_userproblem
+[2017-10-23 16:23:24] select * from miji_userproblem  order by id
+[2017-10-23 16:23:37] set names utf8
+[2017-10-23 16:23:37] DESC miji_userproblem
+[2017-10-23 16:23:37] select * from miji_userproblem  order by id
+[2017-10-23 16:23:52] set names utf8
+[2017-10-23 16:23:52] DESC miji_userproblem
+[2017-10-23 16:23:52] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-23 16:23:53] set names utf8
+[2017-10-23 16:23:53] DESC miji_userproblem
+[2017-10-23 16:23:53] select * from miji_userproblem where state=0 and subUser='david' order by id
+[2017-10-23 16:24:00] set names utf8
+[2017-10-23 16:24:00] DESC miji_userproblem
+[2017-10-23 16:24:00] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-23 16:24:09] set names utf8
+[2017-10-23 16:24:09] DESC miji_userproblem
+[2017-10-23 16:24:09] select * from miji_userproblem where  id= '8'
+[2017-10-23 16:24:47] set names utf8
+[2017-10-23 16:24:47] DESC miji_userproblem
+[2017-10-23 16:24:47] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-23 16:25:21] set names utf8
+[2017-10-23 16:25:21] DESC miji_userproblem
+[2017-10-23 16:25:21] select * from miji_userproblem where state=1 and subUser='david' order by id
+[2017-10-23 16:25:37] set names utf8
+[2017-10-23 16:25:37] DESC miji_userproblem
+[2017-10-23 16:25:37] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508747137' WHERE id = '1'
+[2017-10-23 16:25:41] set names utf8
+[2017-10-23 16:25:41] DESC miji_userproblem
+[2017-10-23 16:25:41] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:25:43] set names utf8
+[2017-10-23 16:25:43] DESC miji_userproblem
+[2017-10-23 16:25:43] select * from miji_userproblem  order by id
+[2017-10-23 16:25:45] set names utf8
+[2017-10-23 16:25:45] DESC miji_userproblem
+[2017-10-23 16:25:45] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508747145' WHERE id = '1'
+[2017-10-23 16:26:42] set names utf8
+[2017-10-23 16:26:42] DESC miji_userproblem
+[2017-10-23 16:26:42] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:26:44] set names utf8
+[2017-10-23 16:26:44] DESC miji_userproblem
+[2017-10-23 16:26:44] select * from miji_userproblem  order by id
+[2017-10-23 16:28:00] set names utf8
+[2017-10-23 16:28:00] DESC miji_admin
+[2017-10-23 16:28:00] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 16:28:01] set names utf8
+[2017-10-23 16:28:01] DESC miji_userproblem
+[2017-10-23 16:28:01] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:28:03] set names utf8
+[2017-10-23 16:28:03] DESC miji_userproblem
+[2017-10-23 16:28:03] select * from miji_userproblem  order by id
+[2017-10-23 16:29:28] set names utf8
+[2017-10-23 16:29:28] DESC miji_user
+[2017-10-23 16:29:28] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-23 16:29:30] set names utf8
+[2017-10-23 16:29:30] DESC miji_userproblem
+[2017-10-23 16:29:30] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 16:29:55] set names utf8
+[2017-10-23 16:29:55] DESC miji_userproblem
+[2017-10-23 16:29:55] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 16:35:16] set names utf8
+[2017-10-23 16:35:16] DESC miji_userproblem
+[2017-10-23 16:35:16] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:35:17] set names utf8
+[2017-10-23 16:35:17] DESC miji_userproblem
+[2017-10-23 16:35:17] select * from miji_userproblem  order by id
+[2017-10-23 16:35:32] set names utf8
+[2017-10-23 16:35:32] DESC miji_userproblem
+[2017-10-23 16:35:33] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 16:35:37] set names utf8
+[2017-10-23 16:35:37] DESC miji_userproblem
+[2017-10-23 16:35:37] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:35:38] set names utf8
+[2017-10-23 16:35:38] DESC miji_userproblem
+[2017-10-23 16:35:38] select * from miji_userproblem  order by id
+[2017-10-23 16:38:01] set names utf8
+[2017-10-23 16:38:01] DESC miji_userproblem
+[2017-10-23 16:38:01] select * from miji_userproblem  order by id
+[2017-10-23 16:43:14] set names utf8
+[2017-10-23 16:43:14] DESC miji_userproblem
+[2017-10-23 16:43:14] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:43:15] set names utf8
+[2017-10-23 16:43:15] DESC miji_userproblem
+[2017-10-23 16:43:15] select * from miji_userproblem  order by id
+[2017-10-23 16:43:49] set names utf8
+[2017-10-23 16:43:49] DESC miji_userproblem
+[2017-10-23 16:43:50] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:43:51] set names utf8
+[2017-10-23 16:43:51] DESC miji_userproblem
+[2017-10-23 16:43:51] select * from miji_userproblem  order by id
+[2017-10-23 16:44:04] set names utf8
+[2017-10-23 16:44:04] DESC miji_userproblem
+[2017-10-23 16:44:04] select * from miji_userproblem  order by id
+[2017-10-23 16:44:09] set names utf8
+[2017-10-23 16:44:09] DESC miji_userproblem
+[2017-10-23 16:44:09] select * from miji_userproblem  order by id
+[2017-10-23 16:46:10] set names utf8
+[2017-10-23 16:46:10] DESC miji_userproblem
+[2017-10-23 16:46:10] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:46:38] set names utf8
+[2017-10-23 16:46:38] DESC miji_userproblem
+[2017-10-23 16:46:38] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:47:39] set names utf8
+[2017-10-23 16:47:39] DESC miji_userproblem
+[2017-10-23 16:47:39] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:48:03] set names utf8
+[2017-10-23 16:48:03] DESC miji_userproblem
+[2017-10-23 16:48:03] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:48:07] set names utf8
+[2017-10-23 16:48:07] DESC miji_userproblem
+[2017-10-23 16:48:07] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:48:31] set names utf8
+[2017-10-23 16:48:31] DESC miji_userproblem
+[2017-10-23 16:48:31] select * from miji_userproblem  order by id
+[2017-10-23 16:49:13] set names utf8
+[2017-10-23 16:49:13] DESC miji_userproblem
+[2017-10-23 16:49:13] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:49:17] set names utf8
+[2017-10-23 16:49:17] DESC miji_userproblem
+[2017-10-23 16:49:17] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:50:14] set names utf8
+[2017-10-23 16:50:14] DESC miji_admin
+[2017-10-23 16:50:14] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-23 16:50:15] set names utf8
+[2017-10-23 16:50:15] DESC miji_userproblem
+[2017-10-23 16:50:15] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:51:14] set names utf8
+[2017-10-23 16:51:14] DESC miji_userproblem
+[2017-10-23 16:51:14] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:51:16] set names utf8
+[2017-10-23 16:51:16] DESC miji_userproblem
+[2017-10-23 16:51:16] select * from miji_userproblem  order by id
+[2017-10-23 16:57:47] set names utf8
+[2017-10-23 16:57:47] DESC miji_userproblem
+[2017-10-23 16:57:47] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:57:48] set names utf8
+[2017-10-23 16:57:48] DESC miji_userproblem
+[2017-10-23 16:57:48] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:57:52] set names utf8
+[2017-10-23 16:57:52] DESC miji_userproblem
+[2017-10-23 16:57:52] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:57:53] set names utf8
+[2017-10-23 16:57:53] DESC miji_userproblem
+[2017-10-23 16:57:53] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:58:05] set names utf8
+[2017-10-23 16:58:05] DESC miji_userproblem
+[2017-10-23 16:58:05] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:58:07] set names utf8
+[2017-10-23 16:58:07] DESC miji_userproblem
+[2017-10-23 16:58:07] select * from miji_userproblem where state=0  order by id
+[2017-10-23 16:59:45] set names utf8
+[2017-10-23 16:59:45] DESC miji_userproblem
+[2017-10-23 16:59:45] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:00:32] set names utf8
+[2017-10-23 17:00:32] DESC miji_userproblem
+[2017-10-23 17:00:33] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:01:19] set names utf8
+[2017-10-23 17:01:19] DESC miji_userproblem
+[2017-10-23 17:01:19] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:01:54] set names utf8
+[2017-10-23 17:01:54] DESC miji_userproblem
+[2017-10-23 17:01:54] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:01:55] set names utf8
+[2017-10-23 17:01:55] DESC miji_userproblem
+[2017-10-23 17:01:55] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:09:20] set names utf8
+[2017-10-23 17:09:20] DESC miji_userproblem
+[2017-10-23 17:09:21] set names utf8
+[2017-10-23 17:09:21] DESC miji_userproblem
+[2017-10-23 17:09:21] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:11:10] set names utf8
+[2017-10-23 17:11:10] DESC miji_userproblem
+[2017-10-23 17:11:11] set names utf8
+[2017-10-23 17:11:11] DESC miji_userproblem
+[2017-10-23 17:11:11] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:12:32] set names utf8
+[2017-10-23 17:12:32] DESC miji_userproblem
+[2017-10-23 17:12:34] set names utf8
+[2017-10-23 17:12:34] DESC miji_userproblem
+[2017-10-23 17:12:34] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:12:40] set names utf8
+[2017-10-23 17:12:40] DESC miji_userproblem
+[2017-10-23 17:12:41] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:12:47] set names utf8
+[2017-10-23 17:12:47] DESC miji_userproblem
+[2017-10-23 17:12:47] select * from miji_userproblem  order by id
+[2017-10-23 17:13:40] set names utf8
+[2017-10-23 17:13:40] DESC miji_userproblem
+[2017-10-23 17:13:41] set names utf8
+[2017-10-23 17:13:41] DESC miji_userproblem
+[2017-10-23 17:13:41] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:13:45] set names utf8
+[2017-10-23 17:13:45] DESC miji_userproblem
+[2017-10-23 17:13:45] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:13:56] set names utf8
+[2017-10-23 17:13:56] DESC miji_userproblem
+[2017-10-23 17:13:56] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:14:10] set names utf8
+[2017-10-23 17:14:10] DESC miji_userproblem
+[2017-10-23 17:14:10] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508750050' WHERE id = '9'
+[2017-10-23 17:14:15] set names utf8
+[2017-10-23 17:14:15] DESC miji_userproblem
+[2017-10-23 17:14:16] set names utf8
+[2017-10-23 17:14:16] DESC miji_userproblem
+[2017-10-23 17:14:16] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:14:23] set names utf8
+[2017-10-23 17:14:23] DESC miji_userproblem
+[2017-10-23 17:14:23] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508750063' WHERE id = '13'
+[2017-10-23 17:14:27] set names utf8
+[2017-10-23 17:14:27] DESC miji_userproblem
+[2017-10-23 17:14:28] set names utf8
+[2017-10-23 17:14:28] DESC miji_userproblem
+[2017-10-23 17:14:28] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:17:00] set names utf8
+[2017-10-23 17:17:00] DESC miji_userproblem
+[2017-10-23 17:17:01] set names utf8
+[2017-10-23 17:17:01] DESC miji_userproblem
+[2017-10-23 17:17:01] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:17:08] set names utf8
+[2017-10-23 17:17:08] DESC miji_userproblem
+[2017-10-23 17:17:08] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508750228' WHERE id = '10'
+[2017-10-23 17:17:12] set names utf8
+[2017-10-23 17:17:12] DESC miji_userproblem
+[2017-10-23 17:17:14] set names utf8
+[2017-10-23 17:17:14] DESC miji_userproblem
+[2017-10-23 17:17:14] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:17:55] set names utf8
+[2017-10-23 17:17:56] DESC miji_userproblem
+[2017-10-23 17:17:57] set names utf8
+[2017-10-23 17:17:57] DESC miji_userproblem
+[2017-10-23 17:17:57] select * from miji_userproblem where state=0  order by id
+[2017-10-23 17:18:01] set names utf8
+[2017-10-23 17:18:01] DESC miji_userproblem
+[2017-10-23 17:18:01] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:18:19] set names utf8
+[2017-10-23 17:18:19] DESC miji_userproblem
+[2017-10-23 17:18:19] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','5555555','售后问题','56565','6546565','1508750298')
+[2017-10-23 17:18:23] set names utf8
+[2017-10-23 17:18:23] DESC miji_userproblem
+[2017-10-23 17:18:23] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:21:10] set names utf8
+[2017-10-23 17:21:10] DESC miji_userproblem
+[2017-10-23 17:21:10] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:21:26] set names utf8
+[2017-10-23 17:21:26] DESC miji_userproblem
+[2017-10-23 17:21:26] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','eee','售后问题','eeerr','rerere','1508750485')
+[2017-10-23 17:21:30] set names utf8
+[2017-10-23 17:21:30] DESC miji_userproblem
+[2017-10-23 17:21:30] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:21:48] set names utf8
+[2017-10-23 17:21:48] DESC miji_userproblem
+[2017-10-23 17:21:48] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:21:53] set names utf8
+[2017-10-23 17:21:53] DESC miji_userproblem
+[2017-10-23 17:21:53] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-23 17:22:04] set names utf8
+[2017-10-23 17:22:04] DESC miji_userproblem
+[2017-10-23 17:22:05] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:25:29] set names utf8
+[2017-10-23 17:25:29] DESC miji_userproblem
+[2017-10-23 17:25:29] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:25:47] set names utf8
+[2017-10-23 17:25:47] DESC miji_userproblem
+[2017-10-23 17:25:47] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','36363','售后问题','63636','6666666','1508750746')
+[2017-10-23 17:28:40] set names utf8
+[2017-10-23 17:28:40] DESC miji_userproblem
+[2017-10-23 17:28:40] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:29:22] set names utf8
+[2017-10-23 17:29:22] DESC miji_userproblem
+[2017-10-23 17:29:22] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','yyyyy','售后问题','uuuuuuuuu','uuuu','1508750961')
+[2017-10-23 17:32:54] set names utf8
+[2017-10-23 17:32:54] DESC miji_userproblem
+[2017-10-23 17:32:54] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:33:20] set names utf8
+[2017-10-23 17:33:20] DESC miji_userproblem
+[2017-10-23 17:33:20] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','111111','售后问题','1111122222','123','1508751199')
+[2017-10-23 17:33:52] set names utf8
+[2017-10-23 17:33:52] DESC miji_userproblem
+[2017-10-23 17:33:52] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:34:01] set names utf8
+[2017-10-23 17:34:01] DESC miji_userproblem
+[2017-10-23 17:34:01] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:35:11] set names utf8
+[2017-10-23 17:35:11] DESC miji_userproblem
+[2017-10-23 17:35:12] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:35:32] set names utf8
+[2017-10-23 17:35:32] DESC miji_userproblem
+[2017-10-23 17:35:32] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:35:59] set names utf8
+[2017-10-23 17:35:59] DESC miji_userproblem
+[2017-10-23 17:35:59] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','666666','售后问题','666','777766','1508751358')
+[2017-10-23 17:38:45] set names utf8
+[2017-10-23 17:38:45] DESC miji_userproblem
+[2017-10-23 17:38:46] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:39:01] set names utf8
+[2017-10-23 17:39:01] DESC miji_userproblem
+[2017-10-23 17:39:01] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','fsafa','售后问题','afaafdsa','fasfdsda','1508751540')
+[2017-10-23 17:40:45] set names utf8
+[2017-10-23 17:40:45] DESC miji_userproblem
+[2017-10-23 17:40:45] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:40:56] set names utf8
+[2017-10-23 17:40:56] DESC miji_userproblem
+[2017-10-23 17:40:56] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','gsdgdsfgd','售后问题','gfsdgd','gdfsgfds','1508751655')
+[2017-10-23 17:41:54] set names utf8
+[2017-10-23 17:41:54] DESC miji_userproblem
+[2017-10-23 17:41:54] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:42:03] set names utf8
+[2017-10-23 17:42:03] DESC miji_userproblem
+[2017-10-23 17:42:03] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','hgdsdh','售后问题','gsdgf','gdsfg','1508751722')
+[2017-10-23 17:42:47] set names utf8
+[2017-10-23 17:42:47] DESC miji_userproblem
+[2017-10-23 17:42:47] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','gg','售后问题','','gg','1508751766')
+[2017-10-23 17:48:07] set names utf8
+[2017-10-23 17:48:07] DESC miji_userproblem
+[2017-10-23 17:48:08] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:48:15] set names utf8
+[2017-10-23 17:48:15] DESC miji_userproblem
+[2017-10-23 17:48:15] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:48:35] set names utf8
+[2017-10-23 17:48:35] DESC miji_userproblem
+[2017-10-23 17:48:35] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 17:48:46] set names utf8
+[2017-10-23 17:48:46] DESC miji_userproblem
+[2017-10-23 17:48:46] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','gdsg','售后问题','gg','gg','1508752125')
+[2017-10-23 17:48:50] set names utf8
+[2017-10-23 17:48:50] DESC miji_userproblem
+[2017-10-23 17:48:50] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:49:05] set names utf8
+[2017-10-23 17:49:05] DESC miji_userproblem
+[2017-10-23 17:49:05] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:50:43] set names utf8
+[2017-10-23 17:50:43] DESC miji_userproblem
+[2017-10-23 17:50:43] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','ddd','售后问题','','','1508752242')
+[2017-10-23 17:51:36] set names utf8
+[2017-10-23 17:51:36] DESC miji_userproblem
+[2017-10-23 17:51:36] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:51:53] set names utf8
+[2017-10-23 17:51:53] DESC miji_userproblem
+[2017-10-23 17:51:53] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:52:29] set names utf8
+[2017-10-23 17:52:29] DESC miji_userproblem
+[2017-10-23 17:52:29] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:52:50] set names utf8
+[2017-10-23 17:52:50] DESC miji_userproblem
+[2017-10-23 17:52:50] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-23 17:57:01] set names utf8
+[2017-10-23 17:57:01] DESC miji_userproblem
+[2017-10-23 17:57:01] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','fff','售后问题','','','1508752620')
+[2017-10-23 18:00:20] set names utf8
+[2017-10-23 18:00:20] DESC miji_userproblem
+[2017-10-23 18:00:20] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-23 18:00:31] set names utf8
+[2017-10-23 18:00:31] DESC miji_userproblem
+[2017-10-23 18:00:31] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','3','售后问题','','','1508752830')
+[2017-10-23 18:01:06] set names utf8
+[2017-10-23 18:01:06] DESC miji_userproblem
+[2017-10-23 18:01:06] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','3','售后问题','','','1508752865')
+[2017-10-23 18:01:25] set names utf8
+[2017-10-23 18:01:25] DESC miji_userproblem
+[2017-10-23 18:01:25] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','3','售后问题','','','1508752884')
+[2017-10-24 09:44:44] set names utf8
+[2017-10-24 09:44:44] DESC miji_user
+[2017-10-24 09:44:45] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 09:46:13] set names utf8
+[2017-10-24 09:46:13] DESC miji_userproblem
+[2017-10-24 09:46:13] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:46:22] set names utf8
+[2017-10-24 09:46:22] DESC miji_userproblem
+[2017-10-24 09:46:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:46:28] set names utf8
+[2017-10-24 09:46:28] DESC miji_userproblem
+[2017-10-24 09:46:28] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 09:46:30] set names utf8
+[2017-10-24 09:46:30] DESC miji_userproblem
+[2017-10-24 09:46:30] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 09:46:34] set names utf8
+[2017-10-24 09:46:34] DESC miji_userproblem
+[2017-10-24 09:46:34] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:52:13] set names utf8
+[2017-10-24 09:52:13] DESC miji_userproblem
+[2017-10-24 09:52:13] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:52:24] set names utf8
+[2017-10-24 09:52:24] DESC miji_userproblem
+[2017-10-24 09:52:24] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','yy','售后问题','','','1508809943')
+[2017-10-24 09:54:27] set names utf8
+[2017-10-24 09:54:27] DESC miji_userproblem
+[2017-10-24 09:54:27] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:55:18] set names utf8
+[2017-10-24 09:55:18] DESC miji_userproblem
+[2017-10-24 09:55:19] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','dd','售后问题','','','1508810117')
+[2017-10-24 09:57:08] set names utf8
+[2017-10-24 09:57:08] DESC miji_userproblem
+[2017-10-24 09:57:08] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 09:57:17] set names utf8
+[2017-10-24 09:57:17] DESC miji_userproblem
+[2017-10-24 09:57:17] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','www','售后问题','','','1508810236')
+[2017-10-24 10:03:01] set names utf8
+[2017-10-24 10:03:01] DESC miji_userproblem
+[2017-10-24 10:03:01] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:03:18] set names utf8
+[2017-10-24 10:03:18] DESC miji_userproblem
+[2017-10-24 10:03:18] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','dd','售后问题','','','1508810597')
+[2017-10-24 10:04:44] set names utf8
+[2017-10-24 10:04:44] DESC miji_userproblem
+[2017-10-24 10:04:44] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:05:44] set names utf8
+[2017-10-24 10:05:44] DESC miji_userproblem
+[2017-10-24 10:05:44] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:05:51] set names utf8
+[2017-10-24 10:05:51] DESC miji_userproblem
+[2017-10-24 10:05:51] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('lise','DDD','售后问题','','','1508810750')
+[2017-10-24 10:05:54] set names utf8
+[2017-10-24 10:05:54] DESC miji_userproblem
+[2017-10-24 10:05:54] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:06:08] set names utf8
+[2017-10-24 10:06:08] DESC miji_userproblem
+[2017-10-24 10:06:08] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:06:49] set names utf8
+[2017-10-24 10:06:49] DESC miji_userproblem
+[2017-10-24 10:06:49] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:07:48] set names utf8
+[2017-10-24 10:07:48] DESC miji_admin
+[2017-10-24 10:07:48] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-24 10:07:49] set names utf8
+[2017-10-24 10:07:49] DESC miji_userproblem
+[2017-10-24 10:07:50] set names utf8
+[2017-10-24 10:07:50] DESC miji_userproblem
+[2017-10-24 10:07:50] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:08:01] set names utf8
+[2017-10-24 10:08:01] DESC miji_userproblem
+[2017-10-24 10:08:01] UPDATE `miji_userproblem` SET `answer`='驳回！',`state`='1',`updateTime`='1508810881' WHERE id = '12'
+[2017-10-24 10:08:03] set names utf8
+[2017-10-24 10:08:03] DESC miji_userproblem
+[2017-10-24 10:08:03] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:08:19] set names utf8
+[2017-10-24 10:08:19] DESC miji_userproblem
+[2017-10-24 10:08:19] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:08:41] set names utf8
+[2017-10-24 10:08:41] DESC miji_userproblem
+[2017-10-24 10:08:41] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:10:36] set names utf8
+[2017-10-24 10:10:36] DESC miji_userproblem
+[2017-10-24 10:10:36] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:10:59] set names utf8
+[2017-10-24 10:10:59] DESC miji_userproblem
+[2017-10-24 10:10:59] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:11:05] set names utf8
+[2017-10-24 10:11:05] DESC miji_userproblem
+[2017-10-24 10:11:05] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:11:20] set names utf8
+[2017-10-24 10:11:20] DESC miji_userproblem
+[2017-10-24 10:11:20] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:11:28] set names utf8
+[2017-10-24 10:11:28] DESC miji_userproblem
+[2017-10-24 10:11:28] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:11:37] set names utf8
+[2017-10-24 10:11:37] DESC miji_userproblem
+[2017-10-24 10:11:37] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:12:02] set names utf8
+[2017-10-24 10:12:02] DESC miji_userproblem
+[2017-10-24 10:12:02] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:12:21] set names utf8
+[2017-10-24 10:12:21] DESC miji_userproblem
+[2017-10-24 10:12:21] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:15:04] set names utf8
+[2017-10-24 10:15:04] DESC miji_userproblem
+[2017-10-24 10:15:04] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:16:54] set names utf8
+[2017-10-24 10:16:54] DESC miji_userproblem
+[2017-10-24 10:16:54] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:17:04] set names utf8
+[2017-10-24 10:17:04] DESC miji_userproblem
+[2017-10-24 10:17:04] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:17:10] set names utf8
+[2017-10-24 10:17:10] DESC miji_userproblem
+[2017-10-24 10:17:10] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:18:53] set names utf8
+[2017-10-24 10:18:53] DESC miji_userproblem
+[2017-10-24 10:18:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:19:06] set names utf8
+[2017-10-24 10:19:06] DESC miji_userproblem
+[2017-10-24 10:19:06] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:20:19] set names utf8
+[2017-10-24 10:20:19] DESC miji_userproblem
+[2017-10-24 10:20:19] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:20:23] set names utf8
+[2017-10-24 10:20:23] DESC miji_userproblem
+[2017-10-24 10:20:23] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:21:25] set names utf8
+[2017-10-24 10:21:25] DESC miji_userproblem
+[2017-10-24 10:21:25] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:21:40] set names utf8
+[2017-10-24 10:21:40] DESC miji_userproblem
+[2017-10-24 10:21:40] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:21:48] set names utf8
+[2017-10-24 10:21:48] DESC miji_userproblem
+[2017-10-24 10:21:48] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:23:10] set names utf8
+[2017-10-24 10:23:10] DESC miji_userproblem
+[2017-10-24 10:23:10] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:23:42] set names utf8
+[2017-10-24 10:23:42] DESC miji_userproblem
+[2017-10-24 10:23:42] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:24:45] set names utf8
+[2017-10-24 10:24:45] DESC miji_userproblem
+[2017-10-24 10:24:45] select * from miji_userproblem where state=0 and subUser='' order by id
+[2017-10-24 10:25:19] set names utf8
+[2017-10-24 10:25:19] DESC miji_user
+[2017-10-24 10:25:19] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 10:25:20] set names utf8
+[2017-10-24 10:25:20] DESC miji_userproblem
+[2017-10-24 10:25:20] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:25:26] set names utf8
+[2017-10-24 10:25:26] DESC miji_userproblem
+[2017-10-24 10:25:26] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:27:15] set names utf8
+[2017-10-24 10:27:15] DESC miji_userproblem
+[2017-10-24 10:27:15] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:27:19] set names utf8
+[2017-10-24 10:27:19] DESC miji_userproblem
+[2017-10-24 10:27:19] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:27:33] set names utf8
+[2017-10-24 10:27:33] DESC miji_userproblem
+[2017-10-24 10:27:33] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:27:40] set names utf8
+[2017-10-24 10:27:40] DESC miji_userproblem
+[2017-10-24 10:27:40] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:28:42] set names utf8
+[2017-10-24 10:28:42] DESC miji_userproblem
+[2017-10-24 10:28:42] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:28:45] set names utf8
+[2017-10-24 10:28:45] DESC miji_userproblem
+[2017-10-24 10:28:45] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:29:21] set names utf8
+[2017-10-24 10:29:21] DESC miji_userproblem
+[2017-10-24 10:29:21] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:35:57] set names utf8
+[2017-10-24 10:35:57] DESC miji_userproblem
+[2017-10-24 10:35:57] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:36:02] set names utf8
+[2017-10-24 10:36:02] DESC miji_userproblem
+[2017-10-24 10:36:02] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:36:06] set names utf8
+[2017-10-24 10:36:06] DESC miji_userproblem
+[2017-10-24 10:36:06] select * from miji_userproblem where  id= '1'
+[2017-10-24 10:36:18] set names utf8
+[2017-10-24 10:36:18] DESC miji_userproblem
+[2017-10-24 10:36:18] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:36:21] set names utf8
+[2017-10-24 10:36:21] DESC miji_userproblem
+[2017-10-24 10:36:21] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:37:36] set names utf8
+[2017-10-24 10:37:36] DESC miji_userproblem
+[2017-10-24 10:37:36] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:39:33] set names utf8
+[2017-10-24 10:39:33] DESC miji_userproblem
+[2017-10-24 10:39:33] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:40:48] set names utf8
+[2017-10-24 10:40:48] DESC miji_userproblem
+[2017-10-24 10:40:48] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:41:05] set names utf8
+[2017-10-24 10:41:05] DESC miji_userproblem
+[2017-10-24 10:41:06] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:41:15] set names utf8
+[2017-10-24 10:41:15] DESC miji_userproblem
+[2017-10-24 10:41:16] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:41:27] set names utf8
+[2017-10-24 10:41:27] DESC miji_userproblem
+[2017-10-24 10:41:27] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:41:37] set names utf8
+[2017-10-24 10:41:37] DESC miji_userproblem
+[2017-10-24 10:41:37] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:41:57] set names utf8
+[2017-10-24 10:41:57] DESC miji_userproblem
+[2017-10-24 10:41:57] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:42:13] set names utf8
+[2017-10-24 10:42:13] DESC miji_userproblem
+[2017-10-24 10:42:13] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:44:44] set names utf8
+[2017-10-24 10:44:44] DESC miji_userproblem
+[2017-10-24 10:44:44] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:45:20] set names utf8
+[2017-10-24 10:45:20] DESC miji_userproblem
+[2017-10-24 10:45:20] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:45:31] set names utf8
+[2017-10-24 10:45:31] DESC miji_userproblem
+[2017-10-24 10:45:31] select * from miji_userproblem where  id= '14'
+[2017-10-24 10:45:43] set names utf8
+[2017-10-24 10:45:43] DESC miji_userproblem
+[2017-10-24 10:45:43] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:45:47] set names utf8
+[2017-10-24 10:45:47] DESC miji_userproblem
+[2017-10-24 10:45:47] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:45:50] set names utf8
+[2017-10-24 10:45:50] DESC miji_userproblem
+[2017-10-24 10:45:50] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:46:40] set names utf8
+[2017-10-24 10:46:40] DESC miji_userproblem
+[2017-10-24 10:46:40] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:46:46] set names utf8
+[2017-10-24 10:46:46] DESC miji_userproblem
+[2017-10-24 10:46:46] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:46:49] set names utf8
+[2017-10-24 10:46:49] DESC miji_userproblem
+[2017-10-24 10:46:49] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:46:50] set names utf8
+[2017-10-24 10:46:50] DESC miji_userproblem
+[2017-10-24 10:46:50] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:47:29] set names utf8
+[2017-10-24 10:47:29] DESC miji_userproblem
+[2017-10-24 10:47:29] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:48:22] set names utf8
+[2017-10-24 10:48:22] DESC miji_userproblem
+[2017-10-24 10:48:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:48:30] set names utf8
+[2017-10-24 10:48:30] DESC miji_userproblem
+[2017-10-24 10:48:30] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:48:33] set names utf8
+[2017-10-24 10:48:33] DESC miji_userproblem
+[2017-10-24 10:48:33] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:48:35] set names utf8
+[2017-10-24 10:48:35] DESC miji_userproblem
+[2017-10-24 10:48:35] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 10:48:39] set names utf8
+[2017-10-24 10:48:39] DESC miji_userproblem
+[2017-10-24 10:48:39] select * from miji_userproblem where  id= '2'
+[2017-10-24 10:48:48] set names utf8
+[2017-10-24 10:48:48] DESC miji_userproblem
+[2017-10-24 10:48:48] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 10:48:51] set names utf8
+[2017-10-24 10:48:51] DESC miji_userproblem
+[2017-10-24 10:48:52] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 10:50:00] set names utf8
+[2017-10-24 10:50:00] DESC miji_admin
+[2017-10-24 10:50:00] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-24 10:50:01] set names utf8
+[2017-10-24 10:50:01] DESC miji_userproblem
+[2017-10-24 10:50:03] set names utf8
+[2017-10-24 10:50:03] DESC miji_userproblem
+[2017-10-24 10:50:03] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:50:19] set names utf8
+[2017-10-24 10:50:19] DESC miji_userproblem
+[2017-10-24 10:50:19] select * from miji_userproblem where state=0  order by id
+[2017-10-24 10:50:32] set names utf8
+[2017-10-24 10:50:32] DESC miji_userproblem
+[2017-10-24 10:50:32] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:12:49] set names utf8
+[2017-10-24 11:12:49] DESC miji_userproblem
+[2017-10-24 11:12:50] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:13:07] set names utf8
+[2017-10-24 11:13:07] DESC miji_userproblem
+[2017-10-24 11:13:07] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:13:27] set names utf8
+[2017-10-24 11:13:27] DESC miji_userproblem
+[2017-10-24 11:13:29] set names utf8
+[2017-10-24 11:13:29] DESC miji_userproblem
+[2017-10-24 11:13:29] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:13:33] set names utf8
+[2017-10-24 11:13:33] DESC miji_userproblem
+[2017-10-24 11:13:33] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:15:31] set names utf8
+[2017-10-24 11:15:31] DESC miji_userproblem
+[2017-10-24 11:15:31] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:15:59] set names utf8
+[2017-10-24 11:15:59] DESC miji_userproblem
+[2017-10-24 11:15:59] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:16:02] set names utf8
+[2017-10-24 11:16:02] DESC miji_userproblem
+[2017-10-24 11:16:02] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:16:06] set names utf8
+[2017-10-24 11:16:06] DESC miji_userproblem
+[2017-10-24 11:16:07] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:17:02] set names utf8
+[2017-10-24 11:17:02] DESC miji_userproblem
+[2017-10-24 11:17:02] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:17:38] set names utf8
+[2017-10-24 11:17:38] DESC miji_userproblem
+[2017-10-24 11:17:39] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:17:43] set names utf8
+[2017-10-24 11:17:43] DESC miji_userproblem
+[2017-10-24 11:17:43] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:18:43] set names utf8
+[2017-10-24 11:18:43] DESC miji_userproblem
+[2017-10-24 11:18:43] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:18:45] set names utf8
+[2017-10-24 11:18:45] DESC miji_userproblem
+[2017-10-24 11:18:45] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:21:20] set names utf8
+[2017-10-24 11:21:20] DESC miji_userproblem
+[2017-10-24 11:21:20] select * from miji_userproblem where  id= ''
+[2017-10-24 11:21:36] set names utf8
+[2017-10-24 11:21:36] DESC miji_userproblem
+[2017-10-24 11:21:37] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:22:45] set names utf8
+[2017-10-24 11:22:45] DESC miji_userproblem
+[2017-10-24 11:22:45] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:23:02] set names utf8
+[2017-10-24 11:23:02] DESC miji_userproblem
+[2017-10-24 11:23:02] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:23:23] set names utf8
+[2017-10-24 11:23:23] DESC miji_userproblem
+[2017-10-24 11:23:23] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:24:16] set names utf8
+[2017-10-24 11:24:16] DESC miji_userproblem
+[2017-10-24 11:24:17] set names utf8
+[2017-10-24 11:24:17] DESC miji_userproblem
+[2017-10-24 11:24:17] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:24:23] set names utf8
+[2017-10-24 11:24:23] DESC miji_userproblem
+[2017-10-24 11:24:23] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:24:37] set names utf8
+[2017-10-24 11:24:37] DESC miji_userproblem
+[2017-10-24 11:24:37] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:25:26] set names utf8
+[2017-10-24 11:25:26] DESC miji_userproblem
+[2017-10-24 11:25:26] select * from miji_userproblem where  id= '14'
+[2017-10-24 11:25:33] set names utf8
+[2017-10-24 11:25:33] DESC miji_userproblem
+[2017-10-24 11:25:33] UPDATE `miji_userproblem` SET `answer`='',`state`='1',`updateTime`='1508815533' WHERE id = '14'
+[2017-10-24 11:25:37] set names utf8
+[2017-10-24 11:25:37] DESC miji_userproblem
+[2017-10-24 11:25:39] set names utf8
+[2017-10-24 11:25:39] DESC miji_userproblem
+[2017-10-24 11:25:39] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:30:54] set names utf8
+[2017-10-24 11:30:54] DESC miji_userproblem
+[2017-10-24 11:30:55] set names utf8
+[2017-10-24 11:30:55] DESC miji_userproblem
+[2017-10-24 11:30:55] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:31:00] set names utf8
+[2017-10-24 11:31:00] DESC miji_userproblem
+[2017-10-24 11:31:00] select * from miji_userproblem where  id= '15'
+[2017-10-24 11:31:09] set names utf8
+[2017-10-24 11:31:09] DESC miji_userproblem
+[2017-10-24 11:31:09] UPDATE `miji_userproblem` SET `answer`='keyi tongyi',`state`='1',`updateTime`='1508815869' WHERE id = '15'
+[2017-10-24 11:31:13] set names utf8
+[2017-10-24 11:31:13] DESC miji_userproblem
+[2017-10-24 11:31:13] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:31:19] set names utf8
+[2017-10-24 11:31:19] DESC miji_userproblem
+[2017-10-24 11:31:19] select * from miji_userproblem where  id= '16'
+[2017-10-24 11:31:27] set names utf8
+[2017-10-24 11:31:27] DESC miji_userproblem
+[2017-10-24 11:31:27] UPDATE `miji_userproblem` SET `answer`='keyitongyi',`state`='1',`updateTime`='1508815887' WHERE id = '16'
+[2017-10-24 11:31:31] set names utf8
+[2017-10-24 11:31:31] DESC miji_userproblem
+[2017-10-24 11:31:31] select * from miji_userproblem where state=0  order by id
+[2017-10-24 11:33:14] set names utf8
+[2017-10-24 11:33:14] DESC miji_userproblem
+[2017-10-24 11:33:14] select * from miji_userproblem where  id= '17'
+[2017-10-24 12:05:43] set names utf8
+[2017-10-24 12:05:43] DESC miji_userproblem
+[2017-10-24 12:05:43] UPDATE `miji_userproblem` SET `answer`='',`state`='1',`solver`='菲菲',`updateTime`='1508817943' WHERE id = '17'
+[2017-10-24 12:05:48] set names utf8
+[2017-10-24 12:05:48] DESC miji_userproblem
+[2017-10-24 12:05:48] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:06:00] set names utf8
+[2017-10-24 12:06:00] DESC miji_userproblem
+[2017-10-24 12:06:00] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:06:01] set names utf8
+[2017-10-24 12:06:01] DESC miji_userproblem
+[2017-10-24 12:06:01] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:06:18] set names utf8
+[2017-10-24 12:06:18] DESC miji_userproblem
+[2017-10-24 12:06:18] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:07:32] set names utf8
+[2017-10-24 12:07:32] DESC miji_user
+[2017-10-24 12:07:32] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 12:07:34] set names utf8
+[2017-10-24 12:07:34] DESC miji_userproblem
+[2017-10-24 12:07:34] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:07:38] set names utf8
+[2017-10-24 12:07:38] DESC miji_userproblem
+[2017-10-24 12:07:38] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:09:38] set names utf8
+[2017-10-24 12:09:38] DESC miji_userproblem
+[2017-10-24 12:09:38] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:09:43] set names utf8
+[2017-10-24 12:09:43] DESC miji_userproblem
+[2017-10-24 12:09:43] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:10:41] set names utf8
+[2017-10-24 12:10:41] DESC miji_user
+[2017-10-24 12:10:41] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 12:10:43] set names utf8
+[2017-10-24 12:10:43] DESC miji_userproblem
+[2017-10-24 12:10:43] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:10:48] set names utf8
+[2017-10-24 12:10:48] DESC miji_userproblem
+[2017-10-24 12:10:49] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:10:53] set names utf8
+[2017-10-24 12:10:53] DESC miji_userproblem
+[2017-10-24 12:10:53] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:03] set names utf8
+[2017-10-24 12:11:03] DESC miji_userproblem
+[2017-10-24 12:11:03] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 12:11:07] set names utf8
+[2017-10-24 12:11:07] DESC miji_userproblem
+[2017-10-24 12:11:07] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:39] set names utf8
+[2017-10-24 12:11:39] DESC miji_userproblem
+[2017-10-24 12:11:39] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:41] set names utf8
+[2017-10-24 12:11:41] DESC miji_userproblem
+[2017-10-24 12:11:42] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:43] set names utf8
+[2017-10-24 12:11:43] DESC miji_userproblem
+[2017-10-24 12:11:43] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:47] set names utf8
+[2017-10-24 12:11:47] DESC miji_userproblem
+[2017-10-24 12:11:47] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:11:52] set names utf8
+[2017-10-24 12:11:52] DESC miji_userproblem
+[2017-10-24 12:11:52] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:12:49] set names utf8
+[2017-10-24 12:12:49] DESC miji_userproblem
+[2017-10-24 12:12:49] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:12:50] set names utf8
+[2017-10-24 12:12:50] DESC miji_userproblem
+[2017-10-24 12:12:50] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:12:56] set names utf8
+[2017-10-24 12:12:56] DESC miji_userproblem
+[2017-10-24 12:12:56] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:13:41] set names utf8
+[2017-10-24 12:13:41] DESC miji_userproblem
+[2017-10-24 12:13:41] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:13:51] set names utf8
+[2017-10-24 12:13:51] DESC miji_userproblem
+[2017-10-24 12:13:51] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:14:29] set names utf8
+[2017-10-24 12:14:29] DESC miji_user
+[2017-10-24 12:14:29] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 12:14:31] set names utf8
+[2017-10-24 12:14:31] DESC miji_userproblem
+[2017-10-24 12:14:31] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:14:39] set names utf8
+[2017-10-24 12:14:39] DESC miji_userproblem
+[2017-10-24 12:14:39] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 12:14:56] set names utf8
+[2017-10-24 12:14:56] DESC miji_userproblem
+[2017-10-24 12:14:56] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:16:08] set names utf8
+[2017-10-24 12:16:08] DESC miji_userproblem
+[2017-10-24 12:16:08] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 12:16:50] set names utf8
+[2017-10-24 12:16:50] DESC miji_userproblem
+[2017-10-24 12:16:50] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:20:00] set names utf8
+[2017-10-24 12:20:00] DESC miji_userproblem
+[2017-10-24 12:20:01] set names utf8
+[2017-10-24 12:20:01] DESC miji_userproblem
+[2017-10-24 12:20:01] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:20:51] set names utf8
+[2017-10-24 12:20:51] DESC miji_userproblem
+[2017-10-24 12:20:53] set names utf8
+[2017-10-24 12:20:53] DESC miji_userproblem
+[2017-10-24 12:20:53] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:22:26] set names utf8
+[2017-10-24 12:22:26] DESC miji_userproblem
+[2017-10-24 12:22:26] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:24:46] set names utf8
+[2017-10-24 12:24:46] DESC miji_userproblem
+[2017-10-24 12:24:46] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:26:56] set names utf8
+[2017-10-24 12:26:56] DESC miji_userproblem
+[2017-10-24 12:26:56] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:28:32] set names utf8
+[2017-10-24 12:28:32] DESC miji_userproblem
+[2017-10-24 12:28:32] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:29:30] set names utf8
+[2017-10-24 12:29:30] DESC miji_userproblem
+[2017-10-24 12:29:30] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:29:38] set names utf8
+[2017-10-24 12:29:38] DESC miji_userproblem
+[2017-10-24 12:29:38] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:30:23] set names utf8
+[2017-10-24 12:30:23] DESC miji_userproblem
+[2017-10-24 12:30:23] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:30:27] set names utf8
+[2017-10-24 12:30:27] DESC miji_userproblem
+[2017-10-24 12:30:27] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:30:38] set names utf8
+[2017-10-24 12:30:38] DESC miji_userproblem
+[2017-10-24 12:30:38] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:30:48] set names utf8
+[2017-10-24 12:30:48] DESC miji_userproblem
+[2017-10-24 12:31:54] set names utf8
+[2017-10-24 12:31:54] DESC miji_userproblem
+[2017-10-24 12:31:56] set names utf8
+[2017-10-24 12:31:56] DESC miji_userproblem
+[2017-10-24 12:31:56] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:32:22] set names utf8
+[2017-10-24 12:32:22] DESC miji_userproblem
+[2017-10-24 12:32:22] select * from miji_userproblem where state=1  order by id
+[2017-10-24 12:32:26] set names utf8
+[2017-10-24 12:32:26] DESC miji_userproblem
+[2017-10-24 12:32:26] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:33:06] set names utf8
+[2017-10-24 12:33:06] DESC miji_userproblem
+[2017-10-24 12:33:06] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:36:34] set names utf8
+[2017-10-24 12:36:34] DESC miji_userproblem
+[2017-10-24 12:36:35] set names utf8
+[2017-10-24 12:36:35] DESC miji_userproblem
+[2017-10-24 12:36:35] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:36:36] set names utf8
+[2017-10-24 12:36:36] DESC miji_userproblem
+[2017-10-24 12:36:36] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:37:26] set names utf8
+[2017-10-24 12:37:27] DESC miji_userproblem
+[2017-10-24 12:37:28] set names utf8
+[2017-10-24 12:37:28] DESC miji_userproblem
+[2017-10-24 12:37:28] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:37:47] set names utf8
+[2017-10-24 12:37:47] DESC miji_userproblem
+[2017-10-24 12:37:47] select * from miji_userproblem  order by id
+[2017-10-24 12:38:08] set names utf8
+[2017-10-24 12:38:08] DESC miji_userproblem
+[2017-10-24 12:38:08] select * from miji_userproblem  order by id
+[2017-10-24 12:40:47] set names utf8
+[2017-10-24 12:40:47] DESC miji_userproblem
+[2017-10-24 12:40:47] select * from miji_userproblem  order by id
+[2017-10-24 12:42:00] set names utf8
+[2017-10-24 12:42:00] DESC miji_userproblem
+[2017-10-24 12:42:00] select * from miji_userproblem  order by id
+[2017-10-24 12:42:05] set names utf8
+[2017-10-24 12:42:05] DESC miji_userproblem
+[2017-10-24 12:42:06] set names utf8
+[2017-10-24 12:42:06] DESC miji_userproblem
+[2017-10-24 12:42:06] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:42:12] set names utf8
+[2017-10-24 12:42:12] DESC miji_userproblem
+[2017-10-24 12:42:12] select * from miji_userproblem  order by id
+[2017-10-24 12:44:12] set names utf8
+[2017-10-24 12:44:12] DESC miji_userproblem
+[2017-10-24 12:44:13] set names utf8
+[2017-10-24 12:44:13] DESC miji_userproblem
+[2017-10-24 12:44:14] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:44:20] set names utf8
+[2017-10-24 12:44:20] DESC miji_userproblem
+[2017-10-24 12:44:20] select * from miji_userproblem  order by id
+[2017-10-24 12:44:44] set names utf8
+[2017-10-24 12:44:44] DESC miji_userproblem
+[2017-10-24 12:44:45] set names utf8
+[2017-10-24 12:44:45] DESC miji_userproblem
+[2017-10-24 12:44:45] select * from miji_userproblem where state=0  order by id
+[2017-10-24 12:44:55] set names utf8
+[2017-10-24 12:44:55] DESC miji_userproblem
+[2017-10-24 12:44:55] select * from miji_userproblem  order by id
+[2017-10-24 12:56:40] set names utf8
+[2017-10-24 12:56:40] DESC miji_userproblem
+[2017-10-24 12:56:41] set names utf8
+[2017-10-24 12:56:41] DESC miji_userproblem
+[2017-10-24 12:56:41] select * from miji_userproblem where state=0  order by id
+[2017-10-24 13:17:08] set names utf8
+[2017-10-24 13:17:08] DESC miji_problemtype
+[2017-10-24 13:17:08] select * from miji_problemtype 
+[2017-10-24 13:23:36] set names utf8
+[2017-10-24 13:23:36] DESC miji_userproblem
+[2017-10-24 13:23:38] set names utf8
+[2017-10-24 13:23:38] DESC miji_userproblem
+[2017-10-24 13:23:38] select * from miji_userproblem where state=0  order by id
+[2017-10-24 13:45:28] set names utf8
+[2017-10-24 13:45:28] DESC miji_problemtype
+[2017-10-24 13:48:03] set names utf8
+[2017-10-24 13:48:04] DESC miji_problemtype
+[2017-10-24 13:48:04] INSERT INTO `miji_problemtype` (`typeName`) VALUES ('金额')
+[2017-10-24 13:50:02] set names utf8
+[2017-10-24 13:50:02] DESC miji_userproblem
+[2017-10-24 13:50:03] set names utf8
+[2017-10-24 13:50:03] DESC miji_userproblem
+[2017-10-24 13:50:03] select * from miji_userproblem where state=0  order by id
+[2017-10-24 13:50:14] set names utf8
+[2017-10-24 13:50:14] DESC miji_problemtype
+[2017-10-24 13:50:14] INSERT INTO `miji_problemtype` (`typeName`) VALUES ('费用')
+[2017-10-24 13:52:27] set names utf8
+[2017-10-24 13:52:27] DESC miji_userproblem
+[2017-10-24 13:52:27] select * from miji_userproblem where state=0  order by id
+[2017-10-24 13:59:25] set names utf8
+[2017-10-24 13:59:25] DESC miji_userproblem
+[2017-10-24 13:59:27] set names utf8
+[2017-10-24 13:59:27] DESC miji_userproblem
+[2017-10-24 13:59:27] select * from miji_userproblem where state=0  order by id
+[2017-10-24 13:59:32] set names utf8
+[2017-10-24 13:59:32] DESC miji_problemtype
+[2017-10-24 13:59:32] select * from miji_problemtype 
+[2017-10-24 14:00:38] set names utf8
+[2017-10-24 14:00:38] DESC miji_problemtype
+[2017-10-24 14:00:38] select * from miji_problemtype 
+[2017-10-24 14:02:01] set names utf8
+[2017-10-24 14:02:01] DESC miji_problemtype
+[2017-10-24 14:02:01] select * from miji_problemtype 
+[2017-10-24 14:02:39] set names utf8
+[2017-10-24 14:02:39] DESC miji_problemtype
+[2017-10-24 14:02:39] select * from miji_problemtype 
+[2017-10-24 14:02:56] set names utf8
+[2017-10-24 14:02:56] DESC miji_userproblem
+[2017-10-24 14:02:57] set names utf8
+[2017-10-24 14:02:57] DESC miji_userproblem
+[2017-10-24 14:02:57] select * from miji_userproblem where state=0  order by id
+[2017-10-24 14:09:55] set names utf8
+[2017-10-24 14:09:55] DESC miji_userproblem
+[2017-10-24 14:09:57] set names utf8
+[2017-10-24 14:09:57] DESC miji_userproblem
+[2017-10-24 14:09:57] select * from miji_userproblem where state=0  order by id
+[2017-10-24 14:10:02] set names utf8
+[2017-10-24 14:10:02] DESC miji_problemtype
+[2017-10-24 14:10:02] select * from miji_problemtype 
+[2017-10-24 14:18:27] set names utf8
+[2017-10-24 14:18:27] DESC miji_problemtype
+[2017-10-24 14:18:27] select * from miji_problemtype 
+[2017-10-24 14:20:22] set names utf8
+[2017-10-24 14:20:22] DESC miji_problemtype
+[2017-10-24 14:20:22] select * from miji_problemtype 
+[2017-10-24 14:20:31] set names utf8
+[2017-10-24 14:20:31] DESC miji_user
+[2017-10-24 14:20:31] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('王五','123')
+[2017-10-24 14:20:35] set names utf8
+[2017-10-24 14:20:35] DESC miji_problemtype
+[2017-10-24 14:20:35] select * from miji_problemtype 
+[2017-10-24 14:28:28] set names utf8
+[2017-10-24 14:28:28] DESC miji_user
+[2017-10-24 14:28:28] select userName,id from miji_user 
+[2017-10-24 14:28:58] set names utf8
+[2017-10-24 14:28:58] DESC miji_user
+[2017-10-24 14:28:58] select userName,id from miji_user 
+[2017-10-24 14:29:38] set names utf8
+[2017-10-24 14:29:38] DESC miji_user
+[2017-10-24 14:29:38] select userName,id from miji_user 
+[2017-10-24 14:30:23] set names utf8
+[2017-10-24 14:30:23] DESC miji_user
+[2017-10-24 14:30:23] select userName,id from miji_user 
+[2017-10-24 14:30:50] set names utf8
+[2017-10-24 14:30:50] DESC miji_user
+[2017-10-24 14:30:50] select userName,id from miji_user 
+[2017-10-24 14:31:08] set names utf8
+[2017-10-24 14:31:08] DESC miji_problemtype
+[2017-10-24 14:31:08] select * from miji_problemtype 
+[2017-10-24 14:31:14] set names utf8
+[2017-10-24 14:31:14] DESC miji_user
+[2017-10-24 14:31:14] select userName,id from miji_user 
+[2017-10-24 14:32:03] set names utf8
+[2017-10-24 14:32:03] DESC miji_user
+[2017-10-24 14:32:03] select userName,id from miji_user 
+[2017-10-24 14:32:20] set names utf8
+[2017-10-24 14:32:20] DESC miji_user
+[2017-10-24 14:32:20] select userName,id from miji_user 
+[2017-10-24 14:33:48] set names utf8
+[2017-10-24 14:33:48] DESC miji_user
+[2017-10-24 14:33:48] select userName,id from miji_user 
+[2017-10-24 14:34:04] set names utf8
+[2017-10-24 14:34:04] DESC miji_user
+[2017-10-24 14:34:04] select userName,id from miji_user 
+[2017-10-24 14:35:50] set names utf8
+[2017-10-24 14:35:50] DESC miji_userproblem
+[2017-10-24 14:35:51] set names utf8
+[2017-10-24 14:35:52] DESC miji_userproblem
+[2017-10-24 14:35:52] select * from miji_userproblem where state=0  order by id
+[2017-10-24 14:35:59] set names utf8
+[2017-10-24 14:35:59] DESC miji_user
+[2017-10-24 14:35:59] select userName,id from miji_user 
+[2017-10-24 14:37:07] set names utf8
+[2017-10-24 14:37:07] DESC miji_user
+[2017-10-24 14:37:07] select userName,id from miji_user 
+[2017-10-24 14:38:42] set names utf8
+[2017-10-24 14:38:42] DESC miji_user
+[2017-10-24 14:38:42] select userName,id from miji_user 
+[2017-10-24 14:38:55] set names utf8
+[2017-10-24 14:38:55] DESC miji_userproblem
+[2017-10-24 14:38:55] select * from miji_userproblem where state=0  order by id
+[2017-10-24 14:38:58] set names utf8
+[2017-10-24 14:38:58] DESC miji_userproblem
+[2017-10-24 14:38:58] select * from miji_userproblem where state=1  order by id
+[2017-10-24 14:39:07] set names utf8
+[2017-10-24 14:39:07] DESC miji_userproblem
+[2017-10-24 14:39:08] select * from miji_userproblem where  id= '1'
+[2017-10-24 14:39:14] set names utf8
+[2017-10-24 14:39:14] DESC miji_userproblem
+[2017-10-24 14:39:14] select * from miji_userproblem  order by id
+[2017-10-24 14:43:36] set names utf8
+[2017-10-24 14:43:36] DESC miji_admin
+[2017-10-24 14:43:36] SELECT * FROM miji_admin WHERE
+		       userName = '王五' AND password = '123'
+		       LIMIT 1
+[2017-10-24 14:44:05] set names utf8
+[2017-10-24 14:44:05] DESC miji_admin
+[2017-10-24 14:44:05] SELECT * FROM miji_admin WHERE
+		       userName = '王五' AND password = '123'
+		       LIMIT 1
+[2017-10-24 14:44:17] set names utf8
+[2017-10-24 14:44:17] DESC miji_admin
+[2017-10-24 14:44:17] SELECT * FROM miji_admin WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 14:44:21] set names utf8
+[2017-10-24 14:44:21] DESC miji_admin
+[2017-10-24 14:44:21] SELECT * FROM miji_admin WHERE
+		       userName = '' AND password = ''
+		       LIMIT 1
+[2017-10-24 14:45:03] set names utf8
+[2017-10-24 14:45:03] DESC miji_user
+[2017-10-24 14:45:03] SELECT * FROM miji_user WHERE
+		       userName = '王五' AND password = '123'
+		       LIMIT 1
+[2017-10-24 14:45:05] set names utf8
+[2017-10-24 14:45:05] DESC miji_userproblem
+[2017-10-24 14:45:05] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:45:13] set names utf8
+[2017-10-24 14:45:13] DESC miji_problemtype
+[2017-10-24 14:45:13] select * from miji_problemtype 
+[2017-10-24 14:46:08] set names utf8
+[2017-10-24 14:46:08] DESC miji_userproblem
+[2017-10-24 14:46:08] INSERT INTO `miji_userproblem` (`subUser`,`proTitle`,`proType`,`proKW`,`proDescription`,`subTime`) VALUES ('王五','飞飞飞','系统bug','飞飞飞','飞飞飞','1508827567')
+[2017-10-24 14:46:12] set names utf8
+[2017-10-24 14:46:12] DESC miji_userproblem
+[2017-10-24 14:46:12] select * from miji_userproblem where state=0 and subUser='王五' order by id
+[2017-10-24 14:46:21] set names utf8
+[2017-10-24 14:46:21] DESC miji_userproblem
+[2017-10-24 14:46:21] select * from miji_userproblem where  id= '36'
+[2017-10-24 14:46:29] set names utf8
+[2017-10-24 14:46:29] DESC miji_userproblem
+[2017-10-24 14:46:29] select * from miji_userproblem where state=1 and subUser='王五' order by id
+[2017-10-24 14:46:33] set names utf8
+[2017-10-24 14:46:33] DESC miji_userproblem
+[2017-10-24 14:46:33] select * from miji_userproblem where state=0 and subUser='王五' order by id
+[2017-10-24 14:46:36] set names utf8
+[2017-10-24 14:46:36] DESC miji_userproblem
+[2017-10-24 14:46:36] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:46:45] set names utf8
+[2017-10-24 14:46:45] DESC miji_userproblem
+[2017-10-24 14:46:45] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:46:55] set names utf8
+[2017-10-24 14:46:55] DESC miji_userproblem
+[2017-10-24 14:46:55] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:48:22] set names utf8
+[2017-10-24 14:48:22] DESC miji_userproblem
+[2017-10-24 14:48:22] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:48:41] set names utf8
+[2017-10-24 14:48:41] DESC miji_userproblem
+[2017-10-24 14:48:41] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:50:13] set names utf8
+[2017-10-24 14:50:13] DESC miji_userproblem
+[2017-10-24 14:50:13] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:54:05] set names utf8
+[2017-10-24 14:54:05] DESC miji_userproblem
+[2017-10-24 14:54:05] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:55:24] set names utf8
+[2017-10-24 14:55:24] DESC miji_userproblem
+[2017-10-24 14:55:24] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:55:54] set names utf8
+[2017-10-24 14:55:54] DESC miji_userproblem
+[2017-10-24 14:55:55] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:56:10] set names utf8
+[2017-10-24 14:56:11] DESC miji_userproblem
+[2017-10-24 14:56:11] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:57:05] set names utf8
+[2017-10-24 14:57:05] DESC miji_userproblem
+[2017-10-24 14:57:05] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 14:57:46] set names utf8
+[2017-10-24 14:57:46] DESC miji_userproblem
+[2017-10-24 14:57:46] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 15:00:56] set names utf8
+[2017-10-24 15:00:56] DESC miji_userproblem
+[2017-10-24 15:00:57] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 15:01:06] set names utf8
+[2017-10-24 15:01:06] DESC miji_userproblem
+[2017-10-24 15:01:06] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 15:01:13] set names utf8
+[2017-10-24 15:01:13] DESC miji_userproblem
+[2017-10-24 15:01:13] select * from miji_userproblem where state=0 and subUser='王五' order by id
+[2017-10-24 15:01:15] set names utf8
+[2017-10-24 15:01:15] DESC miji_userproblem
+[2017-10-24 15:01:16] select * from miji_userproblem where state=1 and subUser='王五' order by id
+[2017-10-24 15:01:19] set names utf8
+[2017-10-24 15:01:19] DESC miji_userproblem
+[2017-10-24 15:01:19] select * from miji_userproblem where subUser='王五' order by id
+[2017-10-24 15:01:24] set names utf8
+[2017-10-24 15:01:24] DESC miji_userproblem
+[2017-10-24 15:01:24] select * from miji_userproblem where state=1 and subUser='王五' order by id
+[2017-10-24 15:01:26] set names utf8
+[2017-10-24 15:01:26] DESC miji_userproblem
+[2017-10-24 15:01:26] select * from miji_userproblem where state=0 and subUser='王五' order by id
+[2017-10-24 15:02:28] set names utf8
+[2017-10-24 15:02:28] DESC miji_admin
+[2017-10-24 15:02:28] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-24 15:02:29] set names utf8
+[2017-10-24 15:02:30] DESC miji_userproblem
+[2017-10-24 15:02:32] set names utf8
+[2017-10-24 15:02:32] DESC miji_userproblem
+[2017-10-24 15:02:32] select * from miji_userproblem where state=0  order by id
+[2017-10-24 15:02:48] set names utf8
+[2017-10-24 15:02:48] DESC miji_userproblem
+[2017-10-24 15:02:48] select * from miji_userproblem where  id= '36'
+[2017-10-24 15:04:51] set names utf8
+[2017-10-24 15:04:51] DESC miji_userproblem
+[2017-10-24 15:04:51] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:05:01] set names utf8
+[2017-10-24 15:05:01] DESC miji_userproblem
+[2017-10-24 15:05:01] select * from miji_userproblem where  id= '36'
+[2017-10-24 15:05:50] set names utf8
+[2017-10-24 15:05:50] DESC miji_userproblem
+[2017-10-24 15:05:50] select * from miji_userproblem where  id= '36'
+[2017-10-24 15:06:18] set names utf8
+[2017-10-24 15:06:18] DESC miji_userproblem
+[2017-10-24 15:06:18] UPDATE `miji_userproblem` SET `answer`='keyi',`state`='1',`solver`='zhansan',`updateTime`='1508828778' WHERE id = '36'
+[2017-10-24 15:06:22] set names utf8
+[2017-10-24 15:06:22] DESC miji_userproblem
+[2017-10-24 15:06:23] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:06:29] set names utf8
+[2017-10-24 15:06:29] DESC miji_userproblem
+[2017-10-24 15:06:29] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:08:09] set names utf8
+[2017-10-24 15:08:09] DESC miji_userproblem
+[2017-10-24 15:08:09] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:09:01] set names utf8
+[2017-10-24 15:09:01] DESC miji_userproblem
+[2017-10-24 15:09:01] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:09:06] set names utf8
+[2017-10-24 15:09:06] DESC miji_userproblem
+[2017-10-24 15:09:06] select * from miji_userproblem  order by id
+[2017-10-24 15:09:12] set names utf8
+[2017-10-24 15:09:12] DESC miji_problemtype
+[2017-10-24 15:09:12] select * from miji_problemtype 
+[2017-10-24 15:09:18] set names utf8
+[2017-10-24 15:09:18] DESC miji_user
+[2017-10-24 15:09:18] select userName,id from miji_user 
+[2017-10-24 15:09:21] set names utf8
+[2017-10-24 15:09:21] DESC miji_problemtype
+[2017-10-24 15:09:21] select * from miji_problemtype 
+[2017-10-24 15:09:23] set names utf8
+[2017-10-24 15:09:23] DESC miji_user
+[2017-10-24 15:09:24] select userName,id from miji_user 
+[2017-10-24 15:25:13] set names utf8
+[2017-10-24 15:25:13] DESC miji_admin
+[2017-10-24 15:25:13] SELECT * FROM miji_admin WHERE
+		       userName = 'lise' AND password = 'rr'
+		       LIMIT 1
+[2017-10-24 15:25:27] set names utf8
+[2017-10-24 15:25:27] DESC miji_admin
+[2017-10-24 15:25:27] SELECT * FROM miji_admin WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 15:25:55] set names utf8
+[2017-10-24 15:25:55] DESC miji_user
+[2017-10-24 15:25:55] SELECT * FROM miji_user WHERE
+		       userName = 'lise' AND password = '22'
+		       LIMIT 1
+[2017-10-24 15:25:57] set names utf8
+[2017-10-24 15:25:57] DESC miji_userproblem
+[2017-10-24 15:25:57] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 15:26:08] set names utf8
+[2017-10-24 15:26:08] DESC miji_problemtype
+[2017-10-24 15:26:08] select * from miji_problemtype 
+[2017-10-24 15:26:13] set names utf8
+[2017-10-24 15:26:13] DESC miji_userproblem
+[2017-10-24 15:26:13] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 15:26:16] set names utf8
+[2017-10-24 15:26:16] DESC miji_problemtype
+[2017-10-24 15:26:16] select * from miji_problemtype 
+[2017-10-24 15:26:18] set names utf8
+[2017-10-24 15:26:18] DESC miji_userproblem
+[2017-10-24 15:26:18] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 15:26:22] set names utf8
+[2017-10-24 15:26:22] DESC miji_userproblem
+[2017-10-24 15:26:22] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 15:26:23] set names utf8
+[2017-10-24 15:26:23] DESC miji_userproblem
+[2017-10-24 15:26:23] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 15:26:32] set names utf8
+[2017-10-24 15:26:32] DESC miji_userproblem
+[2017-10-24 15:26:32] select * from miji_userproblem where state=0 and subUser='lise' order by id
+[2017-10-24 15:26:34] set names utf8
+[2017-10-24 15:26:34] DESC miji_userproblem
+[2017-10-24 15:26:34] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 15:26:36] set names utf8
+[2017-10-24 15:26:36] DESC miji_problemtype
+[2017-10-24 15:26:36] select * from miji_problemtype 
+[2017-10-24 15:26:37] set names utf8
+[2017-10-24 15:26:37] DESC miji_problemtype
+[2017-10-24 15:26:37] select * from miji_problemtype 
+[2017-10-24 15:26:40] set names utf8
+[2017-10-24 15:26:40] DESC miji_userproblem
+[2017-10-24 15:26:40] select * from miji_userproblem where state=1 and subUser='lise' order by id
+[2017-10-24 15:26:46] set names utf8
+[2017-10-24 15:26:46] DESC miji_problemtype
+[2017-10-24 15:26:46] select * from miji_problemtype 
+[2017-10-24 15:27:10] set names utf8
+[2017-10-24 15:27:10] DESC miji_admin
+[2017-10-24 15:27:10] SELECT * FROM miji_admin WHERE
+		       userName = 'david' AND password = '123'
+		       LIMIT 1
+[2017-10-24 15:27:11] set names utf8
+[2017-10-24 15:27:11] DESC miji_userproblem
+[2017-10-24 15:27:13] set names utf8
+[2017-10-24 15:27:13] DESC miji_userproblem
+[2017-10-24 15:27:13] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:27:19] set names utf8
+[2017-10-24 15:27:19] DESC miji_userproblem
+[2017-10-24 15:27:19] select * from miji_userproblem where  id= '35'
+[2017-10-24 15:27:31] set names utf8
+[2017-10-24 15:27:31] DESC miji_userproblem
+[2017-10-24 15:27:31] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:27:37] set names utf8
+[2017-10-24 15:27:37] DESC miji_userproblem
+[2017-10-24 15:27:39] set names utf8
+[2017-10-24 15:27:39] DESC miji_userproblem
+[2017-10-24 15:27:39] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:27:44] set names utf8
+[2017-10-24 15:27:44] DESC miji_userproblem
+[2017-10-24 15:27:44] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:27:57] set names utf8
+[2017-10-24 15:27:57] DESC miji_userproblem
+[2017-10-24 15:27:57] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:27:59] set names utf8
+[2017-10-24 15:27:59] DESC miji_userproblem
+[2017-10-24 15:27:59] select * from miji_userproblem  order by id
+[2017-10-24 15:28:02] set names utf8
+[2017-10-24 15:28:02] DESC miji_problemtype
+[2017-10-24 15:28:02] select * from miji_problemtype 
+[2017-10-24 15:28:09] set names utf8
+[2017-10-24 15:28:09] DESC miji_user
+[2017-10-24 15:28:09] select userName,id from miji_user 
+[2017-10-24 15:28:16] set names utf8
+[2017-10-24 15:28:16] DESC miji_user
+[2017-10-24 15:28:17] select userName,id from miji_user 
+[2017-10-24 15:28:18] set names utf8
+[2017-10-24 15:28:18] DESC miji_userproblem
+[2017-10-24 15:28:18] select * from miji_userproblem  order by id
+[2017-10-24 15:39:57] set names utf8
+[2017-10-24 15:39:57] DESC miji_userproblem
+[2017-10-24 15:39:57] select * from miji_userproblem where subUser='lise' order by id
+[2017-10-24 15:51:30] set names utf8
+[2017-10-24 15:51:30] DESC miji_userproblem
+[2017-10-24 15:51:31] set names utf8
+[2017-10-24 15:51:31] DESC miji_userproblem
+[2017-10-24 15:51:31] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:51:37] set names utf8
+[2017-10-24 15:51:37] DESC miji_userproblem
+[2017-10-24 15:51:37] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 15:51:39] set names utf8
+[2017-10-24 15:51:39] DESC miji_userproblem
+[2017-10-24 15:51:39] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:52:16] set names utf8
+[2017-10-24 15:52:16] DESC miji_userproblem
+[2017-10-24 15:52:16] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:52:20] set names utf8
+[2017-10-24 15:52:20] DESC miji_userproblem
+[2017-10-24 15:52:20] select * from miji_userproblem where state=1  order by id 
+[2017-10-24 15:52:24] set names utf8
+[2017-10-24 15:52:24] DESC miji_problemtype
+[2017-10-24 15:52:24] select * from miji_problemtype 
+[2017-10-24 15:54:12] set names utf8
+[2017-10-24 15:54:12] DESC miji_user
+[2017-10-24 15:54:12] select userName,id from miji_user 
+[2017-10-24 16:39:00] set names utf8
+[2017-10-24 16:39:00] DESC miji_user
+[2017-10-24 16:39:00] INSERT INTO `miji_user` (`userName`,`password`) VALUES ('liliu','ffff')
+[2017-10-24 16:39:04] set names utf8
+[2017-10-24 16:39:04] DESC miji_user
+[2017-10-24 16:39:04] select userName,id from miji_user 
+[2017-10-24 16:50:57] set names utf8
+[2017-10-24 16:51:28] set names utf8
+[2017-10-24 16:51:57] set names utf8
+[2017-10-24 16:51:57] DESC miji_userproblem
+[2017-10-24 16:51:58] set names utf8
+[2017-10-24 16:51:58] DESC miji_userproblem
+[2017-10-24 16:51:59] select * from miji_userproblem where state=0  order by id desc
+[2017-10-24 16:53:58] set names utf8
+[2017-10-24 16:53:58] DESC miji_userproblem
+[2017-10-24 16:54:00] set names utf8
+[2017-10-24 16:54:00] DESC miji_userproblem
+[2017-10-24 16:54:00] select * from miji_userproblem where state=0  order by id desc

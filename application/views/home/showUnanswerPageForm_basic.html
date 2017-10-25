@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> 问题提交</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="/CPS/application/views/home/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/font-awesome.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/animate.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/style.css" rel="stylesheet">
+
+    <style>
+        .selectbox{margin-top:10px}
+        .col-sm-100{border:1px solid RGB(207,218,221);width: 81%;margin-left: 14px}
+    </style>
+
+
+</head>
+
+<body class="gray-bg">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>问题提交</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                                <i class="fa fa-wrench"></i>
+                            </a>
+
+                            <a class="close-link">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" action="/CPS/index.php?p=home&c=Problem&a=submitProblem">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题编号</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control"  name="subject" value="<?php echo $result['id'] ?>" maxlength="60">
+
+
+                                </div>
+                            </div> <div class="form-group">
+                                <label class="col-sm-2 control-label">问题题目</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control"  name="subject" value="<?php echo $result['proTitle'] ?>" maxlength="60">
+
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题类别</label>
+
+                                <div class="col-sm-10">
+                                    <input  size=35 name="type" value=" <?php echo $result['proType'] ?>" maxlength="60">
+
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题简述</label>
+
+                                <div class="col-sm-10">
+                                    <input class="form-control"  name="keyword" value="<?php echo $result['proKW'] ?>" maxlength="60">
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">问题描述</label>
+
+                                <div class="col-sm-10 col-sm-100">
+                                     <?php echo $result['proDescription'] ?>
+
+                                </div>
+                            </div>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- 全局js -->
+    <script src="/CPS/application/views/home/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/CPS/application/views/home/js/bootstrap.min.js?v=3.3.6"></script>
+
+    <!-- 自定义js -->
+    <script src="/CPS/application/views/home/js/content.js?v=1.0.0"></script>
+
+    <!-- iCheck -->
+    <script src="/CPS/application/views/home/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

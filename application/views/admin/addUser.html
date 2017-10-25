@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title> 添加用户</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <link rel="shortcut icon" href="favicon.ico"> <link href="/CPS/application/views/home/css/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/font-awesome.css?v=4.4.0" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/animate.css" rel="stylesheet">
+    <link href="/CPS/application/views/home/css/style.css?v=4.1.0" rel="stylesheet">
+
+</head>
+
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+
+            <div class="col-sm-6">
+                  <div class="ibox-title">
+                        <h5>添加用户</h5>
+                        <div class="ibox-content">
+                        <form class="form-horizontal" method="post" action="/CPS/index.php?p=admin&c=problem&a=addUser">
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">用户名：</label>
+
+                                <div class="col-sm-8">
+                                    <input type="text" placeholder="用户名" name="userName" class="form-control">
+                                    <span class="help-block m-b-none">请输入用户名</span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-3 control-label">密码：</label>
+                                <div class="col-sm-8">
+                                    <input type="password" name="password" placeholder="密码" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-offset-3 col-sm-8">
+                                    <button class="btn btn-sm btn-info" type="submit">添加</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="project-list" id="showAllProble"> </div>
+                    </div>
+
+            </div>
+
+        </div>
+</div>
+
+    <!-- 全局js -->
+    <script src="/CPS/application/views/home/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/CPS/application/views/home/js/bootstrap.min.js?v=3.3.6"></script>
+
+    <!-- 自定义js -->
+    <script src="/CPS/application/views/home/js/content.js?v=1.0.0"></script>
+
+    <!-- iCheck -->
+    <script src="/CPS/application/views/home/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+
+            $(function(){
+
+
+           //从数据库获取json数据
+            $.ajax({
+                url:"/CPS/index.php?p=admin&c=problem&a=getUser",
+                date:"",
+                type:"get",
+                dateType:"json",
+                success:function(msg){
+                  // console.log(msg)
+                    //给页面显示
+//                    document.getElementById("currentUser").innerHTML=msg;
+                    eval("var userObj="+msg);
+                   // console.log(userObj);
+                   //使用循环来得到拼接字符串
+
+                    var str="<h5 style='margin-top:50px'>已有用户</h5><table class='table table-hover'><tr align=left><td class='project-status'><strong>用户编号</strong></td><td class='project-status'><span ><strong>用户名称</strong></span></td></tr>";
+                    for(var i=0;i<userObj.length;++i){
+                      str+="<tr>";
+                      str+="<td class='project-status'><span class='label label-default'>"+userObj[i].id+"</span></td>";
+                      str+="<td class='project-people'><span class='label label-default'>"+userObj[i].userName+"</span></td>";
+                      str+="</tr>";
+                    }
+                     str+="</table>"
+                  //处理好数据之后显示在页面
+                  document.getElementById("showAllProble").innerHTML=str;
+
+
+                }
+
+            });
+
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>

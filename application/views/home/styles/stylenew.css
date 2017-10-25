@@ -1,0 +1,552 @@
+BODY {
+	FONT-SIZE: 14px; FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Verdana, Georgia,Baskerville,Palatino,Times; BACKGROUND: #fff; COLOR: #333333; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; LINE-HEIGHT: 1.5; PADDING-RIGHT: 0px
+}
+INPUT {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Verdana, Georgia,Baskerville,Palatino,Times
+}
+SELECT {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Verdana, Georgia,Baskerville,Palatino,Times
+}
+IMG {
+	BORDER-LEFT-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-TOP-WIDTH: 0px
+}
+A {
+	TEXT-DECORATION: none; COLOR: #0099ff
+}
+A:hover {
+	TEXT-DECORATION: underline; COLOR: #0099ff
+}
+UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+P {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+H1 {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Helvetica, Verdana; FONT-WEIGHT: normal; MARGIN: 0px
+}
+H2 {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Helvetica, Verdana; FONT-WEIGHT: normal; MARGIN: 0px
+}
+H3 {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Helvetica, Verdana; FONT-WEIGHT: normal; MARGIN: 0px
+}
+H4 {
+	FONT-FAMILY: "Î¢ÈíÑÅºÚ", Arial, "Trebuchet MS", Helvetica, Verdana; FONT-WEIGHT: normal; MARGIN: 0px
+}
+H1 {
+	FONT-SIZE: 18px
+}
+H2 {
+	FONT-SIZE: 14px; FONT-WEIGHT: bolder; COLOR: #24609a
+}
+H3 {
+	FONT-SIZE: 12px; FONT-WEIGHT: bolder
+}
+H4 {
+	FONT-SIZE: 10px
+}
+H4 A {
+	COLOR: #3f97dd
+}
+H4 A:link {
+	COLOR: #3f97dd
+}
+H4 A:visited {
+	COLOR: #3f97dd
+}
+#wrapper {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+#contentwrapper {
+	WIDTH: 960px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#body {
+	WIDTH: 700px; FLOAT: left; MARGIN-LEFT: 20px
+}
+#head {
+	BORDER-TOP: #f9f9f9 10px solid; HEIGHT: 140px; WIDTH: 940px; BACKGROUND: url(../images/headbanner.png) no-repeat center bottom; TEXT-ALIGN: left
+}
+#head H1 {
+	FONT-SIZE: 30px; FONT-WEIGHT: normal; COLOR: #ffffff; PADDING-BOTTOM: 5px; PADDING-TOP: 30px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px
+}
+#head H2 {
+	FONT-SIZE: 16px; FONT-WEIGHT: normal; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px
+}
+#sidebar {
+	WIDTH: 220px; FLOAT: left
+}
+.sidebar_body {
+	WIDTH: 220px; MARGIN-TOP: 10px; TEXT-ALIGN: left
+}
+.sidebartitle {
+	TEXT-ALIGN: left
+}
+.sidebartitle H1 {
+	FONT-SIZE: 16px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px
+}
+.sidebartitle UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.sidebartitle LI {
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden; ZOOM: 1; CLEAR: both; DISPLAY: block
+}
+.sidebartitle LI A {
+	HEIGHT: 36px; BORDER-BOTTOM: #e4e4e4 1px dashed; COLOR: #333333; DISPLAY: block; LINE-HEIGHT: 36px; TEXT-INDENT: 48px
+}
+.sidebartitle LI A:hover {
+	TEXT-DECORATION: none; BORDER-BOTTOM: #999999 1px solid; COLOR: #0099ff
+}
+.sidebartitle DL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.sidebartitle DD {
+	LIST-STYLE-TYPE: none; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; DISPLAY: block; PADDING-RIGHT: 0px
+}
+.sidebartitle DD A {
+	HEIGHT: 36px; WIDTH: 185px; BACKGROUND: url(../images/ico_manage_list.png) #fff no-repeat -205px -122px; BORDER-BOTTOM: #e4e4e4 1px dashed; FLOAT: right; COLOR: #3f3f3f; DISPLAY: block; LINE-HEIGHT: 36px; TEXT-INDENT: 58px
+}
+.sidebartitle DD A:hover {
+	TEXT-DECORATION: none; WIDTH: 185px; BACKGROUND: url(../images/ico_manage_list.png) no-repeat 25px -122px; BORDER-BOTTOM: #009fff 1px solid; COLOR: #0099ff
+}
+.sidebartitle LI A.host {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px 3px
+}
+.sidebartitle LI A.host:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px 3px
+}
+.sidebartitle LI A.zihost {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -29px
+}
+.sidebartitle LI A.zihost:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -29px
+}
+.sidebartitle LI A.email {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -60px
+}
+.sidebartitle LI A.email:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -60px
+}
+.sidebartitle LI A.database {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -90px
+}
+.sidebartitle LI A.database:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -90px
+}
+.sidebartitle LI A.siteinfo {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -122px
+}
+.sidebartitle LI A.siteinfo:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -122px
+}
+.sidebartitle LI A.soft {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -153px
+}
+.sidebartitle LI A.soft:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -153px
+}
+.sidebartitle LI A.contect {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -184px
+}
+.sidebartitle LI A.contect:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -184px
+}
+.sidebartitle LI A.ask {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -215px
+}
+.sidebartitle LI A.ask:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -215px
+}
+.sidebartitle LI A.beian {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -246px
+}
+.sidebartitle LI A.beian:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -246px
+}
+.sidebartitle LI A.feifa {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -310px
+}
+.sidebartitle LI A.feifa:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -310px
+}
+.sidebartitle LI A.other {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat -225px -277px
+}
+.sidebartitle LI A.other:hover {
+	BACKGROUND: url(../images/ico_manage_list.png) no-repeat 5px -277px
+}
+.sidebar_body H1 {
+	FONT-SIZE: 16px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px
+}
+.sidebar_body LI {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 6px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px
+}
+.lineout {
+	BORDER-TOP: #ccc 1px solid; HEIGHT: 20px; BORDER-RIGHT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; BORDER-LEFT: #ccc 1px solid; border-radius: 8px
+}
+.line {
+	BORDER-TOP: #fff 2px solid; HEIGHT: 16px; BORDER-RIGHT: #fff 2px solid; BACKGROUND: #0099ff; BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; border-radius: 8px
+}
+.linered {
+	BORDER-TOP: #fff 2px solid; HEIGHT: 16px; BORDER-RIGHT: #fff 2px solid; BACKGROUND: #f00; BORDER-BOTTOM: #fff 2px solid; BORDER-LEFT: #fff 2px solid; border-radius: 8px
+}
+#sitebody {
+	WIDTH: 940px; MARGIN-TOP: 5px; CLEAR: both
+}
+.pagetitle {
+	HEIGHT: 34px; BACKGROUND: url(../images/title_ico.png) no-repeat right center; PADDING-BOTTOM: 5px; TEXT-ALIGN: left; PADDING-TOP: 5px; PADDING-LEFT: 5px; LINE-HEIGHT: 34px; PADDING-RIGHT: 0px
+}
+.pagetitle SPAN {
+	FLOAT: right; PADDING-LEFT: 30px; DISPLAY: block
+}
+.manage_ico {
+	MARGIN-TOP: 10px; TEXT-ALIGN: left
+}
+.manage_ico H1 {
+	FONT-SIZE: 16px; MARGIN-BOTTOM: 5px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; CLEAR: both; PADDING-RIGHT: 0px
+}
+.manage_ico UL {
+	
+}
+.manage_ico LI {
+	LIST-STYLE-TYPE: none; FLOAT: left; DISPLAY: block
+}
+.manage_ico LI A {
+	HEIGHT: 100px; WIDTH: 100px; COLOR: #333333; TEXT-ALIGN: center; DISPLAY: block
+}
+.manage_ico LI A:hover {
+	BACKGROUND: #f0f0f0; COLOR: #0076bd
+}
+.manage_ico LI SPAN {
+	CURSOR: pointer; HEIGHT: 70px; WIDTH: 100px; DISPLAY: block
+}
+.manage_info {
+	TEXT-ALIGN: left
+}
+.manage_info TD {
+	BORDER-RIGHT: #e4e4e4 1px dashed; BORDER-BOTTOM: #e4e4e4 1px dashed; PADDING-LEFT: 5px; LINE-HEIGHT: 26px
+}
+.manage_info H1 {
+	FONT-SIZE: 16px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px
+}
+.ico_bddomain {
+	BACKGROUND: url(../images/ico_bddomain.png) no-repeat center 50%
+}
+.ico_filedown {
+	BACKGROUND: url(../images/ico_download2.png) no-repeat center 50%
+}
+.ico_ftppass {
+	BACKGROUND: url(../images/ico_ftppass.png) no-repeat center 50%
+}
+.ico_sethome {
+	BACKGROUND: url(../images/ico_sethome.png) no-repeat center 50%
+}
+.ico_runorn {
+	BACKGROUND: url(../images/ico_runorn.png) no-repeat center 50%
+}
+.ico_virtualdir {
+	BACKGROUND: url(../images/ico_virtualdir.png) no-repeat center 50%
+}
+.ico_ispai {
+	BACKGROUND: url(../images/ico_ispai.png) no-repeat center 50%
+}
+.ico_phpset {
+	BACKGROUND: url(../images/ico_phpset.png) no-repeat center 50%
+}
+.ico_ipv4 {
+	BACKGROUND: url(../images/ico_ipv4.png) no-repeat center 50%
+}
+.ico_err404 {
+	BACKGROUND: url(../images/ico_err404.png) no-repeat center 50%
+}
+.ico_doctor {
+	BACKGROUND: url(../images/ico_doctor.png) no-repeat center 50%
+}
+.ico_setmime {
+	BACKGROUND: url(../images/ico_setmime.png) no-repeat center 50%
+}
+.ico_set301 {
+	BACKGROUND: url(../images/ico_set301.png) no-repeat center 50%
+}
+.ico_asplink {
+	BACKGROUND: url(../images/ico_asplink.png) no-repeat center 50%
+}
+.ico_update {
+	BACKGROUND: url(../images/ico_update.png) no-repeat center 50%
+}
+.ico_webfilem {
+	BACKGROUND: url(../images/ico_webfilem.png) no-repeat center 50%
+}
+.ico_webftp {
+	BACKGROUND: url(../images/ico_webftp.png) no-repeat center 50%
+}
+.ico_bakor {
+	BACKGROUND: url(../images/ico_bakor.png) no-repeat center 50%
+}
+.ico_rarzip {
+	BACKGROUND: url(../images/ico_rarzip.png) no-repeat center 50%
+}
+.ico_filedownload {
+	BACKGROUND: url(../images/ico_filedownload.png) no-repeat center 50%
+}
+.ico_inhome {
+	BACKGROUND: url(../images/ico_inhome.png) no-repeat center 50%
+}
+.ico_codeset {
+	BACKGROUND: url(../images/ico_codeset.png) no-repeat center 50%
+}
+.ico_setsafe {
+	BACKGROUND: url(../images/ico_setsafe.png) no-repeat center 50%
+}
+.ico_360ddos {
+	BACKGROUND: url(../images/ico_360ddos.png) no-repeat center 50%
+}
+.ico_baidu {
+	BACKGROUND: url(../images/ico_baidu.gif) no-repeat center 50%
+}
+.ico_360webscan {
+	BACKGROUND: url(../images/ico_360webscan.png) no-repeat center 50%
+}
+.ico_setipsafe {
+	BACKGROUND: url(../images/ico_setipsafe.png) no-repeat center 50%
+}
+.ico_webfilesafe {
+	BACKGROUND: url(../images/ico_webfilesafe.png) no-repeat center 50%
+}
+.ico_dirsafe {
+	BACKGROUND: url(../images/ico_dirsafe.png) no-repeat center 50%
+}
+.ico_antiviruscode {
+	BACKGROUND: url(../images/ico_antiviruscode.png) no-repeat center 50%
+}
+.ico_webtongji {
+	BACKGROUND: url(../images/ico_webtongji.png) no-repeat center 50%
+}
+.ico_monitor {
+	BACKGROUND: url(../images/ico_monitor.png) no-repeat center 50%
+}
+.ico_cpuinfo {
+	BACKGROUND: url(../images/ico_cpuinfo.png) no-repeat center 50%
+}
+.ico_weblog {
+	BACKGROUND: url(../images/ico_weblog.png) no-repeat center 50%
+}
+.ico_ftplog {
+	BACKGROUND: url(../images/ico_ftplog.png) no-repeat center 50%
+}
+.ico_jsq {
+	BACKGROUND: url(../images/ico_jsq.png) no-repeat center 50%
+}
+.ico_jiankong {
+	BACKGROUND: url(../images/ico_jiankong.png) no-repeat center 50%
+}
+.ico_ini {
+	BACKGROUND: url(../images/ico_ini.png) no-repeat center 50%
+}
+.ico_rewrite {
+	BACKGROUND: url(../images/ico_rewrite.png) no-repeat center 50%
+}
+.ico_site {
+	BACKGROUND: url(../images/ico_site.png) no-repeat center 50%
+}
+.ico_visit {
+	BACKGROUND: url(../images/ico_visit.png) no-repeat center 50%
+}
+.ico_des {
+	BACKGROUND: url(../images/ico_info.png) no-repeat center 50%
+}
+.ico_tomcat {
+	BACKGROUND: url(../images/ico_tomcat.png) no-repeat center 50%
+}
+.ico_scripterror {
+	BACKGROUND: url(../images/ico_scripterror.png) no-repeat center 50%
+}
+.ico_zujian {
+	BACKGROUND: url(../images/ico_zujian.png) no-repeat center 50%
+}
+.ico_dlink {
+	BACKGROUND: url(../images/ico_dlink.png) no-repeat center 50%
+}
+.ico_seo {
+	BACKGROUND: url(../images/ico_seo.png) no-repeat center 50%
+}
+.ico_replace {
+	BACKGROUND: url(../images/ico_replace.png) no-repeat center 50%
+}
+.ico_info {
+	BACKGROUND: url(../images/ico_info.png) no-repeat center 50%
+}
+.ico_icp {
+	BACKGROUND: url(../images/ico_icp.png) no-repeat center 50%
+}
+.ico_aspnet {
+	BACKGROUND: url(../images/ico_aspnet.png) no-repeat center 50%
+}
+.ico_unicode {
+	BACKGROUND: url(../images/ico_unicode.png) no-repeat center 50%
+}
+.ico_qqalert {
+	BACKGROUND: url(../images/qqtixing.gif) no-repeat center 50%
+}
+.ico_memory {
+	BACKGROUND: url(http://www.west263.com/newimages/memory.png) no-repeat center 50%
+}
+.btn_del {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; HEIGHT: 24px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100px; BACKGROUND: #009cff; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; TEXT-ALIGN: center; DISPLAY: block; BORDER-TOP-WIDTH: 0px
+}
+.btn_del:hover {
+	CURSOR: pointer; HEIGHT: 24px; BACKGROUND: #ff0000
+}
+.btn_DomainBindings {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; CURSOR: pointer; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 100px; BACKGROUND: #009cff; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; TEXT-ALIGN: center; BORDER-TOP-WIDTH: 0px
+}
+.more_info {
+	MARGIN-TOP: 10px; TEXT-ALIGN: left
+}
+.more_info H1 {
+	FONT-SIZE: 16px; MARGIN-BOTTOM: 5px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; CLEAR: both; PADDING-RIGHT: 0px
+}
+.more_info UL {
+	
+}
+.more_info LI {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 14px; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 0px; PADDING-LEFT: 10px; MARGIN: 0px; LINE-HEIGHT: 24px; PADDING-RIGHT: 5px
+}
+.secpage {
+	TEXT-ALIGN: left; LINE-HEIGHT: 26px
+}
+.secpage H1 {
+	FONT-SIZE: 16px; BORDER-BOTTOM: #aaaaaa 1px solid; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px
+}
+.secpage H2 {
+	FONT-SIZE: 14px; BORDER-BOTTOM: #e4e4e4 1px dashed; FONT-WEIGHT: normal; COLOR: #333333; PADDING-BOTTOM: 10px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px
+}
+.secpage H3 {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: #333333; PADDING-BOTTOM: 5px; PADDING-TOP: 10px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px
+}
+.secpage H3 SPAN {
+	FONT-SIZE: 14px; FLOAT: right; FONT-WEIGHT: normal; PADDING-RIGHT: 5px
+}
+.secpage TABLE {
+	MARGIN-BOTTOM: 10px; BORDER-COLLAPSE: collapse
+}
+.secpage TD {
+	BORDER-TOP: #b5b5b5 1px dashed; BORDER-RIGHT: #b5b5b5 1px dashed; BORDER-BOTTOM: #b5b5b5 1px dashed; PADDING-LEFT: 5px; BORDER-LEFT: #b5b5b5 1px dashed; LINE-HEIGHT: 26px
+}
+.secpagetdborder_left {
+	BORDER-LEFT: #b5b5b5 1px dashed
+}
+.secpagetdborder_top {
+	BORDER-TOP: #b5b5b5 1px dashed
+}
+.secpage TABLE TABLE.intable {
+	BORDER-COLLAPSE: collapse
+}
+.secpage TABLE TABLE.intable TD {
+	BORDER-TOP: #c3c3c3 1px solid; BORDER-RIGHT: #c3c3c3 1px solid; BORDER-BOTTOM: #c3c3c3 1px solid; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; BORDER-LEFT: #c3c3c3 1px solid; LINE-HEIGHT: 26px; PADDING-RIGHT: 5px
+}
+.DomainBindings {
+	MARGIN-BOTTOM: 10px; HEIGHT: 45px; WIDTH: 700px; MARGIN-TOP: 10px
+}
+.DomainBindings UL {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+.DomainBindings LI {
+	LIST-STYLE-TYPE: none; FONT-SIZE: 16px; HEIGHT: 40px; FLOAT: left; MARGIN: 0px; DISPLAY: block; LINE-HEIGHT: 40px; _line-height: 40px
+}
+.DomainBindingsInput {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 18px; HEIGHT: 28px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 400px; BORDER-BOTTOM: #666666 1px solid; COLOR: #666; PADDING-LEFT: 5px; MARGIN: 0px; LINE-HEIGHT: 28px; BORDER-TOP-WIDTH: 0px
+}
+.width150 {
+	WIDTH: 150px
+}
+.setindexselect {
+	WIDTH: 300px; MARGIN: 10px
+}
+.setsitestateselect {
+	HEIGHT: 32px; WIDTH: 160px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; MARGIN: 0px; LINE-HEIGHT: 32px; PADDING-RIGHT: 5px
+}
+.btn_SetIsapi {
+	FONT-SIZE: 14px; CURSOR: pointer; BORDER-TOP: #666666 0px solid; HEIGHT: 33px; BORDER-RIGHT: #666666 0px solid; WIDTH: 300px; BACKGROUND: #009cff; BORDER-BOTTOM: #666666 0px solid; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 0px; BORDER-LEFT: #666666 0px solid; MARGIN: 0px; LINE-HEIGHT: 28px; PADDING-RIGHT: 0px
+}
+.td_SetIsapi {
+	PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.btnstyle {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; OVERFLOW: visible; CURSOR: pointer; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; BACKGROUND: #009cff; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; MARGIN: 10px 0px; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px
+}
+.btnstyle2 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; OVERFLOW: visible; CURSOR: pointer; HEIGHT: 25px; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; BACKGROUND: #009cff; BORDER-BOTTOM-WIDTH: 0px; COLOR: #fff; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; LINE-HEIGHT: 25px; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px
+}
+.btnstyle3 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; OVERFLOW: visible; CURSOR: pointer; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px; WIDTH: 150px; BACKGROUND: #e3f3ff; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: #0078d2; TEXT-ALIGN: center; LINE-HEIGHT: 33px; BORDER-TOP-WIDTH: 0px
+}
+.btnstyle4 {
+	BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 14px; OVERFLOW: visible; CURSOR: pointer; HEIGHT: 33px; BORDER-RIGHT-WIDTH: 0px; WIDTH: auto; BACKGROUND: #e3f3ff; BORDER-BOTTOM-WIDTH: 0px; FONT-WEIGHT: bold; COLOR: #0078d2; PADDING-BOTTOM: 0px; TEXT-ALIGN: center; PADDING-TOP: 0px; PADDING-LEFT: 20px; LINE-HEIGHT: 33px; PADDING-RIGHT: 20px; BORDER-TOP-WIDTH: 0px
+}
+.w100 {
+	WIDTH: 100px
+}
+.solidinput {
+	WIDTH: 80px
+}
+.gray {
+	BACKGROUND: #ddd; COLOR: #666
+}
+H3.pnotop {
+	PADDING-TOP: 0px
+}
+#footer {
+	BORDER-TOP: #cccccc 1px solid; HEIGHT: 150px; WIDTH: 940px; MARGIN-TOP: 30px; CLEAR: both
+}
+.copyright {
+	COLOR: #000; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.clear {
+	CLEAR: both
+}
+.clearfix:after {
+	HEIGHT: 0px; CONTENT: "."; CLEAR: both; DISPLAY: block; VISIBILITY: hidden
+}
+* HTML .clearfix {
+	HEIGHT: 1%
+}
+A {
+	
+}
+AREA {
+	
+}
+:focus {
+	-moz-outline-style: none
+}
+.redColor {
+	COLOR: red
+}
+H2.redColor {
+	COLOR: red
+}
+.blueColor {
+	COLOR: #0091ed
+}
+.tab UL {
+	LIST-STYLE-TYPE: none; OVERFLOW: hidden; BORDER-BOTTOM: #aaaaaa 1px solid; ZOOM: 1
+}
+.tab UL LI {
+	FONT-SIZE: 14px; CURSOR: pointer; BORDER-TOP: #ccc 1px dashed; BORDER-RIGHT: #ccc 1px dashed; BACKGROUND: #eee; BORDER-BOTTOM: #ccc 1px; FLOAT: left; COLOR: #333333; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 15px; BORDER-LEFT: #ccc 1px dashed; DISPLAY: inline-block; PADDING-RIGHT: 15px; MARGIN-RIGHT: 20px
+}
+.tab UL LI.lihover {
+	FONT-SIZE: 14px; CURSOR: pointer; BORDER-TOP: #009cff 1px solid; BORDER-RIGHT: #009cff 1px solid; BACKGROUND: #009cff; BORDER-BOTTOM: #009cff 1px; FLOAT: left; COLOR: #fff; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; PADDING-LEFT: 15px; BORDER-LEFT: #009cff 1px solid; DISPLAY: inline-block; PADDING-RIGHT: 15px; MARGIN-RIGHT: 20px
+}
+A.linkbtn1 {
+	FONT-SIZE: 14px; BACKGROUND: #009cff; COLOR: #fff; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+A.linkbtn1:visited {
+	FONT-SIZE: 14px; BACKGROUND: #009cff; COLOR: #fff; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px
+}
+A.linkbtn1:hover {
+	TEXT-DECORATION: none; COLOR: #d2e9ff
+}

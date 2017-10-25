@@ -1,0 +1,184 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)http://www.myhostadmin.net/vhost/index.asp -->
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+<HEAD><META content="IE=7.0000"
+http-equiv="X-UA-Compatible">
+<TITLE>觅集问题收集中心</TITLE>
+<style>
+       .title{ font-size: 3em;background-color: RGB(39,130,150);border:0;color:#fff;height: 71px;line-height: 61px}
+       .tablePromble{ border:1px dashed grey;}
+       .space01{ height: 54px;}
+       .space01 p{ text-align: center;font-size:2em;font-weight:bold;}
+       .space02{height: 21px}
+       .div01{height: 20px;}
+</style>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK
+rel=stylesheet type=text/css href="application/views/home/styles/stylenew.css">
+<SCRIPT language=javascript src="application/views/home/js/jquery.js"></SCRIPT>
+<script charset="utf-8" src="application/views/home/js/kindeditor-min.js"></script>
+<script charset="utf-8" src="application/views/home/js/lang/zh_CN.js"></script>
+
+<!--[if IE 6]>
+<script src="js/DD_belatedPNG.js"></script>
+<script>
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+<SCRIPT type=text/javascript>
+
+$(function(){
+	// LodCkbeian();
+	// LodTraffic();
+});
+function LodCkbeian(){
+	$.ajax({
+		   type: "POST",
+		   url: "index.asp",
+		   data: "act=doreload",
+		   datatype: "json",
+		   timeout:300000,
+		   error:function(XmlHttpRequest,textStatus, errorThrown){
+				//$("#returnStr").html("系统错误!请联系管理员!");
+			},
+			success:function(xml){
+				if(xml.substring(0,3)=="400"){
+					//c=window.confirm('您当前主机绑定的域名还没有进行备案真实性复核!\n\n点击[确定]立即进行复核,要继续操作请点击[取消].');
+					alert('您当前主机绑定的域名还没有进行备案真实性复核!\n\n点击[确定]立即进行复核.');
+					c=true;
+					if(c==true){
+						location.href="/vhost/miibeian.asp";
+
+						//location.href='http://beian.vhostgo.com/edw_as231fgquaifcvaak_quick_login.asp?ftpname=hzh0389&mdStr=&randomkey='+Math.round(Math.random()*10000);
+
+						//location.href='http://beian.vhostgo.com';
+
+						}
+					}
+			}
+		 });
+	}
+
+/*function LodTraffic(){
+	$("#vh_traffic_div").html($("#vh_traffic_div").html()+'<span style="margin-left:20px;"><img  src="/newimages/waiting.gif"> 流量更新中,请稍后..</span>');
+	$.ajax({
+		   type: "POST",
+		   url: "index.asp",
+		   data: "act=getTraffic",
+		   datatype: "json",
+		   timeout:300000,
+		   error:function(XmlHttpRequest,textStatus, errorThrown){
+				$("#vh_traffic_div").html("流量更新失败,请刷新该页面!");
+			},
+			success:function(xml){
+				$("#vh_traffic_div").html(xml);
+			}
+		 });
+	}*/
+
+/*	function checkpass(){
+	var issimple=false;
+	if (issimple)
+	{
+		if (confirm('检查到您的密码是弱密码，这将威胁您网站安全，强烈建议您立即更改，您现在就要更改密码吗？'))
+		{
+			location.href='h_changepwd.asp';
+		}
+	}
+}*/
+
+
+</SCRIPT>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+
+<script>
+//加入在线编辑器，将表单元素<textarea>替换成Kindeditor在线编辑器。
+var editor;
+KindEditor.ready(function(K) {
+  editor = K.create('textarea[name="content"]',{
+    allowFileManager : true
+  });
+});
+</script>
+
+</HEAD>
+<BODY onload=checkpass()>
+<DIV id=wrapper>
+<DIV id=contentwrapper>
+<DIV id=head>
+<h1 align="center" class="title">觅集问题收集系统</h1>
+<div class="div01">当前用户:<?php echo $_SESSION["currentUser"];?></div></DIV>
+<DIV id=sitebody class=clearfix>
+
+<SCRIPT type=text/javascript>
+function showsubmenu(sid)
+	{
+		whichEl = eval("submenu" + sid);
+			if (whichEl.style.display == "none")
+				{
+					eval("submenu" + sid + ".style.display=\"\";");
+				}
+			else
+				{
+					eval("submenu" + sid + ".style.display=\"none\";");
+				}
+	}
+</SCRIPT>
+
+<DIV id=sidebar>
+<DIV class=sidebartitle>
+<div class="space02"></div>
+<H1>管理菜单快捷导航</H1>
+<UL>
+
+  <LI><A title=提交问题 class=ask
+  href="index.php?p=home&c=Login&a=showPage">提交问题</A> </LI>
+
+  <LI><A title=已答复的问题 class=ask
+  href="index.php?p=home&c=Problem&a=showSolvedPro">已答复的问题</A> </LI>
+
+  <LI><A title=尚未答复的问题 class=ask
+  href="index.php?p=home&c=Problem&a=showUnsolvedPro">尚未答复的问题</A> </LI>
+
+  <LI><A title=所有问题 class=ask
+  href="index.php?p=home&c=Problem&a=showAllPro">所有问题</A> </LI>
+
+
+
+  </UL>
+
+
+</DIV>
+
+</DIV>
+<DIV id=body>
+    <div class="space01">
+      <p>所有的问题</p>
+    </div>
+   <table class="tablePromble" cellspacing=0 cellpadding=0 width="100%" align=center  rules="all" >
+     <tr>
+       <th>问题号</th>
+       <th>问题类型</th>
+       <th>问题标题</th>
+       <th>处理状态</th>
+       <th>问题时间</th>
+     </tr>
+ <?php echo $result?"":"<font color='red'>请提交问题</font>"
+       ?>
+    <?php foreach($result as $k=>$v){?>
+     <tr align="center">
+       <td><?php echo $v['id']?></td>
+       <td><?php echo $v['proType']?></td>
+       <td><?php echo $v['proTitle']?></td>
+       <td><?php echo $v['state']?"已经处理":"<font color='red'>未处理</font>"?></td>
+       <td><?php echo date("Y-m-d H:i",$v['subTime']) ?></td>
+     </tr>
+     <?php }?>
+   </table>
+
+
+  </DIV>
+</DIV>
+<DIV id=footer>
+<DIV class=copyright>中国<BR>版权所有，仿冒必究！<BR>系统版本：v1.0
+</DIV></DIV></DIV></DIV></BODY></HTML>
